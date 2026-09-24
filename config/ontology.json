@@ -1,0 +1,33 @@
+{
+  "scopeVersion": "0.2.0",
+  "canonicalName": "Jev",
+  "canonicalDescription": "TypeSafe AI's System One typed probabilistic decision model",
+  "aliases": [
+    "TypeSafe AI Jev",
+    "System One",
+    "Jev decision model",
+    "typesafe-ai/jev",
+    "System One model",
+    "typed probabilistic decisions"
+  ],
+  "excludeTerms": [
+    "Japanese encephalitis virus",
+    "Japanese encephalitis",
+    "Journal of Extracellular Vesicles",
+    "JEV vaccine"
+  ],
+  "relations": {
+    "uses_jev": "明确调用或评测 Jev",
+    "jev_inspired": "采用相近的 typed-decision / System One 思路，但不证明调用官方 Jev",
+    "replica": "复现、替代或本地实现",
+    "mentions_only": "只在背景或参考文献中提到"
+  },
+  "inclusionRules": [
+    "论文、项目与公开材料分别归档，不混用统计口径",
+    "至少保存一个可直接打开的一手来源；二次目录必须明确标注",
+    "说明 Jev 关系和证据短注",
+    "互联网材料必须保存平台、创作者、原始链接状态和内容类型",
+    "保存检索或核验日期；动态指标必须带 as-of 日期",
+    "同名缩写命中但与 TypeSafe AI 无关的记录进入 rejected.json"
+  ]
+}

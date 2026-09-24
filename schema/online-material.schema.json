@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Jev online material",
+  "description": "Auditable metadata for interviews, articles, blogs, podcasts, videos, and social-media records.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "titleZh",
+    "contentType",
+    "platform",
+    "creator",
+    "published",
+    "relation",
+    "confidence",
+    "status",
+    "isOriginal",
+    "summaryEn",
+    "summaryZh",
+    "evidenceNote",
+    "canonicalUrl",
+    "sourceIds",
+    "lastVerifiedAt"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "title": { "type": "string", "minLength": 1 },
+    "titleZh": { "type": "string", "minLength": 1 },
+    "contentType": {
+      "enum": ["interview", "podcast", "blog", "article", "essay", "directory", "video", "social_post", "social_channel"]
+    },
+    "platform": { "type": "string", "minLength": 1 },
+    "creator": { "type": "string", "minLength": 1 },
+    "published": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "relation": { "enum": ["uses_jev", "jev_inspired", "replica", "mentions_only"] },
+    "confidence": { "enum": ["verified", "probable", "candidate"] },
+    "status": { "type": "string", "minLength": 1 },
+    "isOriginal": { "type": ["boolean", "null"] },
+    "summaryEn": { "type": "string", "minLength": 1 },
+    "summaryZh": { "type": "string", "minLength": 1 },
+    "evidenceNote": { "type": "string", "minLength": 1 },
+    "canonicalUrl": { "type": "string", "format": "uri" },
+    "originalUrl": { "type": "string", "format": "uri" },
+    "sourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "lastVerifiedAt": { "type": "string", "format": "date" },
+    "topics": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+{
+  "name": "jev-research-index",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Bilingual, auditable index of TypeSafe AI Jev papers, projects, and public materials",
+  "scripts": {
+    "update:readme": "node scripts/render-readme.mjs",
+    "validate": "node scripts/render-readme.mjs --check && node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

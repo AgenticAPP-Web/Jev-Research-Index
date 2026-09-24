@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Jev Research Index record",
+  "type": "object",
+  "required": ["id", "relation", "confidence", "status", "canonicalUrl", "sourceIds", "lastVerifiedAt"],
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "relation": { "enum": ["uses_jev", "jev_inspired", "replica", "mentions_only"] },
+    "confidence": { "enum": ["verified", "probable", "candidate"] },
+    "status": { "type": "string" },
+    "canonicalUrl": { "type": "string", "format": "uri" },
+    "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "lastVerifiedAt": { "type": "string", "format": "date" },
+    "topics": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

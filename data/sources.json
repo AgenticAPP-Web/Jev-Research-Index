@@ -1,0 +1,263 @@
+[
+  {
+    "id": "source:typesafe-github",
+    "name": "TypeSafe AI GitHub organization",
+    "type": "official_repository",
+    "tier": "A",
+    "url": "https://github.com/typesafe-ai",
+    "retrievedAt": "2026-09-24",
+    "note": "用于核验官方 SDK、skills 与组织归属。"
+  },
+  {
+    "id": "source:arxiv",
+    "name": "arXiv records",
+    "type": "preprint_record",
+    "tier": "A",
+    "url": "https://arxiv.org/",
+    "retrievedAt": "2026-09-24",
+    "note": "用于核验论文标题、作者、提交日期、摘要和版本。"
+  },
+  {
+    "id": "source:community-index",
+    "name": "Community Jev index (discovery only)",
+    "type": "curated_index",
+    "tier": "C",
+    "url": "https://github.com/cobanov/awesome-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "只用于发现候选；主目录仍要求回到一手仓库或论文核验。"
+  },
+  {
+    "id": "source:jev-projects",
+    "name": "Jev projects directory (discovery only)",
+    "type": "curated_index",
+    "tier": "C",
+    "url": "https://jevai.im/projects",
+    "retrievedAt": "2026-09-24",
+    "note": "只用于补漏和交叉发现，不作为项目事实的唯一来源。"
+  },
+  {
+    "id": "source:jev-mem-repo",
+    "name": "Jev-Mem repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/libingzheren/Jev-Mem",
+    "retrievedAt": "2026-09-24",
+    "note": "项目自身 README 与代码入口。"
+  },
+  {
+    "id": "source:jev-java-repo",
+    "name": "jev-java repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/olti1947/jev-java",
+    "retrievedAt": "2026-09-24",
+    "note": "项目自身 README、依赖坐标与 API 示例。"
+  },
+  {
+    "id": "source:jev-playground-repo",
+    "name": "jev-playground repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/shivanathd/jev-playground",
+    "retrievedAt": "2026-09-24",
+    "note": "项目自身 README 与错误状态说明。"
+  },
+  {
+    "id": "source:typesafe-blog",
+    "name": "TypeSafe AI launch announcement",
+    "type": "official_blog",
+    "tier": "A",
+    "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "TypeSafe AI 对 System One Models 与 Jev 的正式发布说明；官方主张按原文归档，不视为独立验证。"
+  },
+  {
+    "id": "source:latent-space-jev",
+    "name": "Latent Space interview with Diogo Almeida",
+    "type": "podcast_interview",
+    "tier": "B",
+    "url": "https://www.latent.space/p/jev",
+    "retrievedAt": "2026-09-24",
+    "note": "由 Latent Space 发布的访谈与逐字稿；用于记录创始人对 Jev、System One 和应用场景的公开陈述。"
+  },
+  {
+    "id": "source:baader-jev-report",
+    "name": "Baader independent Jev testing report",
+    "type": "independent_blog",
+    "tier": "B",
+    "url": "https://baaderagency.com/blog/jev-typesafe-ai-first-three-days",
+    "retrievedAt": "2026-09-24",
+    "note": "独立机构对 Jev 实际工作负载的早期测试报告；数据、方法和限制按文章原文保留。"
+  },
+  {
+    "id": "source:typesafe-x",
+    "name": "TypeSafe AI on X",
+    "type": "social_profile",
+    "tier": "A",
+    "url": "https://x.com/typesafeai",
+    "retrievedAt": "2026-09-24",
+    "note": "TypeSafe AI 官方 X 账号主页；账号级记录不替代具体帖文的原始 URL 和发布时间。"
+  },
+  {
+    "id": "source:traeai",
+    "name": "TraeAI Jev tracking pages",
+    "type": "third_party_tracking",
+    "tier": "B",
+    "url": "https://www.traeai.com/topics/jev",
+    "retrievedAt": "2026-09-24",
+    "note": "用于发现中文公开材料与交叉线索，不作为所列事实的唯一一手来源。"
+  },
+  {
+    "id": "source:madewithjev",
+    "name": "Made with Jev public directory",
+    "type": "curated_social_directory",
+    "tier": "B",
+    "url": "https://madewithjev.com/",
+    "retrievedAt": "2026-09-24",
+    "note": "保存公开 X 帖子及项目的二次记录；数字与作者主张需回到原帖核验。"
+  },
+  {
+    "id": "source:x-matija-jev",
+    "name": "Independent archive of Matija Šošić’s Jev explainer post",
+    "type": "social_archive",
+    "tier": "B",
+    "url": "https://hermes-ai.net/pt/jev/case/2100190746389135772/",
+    "retrievedAt": "2026-09-24",
+    "note": "独立页面保存原 X 帖子的作者、时间、文本、媒体引用和原始链接；不替代 X 原帖，也不把互动量当作证据。"
+  },
+  {
+    "id": "source:parallel-jev",
+    "name": "Parallel developer report on Jev",
+    "type": "independent_blog",
+    "tier": "B",
+    "url": "https://parallel.ai/blog/testing-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "Parallel 发布的独立测试报告；任务、内部对照模型和限制均按原文归档。"
+  },
+  {
+    "id": "source:youtube-jev",
+    "name": "Greg Isenberg Jev video record",
+    "type": "video_record",
+    "tier": "B",
+    "url": "https://savedthat.app/transcript/youtube/4mTLpuQpB80",
+    "retrievedAt": "2026-09-24",
+    "note": "公开视频的独立文字索引，用于交叉核对标题与日期；视频中的产品主张仍归属于演讲者。"
+  },
+  {
+    "id": "source:browser-use-jev-ultrafast",
+    "name": "browser-use jev-ultrafast repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/browser-use/jev-ultrafast",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README、pyproject 与代码目录；用于核验 Jev 浏览器动作选择、运行入口和作者声明的限制。"
+  },
+  {
+    "id": "source:awlevin-typesafe-computer-use",
+    "name": "awlevin typesafe-computer-use repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/awlevin/typesafe-computer-use",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README 与 manifest；用于核验 Jev 电脑操作循环、平台要求及 Beta/测量限制。"
+  },
+  {
+    "id": "source:jkudish-jev-browser",
+    "name": "jkudish jev-browser repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/jkudish/jev-browser",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README、package manifest 与 MCP/CLI/library 入口；用于核验 Jev 浏览器智能体的公开实现。"
+  },
+  {
+    "id": "source:moritzkremb-jev-voice-browser",
+    "name": "moritzkremb jev-voice-browser repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/moritzkremb/jev-voice-browser",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README 与 package manifest；用于核验语音转写、Jev typed questions、Playwright 控制和安全注意事项。"
+  },
+  {
+    "id": "source:jarrodwatts-jev-trader",
+    "name": "jarrodwatts jev-trader repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/jarrodwatts/jev-trader",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README 与 TypeScript/Bun 配置；用于核验 Jev 交易决策路径、dry-run/mock 默认值和真实交易风险边界。"
+  },
+  {
+    "id": "source:iomiras-sponsor-skipper",
+    "name": "iomiras sponsor-skipper repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/iomiras/sponsor-skipper",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README 与 Chrome extension 文件；用于核验字幕读取、Jev 赞助分类及可选后端。"
+  },
+  {
+    "id": "source:valentynkit-jev-skip",
+    "name": "valentynkit jev-skip repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/valentynkit/jev-skip",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README、fixtures 与浏览器扩展代码；用于核验字幕分片概率、进度条可视化和直接 API 重测限制。"
+  },
+  {
+    "id": "source:paulsmith-computer-use-jev",
+    "name": "paulsmith computer-use-jev repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/paulsmith/computer-use-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README、Go 模块和 Swift worker 目录；用于核验 macOS Accessibility、Jev decision loop 与测试边界。"
+  },
+  {
+    "id": "source:tacticocc-jevbridge",
+    "name": "tacticocc Jevbridge repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/tacticocc/Jevbridge",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README 与 package manifest；用于核验原生 Jev、可替换后端、MCP/ACP 适配和置信度门控能力。"
+  },
+  {
+    "id": "source:guanxuyu-sv-visual-jev",
+    "name": "Visual-Jev repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/guanxuyu-sv/Visual-Jev",
+    "retrievedAt": "2026-09-24",
+    "note": "项目 README、代码目录与复现指南；用于核验 Visual Jev 的 Jev-style 视觉决策接口、推理入口、许可与限制。"
+  },
+  {
+    "id": "source:thevibeworks-awesome-jev",
+    "name": "thevibeworks awesome-typesafe-jev directory",
+    "type": "curated_index",
+    "tier": "B",
+    "url": "https://github.com/thevibeworks/awesome-typesafe-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "社区维护的 TypeSafe Jev 项目、媒体与测量目录；仅作发现入口，目录中的个别项目仍需回到其一手仓库核验。"
+  },
+  {
+    "id": "source:hellogumbo-awesome-jev",
+    "name": "hellogumbo awesome-jev directory",
+    "type": "curated_index",
+    "tier": "B",
+    "url": "https://github.com/hellogumbo/awesome-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "社区维护的 Jev 项目目录；条目规模和刷新日期会变化，不将其统计数字当作本目录的记录数。"
+  },
+  {
+    "id": "source:fatwang2-awesome-jev",
+    "name": "fatwang2 awesome-jev directory",
+    "type": "curated_index",
+    "tier": "B",
+    "url": "https://github.com/fatwang2/awesome-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "带来源审查流程的社区项目目录；收录不等同于认证，具体事实仍以项目一手页面为准。"
+  }
+]

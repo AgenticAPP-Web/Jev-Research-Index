@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "completedAt": "2026-09-24T13:15:00+08:00",
+  "windowStart": "2026-09-15",
+  "windowEnd": "2026-09-24",
+  "queries": [
+    "Jev TypeSafe AI",
+    "System One Jev arXiv",
+    "site:github.com Jev TypeSafe",
+    "site:arxiv.org Jev decision model"
+  ],
+  "sourcesChecked": ["source:typesafe-github", "source:arxiv", "source:community-index", "source:jev-projects", "source:jev-mem-repo", "source:jev-java-repo", "source:jev-playground-repo", "source:typesafe-blog", "source:latent-space-jev", "source:baader-jev-report", "source:typesafe-x", "source:traeai", "source:madewithjev", "source:x-matija-jev", "source:parallel-jev", "source:youtube-jev", "source:browser-use-jev-ultrafast", "source:awlevin-typesafe-computer-use", "source:jkudish-jev-browser", "source:moritzkremb-jev-voice-browser", "source:jarrodwatts-jev-trader", "source:iomiras-sponsor-skipper", "source:valentynkit-jev-skip", "source:paulsmith-computer-use-jev", "source:tacticocc-jevbridge", "source:guanxuyu-sv-visual-jev", "source:thevibeworks-awesome-jev", "source:hellogumbo-awesome-jev", "source:fatwang2-awesome-jev"],
+  "failedSources": [],
+  "newRecords": 25,
+  "updatedRecords": 0,
+  "pendingRecords": 2,
+  "onlineMaterials": 16
+}

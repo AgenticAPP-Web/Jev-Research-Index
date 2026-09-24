@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Jev Research Index source",
+  "type": "object",
+  "required": ["id", "name", "type", "tier", "url", "retrievedAt"],
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "name": { "type": "string" },
+    "type": { "type": "string" },
+    "tier": { "enum": ["A", "B", "C"] },
+    "url": { "type": "string", "format": "uri" },
+    "retrievedAt": { "type": "string", "format": "date" },
+    "note": { "type": "string" }
+  },
+  "additionalProperties": false
+}

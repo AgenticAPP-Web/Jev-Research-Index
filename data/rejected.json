@@ -1,0 +1,16 @@
+[
+  {
+    "id": "excluded:same-name-japanese-encephalitis",
+    "label": "Japanese encephalitis virus / JEV",
+    "reason": "同名缩写，但不属于 TypeSafe AI System One 研究范围。",
+    "checkedAt": "2026-09-24",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Japanese_encephalitis"
+  },
+  {
+    "id": "excluded:same-name-journal-extracellular-vesicles",
+    "label": "Journal of Extracellular Vesicles / JEV",
+    "reason": "期刊缩写同名，与 TypeSafe AI Jev 无关。",
+    "checkedAt": "2026-09-24",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Journal_of_Extracellular_Vesicles"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "article:traeai:jev-report",
+    "title": "Chinese-language Jev coverage on TRAE AI",
+    "titleZh": "TRAE AI 上关于 Jev 的中文报道/转述",
+    "contentType": "article",
+    "platform": "traeai",
+    "creator": "TRAE AI",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "candidate",
+    "status": "pending_review",
+    "isOriginal": false,
+    "canonicalUrl": "https://www.traeai.com/articles/dfba38f2-770a-4637-9e10-4cc3ac89af85",
+    "summaryZh": "检索中发现的中文页面，可能是对 Jev 或相关访谈的转述；当前抓取环境无法稳定读取正文，暂不进入已核验互联网材料目录。",
+    "evidenceNote": "需人工打开页面，确认作者、发布时间、正文是否为原始报道或二次转述，并核对其引用的原始链接后再决定是否收录。",
+    "sourceUrl": "https://www.traeai.com/articles/dfba38f2-770a-4637-9e10-4cc3ac89af85",
+    "lastCheckedAt": "2026-09-24"
+  },
+  {
+    "id": "social:xiaohongshu:jev-search",
+    "title": "Potential Xiaohongshu posts mentioning TypeSafe AI Jev",
+    "titleZh": "可能提及 TypeSafe AI Jev 的小红书帖子",
+    "contentType": "social_post",
+    "platform": "Xiaohongshu",
+    "creator": null,
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "candidate",
+    "status": "pending_review",
+    "isOriginal": null,
+    "canonicalUrl": null,
+    "summaryEn": "Search results did not expose a stable public post URL or an attributable author during this review window. The item must not be promoted until the original post is available.",
+    "summaryZh": "本轮检索未获得可稳定访问的原帖 URL 或可归属作者。在获得原始帖子后再考虑进入主目录。",
+    "evidenceNote": "Candidate retained for follow-up; no claim is made about the existence or content of a specific post.",
+    "query": "site:xiaohongshu.com Jev TypeSafe AI",
+    "lastCheckedAt": "2026-09-24"
+  }
+]
