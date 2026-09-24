@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="assets/jev-research-index-preview.png" alt="Jev Research Index website preview" width="1200" />
+</p>
+
+<p align="center">
+  <a href="https://agenticapp-web.github.io/Jev-Research-Index/"><img src="https://img.shields.io/badge/website-live-5d7418?style=flat-square" alt="Live website" /></a>
+  <a href="https://github.com/AgenticAPP-Web/Jev-Research-Index/actions/workflows/deploy-pages.yml"><img src="https://github.com/AgenticAPP-Web/Jev-Research-Index/actions/workflows/deploy-pages.yml/badge.svg" alt="GitHub Pages deployment" /></a>
+  <a href="https://github.com/AgenticAPP-Web/Jev-Research-Index/actions/workflows/validate.yml"><img src="https://github.com/AgenticAPP-Web/Jev-Research-Index/actions/workflows/validate.yml/badge.svg" alt="Validation workflow" /></a>
+  <img src="https://img.shields.io/badge/interface-EN%20%2F%20%E4%B8%AD%E6%96%87-59636e?style=flat-square" alt="English and Chinese interface" />
+</p>
+
+<p align="center"><strong>Live website:</strong> <a href="https://agenticapp-web.github.io/Jev-Research-Index/">https://agenticapp-web.github.io/Jev-Research-Index/</a></p>
+
 # Jev Research Index
 
 Jev Research Index is a bilingual catalogue of papers, software projects, interviews, public analyses, demonstrations, and social-media material related to **Jev**, the TypeSafe AI System One typed probabilistic decision model.
@@ -181,4 +194,22 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 
 如果希望使用根地址 `https://<account>.github.io/`，GitHub 仓库必须严格命名为 `<account>.github.io`；如果保留 `jev-research-index`，网站地址则是 `https://<account>.github.io/jev-research-index/`。GitHub 仓库首页显示 `README.md` 的目录说明；同一仓库中的 GitHub Actions 会在校验通过后发布 `index.html` 静态站点。论文、项目、X 帖子和视频演示均保留原始链接与来源状态，无法直接读取的内容不会被写成已核验事实。
 
+## Update information
+
+- **Last update:** 2026-09-24 (Asia/Hong_Kong)
+- **Current snapshot:** 12 papers, 17 projects, 16 public materials, and 29 sources
+- **Change log:** [updates/2026-09-24.md](updates/2026-09-24.md)
+- **Validation:** `npm run validate` checks JSON structure, source references, duplicate records, and README synchronization.
+- **Deployment:** GitHub Pages is published from the `main` branch through [Deploy Jev Research Index to GitHub Pages](.github/workflows/deploy-pages.yml).
+
 Any subsequent automation must preserve `source_url`, `retrieved_at`, `evidence_note`, and failure records.
+
+## Contributors and affiliations
+
+| Contributor | Affiliation |
+| --- | --- |
+| Weibo Gao | The Hong Kong Polytechnic University (PolyU) |
+| Linan Yue | Southeast University |
+| Zheng Zhang | Nanyang Technological University |
+| Yichao Du | Wuhan University |
+| Codex (OpenAI) | Implementation and maintenance assistance |
