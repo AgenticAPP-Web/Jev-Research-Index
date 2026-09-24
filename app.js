@@ -20,6 +20,7 @@ const translations = {
     "hero.lede": "A bilingual catalogue of papers, software, demonstrations, interviews, and public materials related to TypeSafe AI Jev. Entries can be filtered by type, platform, relationship, and topic.",
     "hero.primaryAction": "View the catalogue",
     "hero.secondaryAction": "View the README",
+    "hero.githubAction": "GitHub repository",
     "hero.statusLabel": "COLLECTION STATUS",
     "hero.statusValue": "MAINTAINED CATALOGUE",
     "hero.scopeLabel": "Scope",
@@ -65,7 +66,7 @@ const translations = {
     "lastUpdate.label": "LAST UPDATE",
     "footer.note": "Static bilingual catalogue of the Jev ecosystem.",
     "footer.affiliationsLabel": "Contributors / affiliations",
-    "footer.affiliations": "Weibo Gao — The Hong Kong Polytechnic University (PolyU) · Linan Yue — Southeast University · Zheng Zhang — Nanyang Technological University · Yichao Du — Wuhan University",
+    "footer.affiliations": "Weibo Gao — The Hong Kong Polytechnic University · Linan Yue — Southeast University · Zheng Zhang — Nanyang Technological University · Yichao Du — Wuhan University",
     "status.loading": "Loading",
     "status.noUpdates": "No update records are available.",
     "status.noMatches": "No records match the current filters.",
@@ -133,6 +134,7 @@ const translations = {
     "hero.lede": "一个双语目录，收录与 TypeSafe AI Jev 相关的论文、软件、演示、访谈与其他公开材料。条目可按类型、平台、关系和主题筛选。",
     "hero.primaryAction": "查看目录",
     "hero.secondaryAction": "查看 README",
+    "hero.githubAction": "GitHub 仓库",
     "hero.statusLabel": "目录状态",
     "hero.statusValue": "持续维护目录",
     "hero.scopeLabel": "范围",
@@ -178,7 +180,7 @@ const translations = {
     "lastUpdate.label": "最后更新",
     "footer.note": "静态、双语的 Jev 生态目录。",
     "footer.affiliationsLabel": "作者与单位",
-    "footer.affiliations": "Weibo Gao — 香港理工大学（PolyU）· Linan Yue — 东南大学 · Zheng Zhang — 南洋理工大学 · Yichao Du — 武汉大学",
+    "footer.affiliations": "Weibo Gao — 香港理工大学 · Linan Yue — 东南大学 · Zheng Zhang — 南洋理工大学 · Yichao Du — 武汉大学",
     "status.loading": "读取中",
     "status.noUpdates": "暂无更新记录。",
     "status.noMatches": "当前筛选条件没有匹配记录。",
@@ -437,13 +439,14 @@ function renderEntry(entry) {
   const typeClass = isPaper ? "" : isProject ? "project" : "online";
   const contentType = localizedContentType(entry);
   const meta = isPaper
-    ? `${entry.published || "—"} · ${entry.venue || "—"} · ${entry.paperType || "preprint"}`
+    ? `${entry.published || "—"} · ${entry.venue || "—"}`
     : isProject
       ? `${entry.owner || "—"} · ${entry.language || "—"} · ${localizedStatus(entry.status)}`
       : `${entry.published || "—"} · ${entry.platform || "—"} · ${contentType || "—"}`;
-  const title = getLocalized(entry, isProject ? "name" : "title", entry.id);
-  const alternateTitle = state.language === "zh" ? entry.title || entry.name : entry.titleZh;
-  const summary = getLocalized(entry, "summary", t("status.noSummary"));
+  // Record content remains in its source-language form when the interface changes
+  // language. Only interface labels, filters, and explanatory chrome are localized.
+  const title = isProject ? (entry.name || entry.id) : (entry.title || entry.id);
+  const summary = entry.summaryEn || entry.summary || t("status.noSummary");
   const topics = (entry.topics || []).map((topic) => `<span class="tag">${escapeHtml(topic)}</span>`).join("");
   const relation = localizedRelation(entry.relation);
   const evidence = localizedEvidence(entry.confidence);
@@ -468,7 +471,6 @@ function renderEntry(entry) {
       </div>
       <div class="entry-main">
         <h3><a href="${escapeHtml(safeUrl(entry.canonicalUrl))}" target="_blank" rel="noreferrer noopener">${escapeHtml(title)} ↗</a></h3>
-        ${alternateTitle ? `<p class="entry-title-alt">${escapeHtml(alternateTitle)}</p>` : ""}
         <p class="entry-summary">${escapeHtml(summary)}</p>
         <div class="tag-row">${topics}</div>
       </div>
@@ -578,6 +580,8 @@ function updateThemeControl() {
   button.setAttribute("aria-label", t(labelKey));
   const labelNode = button.querySelector("[data-theme-label]");
   if (labelNode) labelNode.textContent = label;
+  const iconNode = button.querySelector(".theme-icon");
+  if (iconNode) iconNode.textContent = isDark ? "☀" : "☾";
 }
 
 function setTheme(theme) {

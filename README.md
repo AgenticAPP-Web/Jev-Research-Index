@@ -139,7 +139,7 @@ index.html / app.js / styles.css  Static bilingual GitHub Pages surface
 
 ## Language and presentation
 
-The public interface defaults to English for an international audience and provides a Chinese interface through the `EN` / `中文` control. The default theme is light; a dark theme is available as an optional user preference. Language and theme choices are stored locally in the browser and do not alter the repository data.
+The public interface defaults to English for an international audience and provides a Chinese interface through the `EN` / `中文` control. The default theme is light; a dark theme is available as an optional user preference. Language and theme choices are stored locally in the browser and do not alter the repository data. Record titles, author names, venues, and source metadata remain in their recorded source-language form; changing the interface language does not translate or rewrite scholarly record content.
 
 ## Repository README and deployed site
 
@@ -208,7 +208,7 @@ Any subsequent automation must preserve `source_url`, `retrieved_at`, `evidence_
 
 | Contributor | Affiliation |
 | --- | --- |
-| Weibo Gao | The Hong Kong Polytechnic University (PolyU) |
+| Weibo Gao | The Hong Kong Polytechnic University |
 | Linan Yue | Southeast University |
 | Zheng Zhang | Nanyang Technological University |
 | Yichao Du | Wuhan University |
