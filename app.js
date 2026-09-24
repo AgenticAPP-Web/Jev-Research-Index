@@ -27,6 +27,7 @@ const translations = {
     "scope.label": "SCOPE",
     "scope.statement": "Jev denotes TypeSafe AI’s System One typed probabilistic decision model. Same-name biomedical and journal records are excluded.",
     "scope.asOf": "As of",
+    "scope.launchAge": "Since Jev release",
     "scope.sources": "Sources",
     "scope.version": "Scope version",
     "stats.papersShort": "PAPERS",
@@ -144,6 +145,7 @@ const translations = {
     "scope.label": "范围",
     "scope.statement": "Jev 专指 TypeSafe AI 的 System One 类型化概率决策模型；同名生物医学与期刊记录不纳入统计。",
     "scope.asOf": "截至",
+    "scope.launchAge": "Jev 首发以来",
     "scope.sources": "来源",
     "scope.version": "范围版本",
     "stats.papersShort": "论文",
@@ -322,6 +324,89 @@ function formatDate(value) {
   return new Intl.DateTimeFormat(state.language === "zh" ? "zh-CN" : "en-GB", { year: "numeric", month: "short", day: "numeric" }).format(date);
 }
 
+function dateOnlyInTimeZone(value, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(value);
+  const values = Object.fromEntries(parts.filter((part) => part.type !== "literal").map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function dateOnlyToUtc(value) {
+  const [year, month, day] = String(value || "").split("-").map(Number);
+  if (![year, month, day].every(Number.isFinite)) return null;
+  const timestamp = Date.UTC(year, month - 1, day);
+  return Number.isNaN(timestamp) ? null : timestamp;
+}
+
+function renderLaunchAge(manifest) {
+  const target = $("#jev-launch-age");
+  if (!target) return;
+  const launchDate = manifest?.jevLaunchDate;
+  const launchUtc = dateOnlyToUtc(launchDate);
+  if (!launchDate || launchUtc === null) {
+    target.textContent = "—";
+    return;
+  }
+  const timezone = manifest.timezone || "UTC";
+  const today = dateOnlyInTimeZone(new Date(), timezone);
+  const todayUtc = dateOnlyToUtc(today);
+  const elapsedDays = todayUtc === null ? 0 : Math.max(0, Math.floor((todayUtc - launchUtc) / 86400000));
+  const calendarDay = elapsedDays + 1;
+  const releaseLabel = formatDate(launchDate);
+  target.textContent = state.language === "zh"
+    ? `${releaseLabel} · 已过去 ${elapsedDays} 个完整日 · 第 ${calendarDay} 个自然日`
+    : `${releaseLabel} · ${elapsedDays} full days · day ${calendarDay}`;
+  target.setAttribute("datetime", launchDate);
+  target.setAttribute("aria-label", target.textContent);
+}
+
+function filterPublicData(data) {
+  const hiddenSourceIds = new Set(data.manifest.hiddenSourceIds || []);
+  const hiddenSourcePatterns = (data.manifest.hiddenSourcePatterns || [])
+    .map((pattern) => String(pattern).trim().toLocaleLowerCase("und"))
+    .filter(Boolean);
+  const hiddenUpdateLabels = new Set(data.manifest.hiddenUpdateLabels || []);
+  const hiddenUpdatePatterns = (data.manifest.hiddenUpdatePatterns || [])
+    .map((pattern) => String(pattern).trim().toLocaleLowerCase("und"))
+    .filter(Boolean);
+  const matchesPattern = (value, patterns) => {
+    const text = String(value || "").toLocaleLowerCase("und");
+    return patterns.some((pattern) => text.includes(pattern));
+  };
+  for (const source of data.sources) {
+    const sourceText = [source.id, source.name, source.url].join(" ");
+    if (matchesPattern(sourceText, hiddenSourcePatterns)) hiddenSourceIds.add(source.id);
+  }
+  const isVisible = (record) => !(record.sourceIds || []).some((sourceId) => hiddenSourceIds.has(sourceId));
+  const isVisibleUpdate = (update) => {
+    const label = update.labelEn || update.label || "";
+    const updateText = [update.label, update.labelEn, update.labelZh, update.summary, update.summaryEn, update.summaryZh].join(" ");
+    return !hiddenUpdateLabels.has(label) && !matchesPattern(updateText, hiddenUpdatePatterns);
+  };
+  const publicManifest = Object.fromEntries(
+    Object.entries(data.manifest).filter(([key]) => ![
+      "hiddenSourceIds",
+      "hiddenSourcePatterns",
+      "hiddenUpdateLabels",
+      "hiddenUpdatePatterns"
+    ].includes(key))
+  );
+  return {
+    ...data,
+    manifest: publicManifest,
+    sources: data.sources.filter((source) => !hiddenSourceIds.has(source.id)),
+    papers: data.papers.filter(isVisible),
+    projects: data.projects.filter(isVisible),
+    onlineMaterials: data.onlineMaterials.filter(isVisible),
+    pending: data.pending.filter(isVisible),
+    updates: data.updates.filter(isVisibleUpdate)
+  };
+}
+
 function evidenceLetter(confidence) {
   return { verified: "A", probable: "B", candidate: "C" }[confidence] || "?";
 }
@@ -379,6 +464,7 @@ function renderStats(data) {
   $("#pending-count").textContent = data.pending.length;
   $("#source-count").textContent = data.sources.length;
   $("#last-updated").textContent = `${formatDate(data.manifest.lastUpdated)} · ${data.manifest.timezone}`;
+  renderLaunchAge(data.manifest);
   const footerDate = $("#last-updated-footer");
   if (footerDate) {
     footerDate.textContent = formatDate(data.manifest.lastUpdated);
@@ -684,18 +770,20 @@ async function boot() {
       loadJson(DATA_FILES.pending),
       loadJson(DATA_FILES.updates)
     ]);
-    const data = { manifest, sources, papers, projects, onlineMaterials, pending, updates };
+    const rawData = { manifest, sources, papers, projects, onlineMaterials, pending, updates };
+    const data = filterPublicData(rawData);
     loadedData = data;
     state.allEntries = [
-      ...papers.map((entry) => ({ ...entry, kind: "paper" })),
-      ...projects.map((entry) => ({ ...entry, kind: "project" })),
-      ...onlineMaterials.map((entry) => ({ ...entry, kind: "online" }))
+      ...data.papers.map((entry) => ({ ...entry, kind: "paper" })),
+      ...data.projects.map((entry) => ({ ...entry, kind: "project" })),
+      ...data.onlineMaterials.map((entry) => ({ ...entry, kind: "online" }))
     ];
     renderStats(data);
     populateFilters();
-    renderUpdates(updates);
+    renderUpdates(data.updates);
     renderCatalog();
     bindInteractions();
+    window.setInterval(() => renderLaunchAge(data.manifest), 60000);
   } catch (error) {
     console.error(error);
     $("#catalog-list").setAttribute("aria-busy", "false");

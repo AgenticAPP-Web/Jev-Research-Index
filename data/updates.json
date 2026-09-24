@@ -4,26 +4,17 @@
     "label": "Project publication dates",
     "labelEn": "Project publication dates",
     "labelZh": "项目公开日期",
-    "summary": "Added a publication-date field for every project. GitHub projects use the repository creation date from the public repository page; non-GitHub projects remain explicitly unconfirmed.",
-    "summaryEn": "Added a publication-date field for every project. GitHub projects use the repository creation date from the public repository page; non-GitHub projects remain explicitly unconfirmed.",
-    "summaryZh": "为每个项目增加公开日期字段。GitHub 项目使用公开仓库页面中的创建日期；非 GitHub 项目明确保留为日期未确认。"
-  },
-  {
-    "date": "2026-09-24",
-    "label": "awesome-jev directory import",
-    "labelEn": "awesome-jev directory import",
-    "labelZh": "导入 awesome-jev 目录",
-    "summary": "Imported 320 project records and 91 public-material records discovered through yibie/awesome-jev; all imported records remain probable until their linked primary pages are independently checked.",
-    "summaryEn": "Imported 320 project records and 91 public-material records discovered through yibie/awesome-jev; all imported records remain probable until their linked primary pages are independently checked.",
-    "summaryZh": "通过 yibie/awesome-jev 发现并整理 320 个项目记录与 91 条公开材料记录；所有新增记录在逐项回到一手页面核验前均保留为 probable。"
+    "summary": "Added publication dates for the 17 public GitHub projects using repository creation dates from their public pages; excluded discovery-only records are not counted.",
+    "summaryEn": "Added publication dates for the 17 public GitHub projects using repository creation dates from their public pages; excluded discovery-only records are not counted.",
+    "summaryZh": "为公开目录中的 17 个 GitHub 项目增加公开日期，日期来自公开仓库页面中的创建日期；被排除的发现型记录不计入统计。"
   },
   {
     "date": "2026-09-24",
     "label": "Bilingual catalogue snapshot",
     "labelEn": "Bilingual catalogue snapshot",
     "labelZh": "双语目录快照",
-    "summary": "Established a bilingual catalogue containing 12 papers, 17 projects, and 16 public materials, with generated Markdown tables for reference and review.",
-    "summaryEn": "Established a bilingual catalogue containing 12 papers, 17 projects, and 16 public materials, with generated Markdown tables for reference and review.",
-    "summaryZh": "建立双语 Jev 目录：收录 12 篇论文、17 个项目与 16 条公开材料，并在 README 中生成便于查阅的 Markdown 表格。"
+    "summary": "Established a bilingual catalogue containing 12 papers, 17 projects, and 13 public materials, with generated Markdown tables for reference and review.",
+    "summaryEn": "Established a bilingual catalogue containing 12 papers, 17 projects, and 13 public materials, with generated Markdown tables for reference and review.",
+    "summaryZh": "建立双语 Jev 目录：收录 12 篇论文、17 个项目与 13 条公开材料，并在 README 中生成便于查阅的 Markdown 表格。"
   }
 ]

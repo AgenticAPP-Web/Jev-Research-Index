@@ -163,9 +163,10 @@ h1 em, h2 em { color: var(--accent); font-style: italic; }
 .scope-bar { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: center; padding: 1.15rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .scope-statement { display: flex; align-items: baseline; gap: 1.1rem; }
 .scope-statement p { margin: 0; color: var(--muted); font-size: 0.81rem; }
-.scope-metrics { display: flex; gap: 2rem; }
+.scope-metrics { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.8rem 1.8rem; }
 .scope-metric { display: grid; gap: 0.15rem; }
-.scope-metric strong { color: var(--ink-soft); font-family: var(--mono); font-size: 0.69rem; font-weight: 550; }
+.scope-metric strong, .scope-metric time { color: var(--ink-soft); font-family: var(--mono); font-size: 0.69rem; font-weight: 550; line-height: 1.35; }
+.scope-metric-launch { min-width: 14.5rem; }
 
 .stat-grid { display: grid; grid-template-columns: repeat(5, 1fr); border-bottom: 1px solid var(--line); }
 .stat-card { min-height: 142px; padding: 1.15rem 1.15rem 1.2rem; border-right: 1px solid var(--line); }
@@ -287,7 +288,7 @@ kbd { padding: 0.15rem 0.4rem; border: 1px solid var(--line); color: var(--faint
   .hero { grid-template-columns: 1fr; min-height: auto; padding: 5.5rem 0 4rem; }
   .hero-observatory { max-width: 620px; }
   .scope-bar { grid-template-columns: 1fr; gap: 1rem; }
-  .scope-metrics { justify-content: space-between; max-width: 540px; }
+  .scope-metrics { justify-content: flex-start; max-width: 620px; }
   .catalog-layout { grid-template-columns: 1fr; gap: 3.5rem; }
   .catalog-rail { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; padding-top: 0; }
   .rail-block { border-bottom: 1px solid var(--line); }
@@ -297,7 +298,8 @@ kbd { padding: 0.15rem 0.4rem; border: 1px solid var(--line); color: var(--faint
 @media (max-width: 680px) {
   .topbar, main, .footer { width: min(calc(100% - 2rem), var(--max)); }
   .topbar { min-height: 76px; align-items: flex-start; padding: 1rem 0; }
-  .header-tools { flex-wrap: wrap; justify-content: end; }
+  .topbar { display: grid; grid-template-columns: 1fr; gap: 0.8rem; }
+  .header-tools { width: 100%; flex-wrap: wrap; justify-content: end; }
   .topnav { order: 3; width: 100%; justify-content: end; }
   .topnav a { font-size: 0.67rem; }
   .topnav a span:last-child { display: none; }
@@ -310,7 +312,8 @@ kbd { padding: 0.15rem 0.4rem; border: 1px solid var(--line); color: var(--faint
   .orbit-ring-b { width: 220px; height: 148px; }
   .scope-statement { display: block; }
   .scope-statement p { margin-top: 0.45rem; }
-  .scope-metrics { gap: 0.7rem; }
+  .scope-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem 1rem; }
+  .scope-metric-launch { grid-column: 1 / -1; min-width: 0; }
   .stat-grid { grid-template-columns: 1fr 1fr; }
   .stat-card { min-height: 125px; }
   .stat-card:nth-child(3) { border-right: 1px solid var(--line); }

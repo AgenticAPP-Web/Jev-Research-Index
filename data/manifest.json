@@ -2,6 +2,19 @@
   "snapshotLabel": "bilingual catalogue snapshot",
   "lastUpdated": "2026-09-24",
   "timezone": "Asia/Hong_Kong",
-  "scopeVersion": "0.3.0",
-  "notes": "双语目录快照；论文、项目与互联网材料分层保存。awesome-jev 批量条目保留为 probable，具体事实仍需回到一手页面核验。"
+  "scopeVersion": "0.3.1",
+  "jevLaunchDate": "2026-09-15",
+  "jevLaunchSourceId": "source:typesafe-blog",
+  "hiddenSourceIds": [
+    "source:community-index",
+    "source:yibie-awesome-jev",
+    "source:x-yibie-awesome-jev",
+    "source:thevibeworks-awesome-jev",
+    "source:hellogumbo-awesome-jev",
+    "source:fatwang2-awesome-jev"
+  ],
+  "hiddenSourcePatterns": ["awesome"],
+  "hiddenUpdateLabels": ["awesome-jev directory import"],
+  "hiddenUpdatePatterns": ["awesome"],
+  "notes": "双语目录快照；论文、项目与互联网材料分层保存。社区目录的批量发现记录保留在审计数据中，但不进入公开目录、统计或下载。"
 }

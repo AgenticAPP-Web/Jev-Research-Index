@@ -122,7 +122,6 @@ const papers = readJson("data/papers.json");
 const projects = readJson("data/projects.json");
 const onlineMaterials = readJson("data/online-materials.json");
 const sources = readJson("data/sources.json");
-const updates = readJson("data/updates.json");
 const lastRun = readJson("state/last_run.json");
 const manifest = readJson("data/manifest.json");
 
@@ -211,23 +210,9 @@ for (const item of discovered) {
 
 projects.push(...importedProjects);
 onlineMaterials.push(...importedMaterials);
-manifest.scopeVersion = "0.3.0";
+manifest.scopeVersion = "0.3.1";
 manifest.lastUpdated = snapshotDate;
-manifest.notes = "双语目录快照；论文、项目与互联网材料分层保存。awesome-jev 批量条目保留为 probable，具体事实仍需回到一手页面核验。";
-
-const updateSummaryEn = `Imported ${importedProjects.length} project records and ${importedMaterials.length} public-material records discovered through yibie/awesome-jev; all imported records remain probable until their linked primary pages are independently checked.`;
-const updateSummaryZh = `通过 yibie/awesome-jev 发现并整理 ${importedProjects.length} 个项目记录与 ${importedMaterials.length} 条公开材料记录；所有新增记录在逐项回到一手页面核验前均保留为 probable。`;
-if (importedProjects.length || importedMaterials.length) {
-  updates.unshift({
-    date: snapshotDate,
-    label: "awesome-jev directory import",
-    labelEn: "awesome-jev directory import",
-    labelZh: "导入 awesome-jev 目录",
-    summary: updateSummaryEn,
-    summaryEn: updateSummaryEn,
-    summaryZh: updateSummaryZh
-  });
-}
+manifest.notes = "双语目录快照；论文、项目与互联网材料分层保存。社区目录的批量发现记录保留在审计数据中，但不进入公开目录、统计或下载。";
 
 lastRun.completedAt = completedAt;
 lastRun.windowEnd = snapshotDate;
@@ -239,7 +224,6 @@ lastRun.importedFromAwesomeJev = discovered.length;
 writeJson("data/sources.json", sources);
 writeJson("data/projects.json", projects);
 writeJson("data/online-materials.json", onlineMaterials);
-writeJson("data/updates.json", updates);
 writeJson("data/manifest.json", manifest);
 writeJson("state/last_run.json", lastRun);
 

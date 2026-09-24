@@ -105,6 +105,9 @@ function requireField(object, field, label) {
 if (!manifest.scopeVersion || !manifest.lastUpdated || !isoDate.test(manifest.lastUpdated)) {
   errors.push("data/manifest.json: scopeVersion and ISO lastUpdated are required");
 }
+if (manifest.jevLaunchDate && !isoDate.test(manifest.jevLaunchDate)) {
+  errors.push("data/manifest.json: invalid jevLaunchDate");
+}
 
 if (!Array.isArray(sources) || sources.length === 0) errors.push("data/sources.json: expected a non-empty array");
 for (const source of sources) {
@@ -116,6 +119,17 @@ for (const source of sources) {
   if (sourceIds.has(source.id)) errors.push(`${label}: duplicate id`);
   sourceIds.add(source.id);
   if (source.retrievedAt && !isoDate.test(source.retrievedAt)) errors.push(`${label}: invalid retrievedAt`);
+}
+if (manifest.jevLaunchSourceId && !sourceIds.has(manifest.jevLaunchSourceId)) {
+  errors.push(`data/manifest.json: unknown jevLaunchSourceId ${manifest.jevLaunchSourceId}`);
+}
+for (const field of ["hiddenSourceIds", "hiddenSourcePatterns", "hiddenUpdateLabels", "hiddenUpdatePatterns"]) {
+  if (manifest[field] !== undefined && !Array.isArray(manifest[field])) {
+    errors.push(`data/manifest.json: ${field} must be an array`);
+  }
+}
+for (const sourceId of manifest.hiddenSourceIds || []) {
+  if (!sourceIds.has(sourceId)) errors.push(`data/manifest.json: unknown hiddenSourceId ${sourceId}`);
 }
 
 function validateRecords(records, kind) {
