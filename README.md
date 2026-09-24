@@ -12,7 +12,7 @@
 <p align="center"><strong>Live website:</strong> <a href="https://agenticapp-web.github.io/Jev-Research-Index/">https://agenticapp-web.github.io/Jev-Research-Index/</a></p>
 
 <!-- CATALOGUE_STATS_START -->
-**Catalogue size:** 12 papers · 337 projects · 108 public materials · 31 sources
+**Catalogue size:** 13 papers · 349 projects · 122 public materials · 50 sources
 <!-- CATALOGUE_STATS_END -->
 
 # Jev Research Index
@@ -36,9 +36,9 @@ An online material is not treated as a paper or a software project. Interviews, 
 <!-- CATALOGUE_TABLES_START -->
 ## Catalogue snapshot
 
-The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-24** (Asia/Hong_Kong).
+The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-25** (Asia/Hong_Kong).
 
-### Papers and preprints (12)
+### Papers and preprints (13)
 
 | Published | Work | Authors | Venue / type | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -54,8 +54,9 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-20 | [this-that-model-1.0: A typed decision model that decides in 30 ms, for a millionth of a cent](https://arxiv.org/abs/2609.23886)<br><sub>this-that-model-1.0：30 毫秒内、百万分之一美分完成决策的类型化决策模型</sub> | Zehua Cheng, Wei Dai, Jiahao Sun | arXiv · cs.CL<br><sub>替代模型 / 系统评测</sub> | Open replica | A — verified | 2026-09-24 |
 | 2026-09-19 | [Fast Intent-Driven Service Orchestration with Jev for 6G Edge Networks](https://arxiv.org/abs/2609.23136)<br><sub>面向 6G 边缘网络的 Jev 快速意图驱动服务编排</sub> | Delong Li, Xu Wang, Haochen Gong, Rui Lang, Guangsheng Yu | arXiv · cs.NI<br><sub>系统实证 / 边缘服务编排</sub> | Uses Jev | A — verified | 2026-09-24 |
 | 2026-09-21 | [Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash Variables with a System One Model (Jev)](https://arxiv.org/abs/2609.24052)<br><sub>规模化校准决策：使用 System One 模型（Jev）将警察事故叙述转换为概率事故变量</sub> | Amir Rafe, Subasish Das | arXiv · cs.CL<br><sub>应用实证 / 概率标注</sub> | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-23 | [JEV-Star: Fast, Low-Cost StarCraft II Control with Language-Model Planning](https://arxiv.org/abs/2609.27331)<br><sub>JEV-Star：结合语言模型规划的快速低成本星际争霸 II 控制</sub> | Weiyu Ma, Liangbing Zhao, Yongcheng Zeng, Jian Zhao | arXiv · cs.GT<br><sub>系统 / 游戏控制评测</sub> | Uses Jev | A — verified | 2026-09-25 |
 
-### Projects and implementations (337)
+### Projects and implementations (349)
 
 | Published / created | Project | Owner | Category | Language | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -396,8 +397,20 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-06-16 | [Spike: Jev as a judgement layer to cut model cost](https://github.com/open-orcha/orcha) | open-orcha | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
 | 2026-09-23 | [Awesome Jev Robustness](https://agenticapp-web.github.io/Jev-Research-Index/) | Yifan-Lan | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
 | 2026-09-20 | [jevchat](https://github.com/kyle-pena-nlp/jevchat) | kyle-pena-nlp | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| — | [codearia-sieve](https://github.com/AntonG87/codearia-sieve) | AntonG87 / Anton Evelson | MCP server / content extraction<br><sub>MCP 服务 / 内容提取</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-24 | [jev-ar](https://github.com/atmaneayoubdev/jev-ar) | atmaneayoubdev | Classification & Routing<br><sub>分类与路由</sub> | Python | Open replica | B — probable | 2026-09-25 |
+| 2026-09-24 | [Mechanical-Jev](https://github.com/Lasimeri/Mechanical-Jev) | Lasimeri | SDKs & Integrations<br><sub>SDK 与集成</sub> | Rust | Open replica | B — probable | 2026-09-25 |
+| 2026-09-24 | [Intel-Phi-Jev](https://github.com/Lasimeri/Intel-Phi-Jev) | Lasimeri | Open Models & Runtimes<br><sub>开放模型与运行时</sub> | Rust | Open replica | B — probable | 2026-09-25 |
+| 2026-09-24 | [message-tone-checker](https://github.com/WeiS49/message-tone-checker) | WeiS49 | Applications<br><sub>应用</sub> | TypeScript | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-24 | [jev-browse](https://github.com/danielnc/jev-browse) | danielnc | Browser & Computer Use<br><sub>浏览器与计算机操作</sub> | Python | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-24 | [jev-bench](https://github.com/model-collapse/jev-bench) | model-collapse | Evaluation & Research<br><sub>评测与研究</sub> | Python | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-24 | [jev-evaluation](https://github.com/pabloirracional/jev-evaluation) | pabloirracional | Evaluation & Research<br><sub>评测与研究</sub> | Python | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-24 | [jev-mcp](https://github.com/tmbmartell/jev-mcp) | tmbmartell | MCP & Agent Infrastructure<br><sub>MCP 与智能体基础设施</sub> | Python | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-24 | [SystemOneSharp](https://github.com/pinkroosterai/SystemOneSharp) | pinkroosterai | SDKs & Integrations<br><sub>SDK 与集成</sub> | C# | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-24 | [jev-router](https://github.com/Ex8-ca/jev-router) | Ex8-ca | Agent Infrastructure<br><sub>智能体基础设施</sub> | Python | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-23 | [jev-skills](https://github.com/eran-broder/jev-skills) | eran-broder | Agent Infrastructure<br><sub>智能体基础设施</sub> | TypeScript | Uses Jev | A — verified | 2026-09-25 |
 
-### Public materials (108)
+### Public materials (122)
 
 | Published | Material | Platform / type | Creator | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -426,7 +439,8 @@ The following tables are generated from the JSON snapshots in this repository. T
 | — | [Jev reranking is not a free win](https://x.com/GoSailGlobal/status/2100877682972258619) | x.com<br><sub>social_post</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
 | — | [An early-access test of TypeSafe's Jev](https://lindfors.no/blog/a-first-look-at-typesafes-jev) | lindfors.no<br><sub>article</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
 | — | [BTK audit studies](https://boringtoolskit.com/blog/seo-audit-cost-2026) | boringtoolskit.com<br><sub>article</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
-| — | [Can Jev Be a Better Agent Evaluator?](https://www.langchain.com/blog/jev-agent-evals-langsmith) | www.langchain.com<br><sub>directory</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
+| 2026-09-16 | [TypeSafe AI's Jev now available on AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway)<br><sub>TypeSafe AI 的 Jev 已接入 AI Gateway</sub> | Vercel Changelog<br><sub>article</sub> | Rohan Taneja · Zachary Chen · Jerilyn Zheng | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-20 | [Jev-as-a-Judge for Agent Evals](https://www.langchain.com/blog/jev-agent-evals-langsmith)<br><sub>Jev-as-a-Judge：用于智能体评测</sub> | LangChain<br><sub>article</sub> | Daniel Shea · Seán Roche | Uses Jev | A — verified | 2026-09-24 |
 | — | [Jevals.com](https://jevals.com) | jevals.com<br><sub>directory</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
 | — | [Jev vs Fable on 520 real social posts](https://seenpaid.com/blog/jev-review-tested-against-fable) | seenpaid.com<br><sub>directory</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
 | — | [Jev Does Not Play Dice](https://kantahayashiai.github.io/posts/jev-does-not-play-dice) | kantahayashiai.github.io<br><sub>article</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
@@ -435,7 +449,13 @@ The following tables are generated from the JSON snapshots in this repository. T
 | — | [CUA-S1-FORMS](https://huggingface.co/cua-ai/cua-s1-forms) | huggingface.co<br><sub>article</sub> | Linked source (author not extracted) | Jev-inspired | B — probable | 2026-09-24 |
 | — | [When a Judgment Layer’s Self-Reported Fields Lie](https://doi.org/10.5281/zenodo.22901853) | doi.org<br><sub>article</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
 | — | [Early experimentation using Jev to rethink harness UX](https://www.elvex.com/blog/early-experimentation-using-jev-to-rethink-harness-ux) | www.elvex.com<br><sub>social_post</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
-| — | [Building a Harness with Jev](https://www.langchain.com/blog/building-a-harness-with-jev) | www.langchain.com<br><sub>article</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
+| 2026-09-17 | [Building a Harness with Jev](https://www.langchain.com/blog/building-a-harness-with-jev) | LangChain<br><sub>article</sub> | Sydney Runkle · Hunter Lovell | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-21 | [Jev is now available in LangSmith Evals](https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals)<br><sub>Jev 已可用于 LangSmith 评测</sub> | LangChain<br><sub>article</sub> | Winston Huynh | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-19 | [Jev Review: Hands-On Notes From Real API Tests](https://jevaiguide.com/jev-review/)<br><sub>Jev 评测：真实 API 测试实践笔记</sub> | Jev AI Guide<br><sub>article</sub> | Jev AI Guide editorial team (individual authors not listed) | Uses Jev | B — probable | 2026-09-24 |
+| 2026-09-20 | [Jev in practice: the description beats the model](https://www.bks-lab.com/en/blog/jev-im-praxistest/)<br><sub>Jev 实践：描述比模型更重要</sub> | BKS-Lab<br><sub>article</sub> | Michael Boiman | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-21 | [TypeSafe Jev review: the System One model, tested](https://www.eesel.ai/blog/typesafe-jev-review)<br><sub>TypeSafe Jev 评测：经过分析的 System One 模型</sub> | eesel AI<br><sub>article</sub> | Rama Adi Nugraha; reviewed by Katelin Teen | Mentions only | A — verified | 2026-09-24 |
+| 2026-09-18 | [Is TypeSafe's Jev worth a look?](https://oximy.com/resources/releases/jev)<br><sub>TypeSafe 的 Jev 值得关注吗？</sub> | Oximy Research<br><sub>article</sub> | Oximy Research | Mentions only | A — verified | 2026-09-24 |
+| 2026-09-18 | [Jev AI review: decision models for agent workflows](https://wavect.io/blog/jev-ai-decision-model-review/)<br><sub>Jev AI 评测：面向智能体工作流的决策模型</sub> | Wavect<br><sub>article</sub> | Kevin Riedl | Mentions only | A — verified | 2026-09-24 |
 | — | [Jev AI Tools](https://jevai.tools) | jevai.tools<br><sub>directory</sub> | Linked source (author not extracted) | Mentions only | B — probable | 2026-09-24 |
 | — | [Jev Chess](https://jevchess.com) | jevchess.com<br><sub>directory</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
 | — | [Introducing System One Models and Jev (Hacker News)](https://news.ycombinator.com/item?id=49717558) | news.ycombinator.com<br><sub>social_post</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
@@ -509,6 +529,13 @@ The following tables are generated from the JSON snapshots in this repository. T
 | — | [JevBench](https://benchmarkheaven.com/jev-models) | benchmarkheaven.com<br><sub>directory</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
 | — | [Jev in practice: typed decisions, scoped authority](https://tenuo.ai/blog/jev-scoped-authority) | tenuo.ai<br><sub>article</sub> | Linked source (author not extracted) | Uses Jev | B — probable | 2026-09-24 |
 | — | [Open-sourced jev architecture last year](https://news.ycombinator.com/item?id=49736660) | news.ycombinator.com<br><sub>social_post</sub> | Linked source (author not extracted) | Mentions only | B — probable | 2026-09-24 |
+| 2026-09-24 | [What Is Jev? TypeSafe AI's System One Model](https://zapier.com/blog/jev/)<br><sub>什么是 Jev？TypeSafe AI 的 System One 模型</sub> | Zapier<br><sub>article</sub> | Miguel Rebelo | Uses Jev | A — verified | 2026-09-25 |
+| 2026-09-24 | [I Gave Jev a Paddle. Can You Beat It?](https://blog.postman.com/i-gave-jev-a-paddle-can-you-beat-jev-at-pong/)<br><sub>我给 Jev 一个球拍：你能打败它吗？</sub> | Postman Blog<br><sub>article</sub> | Gbadebo Bello | Uses Jev | A — verified | 2026-09-25 |
+| 2026-09-24 | [Shift Left, Again: Notes From Our First Week With Jev](https://reindeer.ai/blog/shift-left-again-notes-from-our-first-week-with-jev)<br><sub>再次左移：使用 Jev 第一周的记录</sub> | Reindeer<br><sub>article</sub> | Dani Raznikov | Uses Jev | A — verified | 2026-09-25 |
+| 2026-09-24 | [Jev and Laya Explained: Decision Models vs. LLMs](https://terranettechnologies.com/blog/jev-laya-decision-models-vs-llms-explained)<br><sub>Jev 与 Laya：决策模型与大语言模型的区别</sub> | TerraNet Technologies<br><sub>article</sub> | TerraNet Technologies | Mentions only | B — probable | 2026-09-25 |
+| 2026-09-24 | [Thinking, Fast... and Typed: Java & Jev](https://www.jvm-weekly.com/p/thinking-fast-and-typed-java-and)<br><sub>快速而类型化的思考：Java 与 Jev</sub> | JVM Weekly<br><sub>article</sub> | Artur Skowronski | Mentions only | A — verified | 2026-09-25 |
+| 2026-09-24 | [How to Get Access to Jev and an API Key](https://flaviocopes.com/jev-api-key/)<br><sub>如何获得 Jev 访问权限和 API 密钥</sub> | flaviocopes.com<br><sub>article</sub> | Flavio Copes | Uses Jev | A — verified | 2026-09-25 |
+| — | [Jev — Cloudflare Workers AI model documentation](https://developers.cloudflare.com/ai/models/typesafe/jev/)<br><sub>Jev——Cloudflare Workers AI 模型文档</sub> | Cloudflare AI Docs<br><sub>article</sub> | Cloudflare | Uses Jev | A — verified | 2026-09-25 |
 
 The tables intentionally preserve the distinction between **uses Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
 
@@ -536,7 +563,7 @@ The confidence level describes the state of the evidence, not the quality of Jev
 
 Vendor statements, author-reported measurements, and social-media claims remain attributed to their authors. They are not rewritten as independent benchmarks. A failed fetch is recorded as a limitation; it is never converted into a claim that no material exists.
 
-At scope 0.3.1, 320 project records and 95 online-material records are linked to community-directory discovery sources (including 91 materials from the Yibie directory). They are retained for recall and auditability, but their `probable` status means the directory entry is not a substitute for checking the linked primary page.
+At scope 0.3.1, 320 project records and 95 online-material records are linked to community-directory discovery sources (including 91 materials from the Yibie directory). They are retained for recall and auditability. Directory-only records remain `probable`; a small number also carry direct first-party or corroborating sources and may therefore be `verified`. In either case, a directory entry is not a substitute for checking the linked primary page.
 
 ## Repository layout
 
@@ -580,7 +607,7 @@ Each review should:
 1. Read `state/last_run.json`, the most recent dated log, and the current JSON snapshots.
 2. Search the controlled Jev/TypeSafe/System One vocabulary across scholarly indexes (including arXiv), official documentation, repositories, interviews, public channels, videos, and social platforms.
 3. Normalize titles and URLs, deduplicate by stable identifier, and preserve the retrieval date.
-4. Add records with a stable canonical URL to the relevant collection, but mark crawl- or directory-derived records `probable` until the linked primary page is independently checked. Keep leads without a stable URL, author, or date in `pending_review.json` and unrelated same-name hits in `rejected.json`.
+4. Add records with a stable canonical URL to the relevant collection. Mark crawl- or directory-only records `probable` until the linked primary page is independently checked; if a direct first-party or corroborating source is later found, preserve both source IDs and update the evidence level. Keep leads without a stable URL, author, or date in `pending_review.json` and unrelated same-name hits in `rejected.json`.
 5. Run `npm run validate`, update `state/last_run.json`, and write a dated change log that lists additions, changes, exclusions, failed sources, and unresolved candidates.
 
 The default workflow edits the local repository only. Pushing to GitHub or changing publication settings is a separate release action.
@@ -603,7 +630,7 @@ The validation command checks JSON syntax, required fields, supported relationsh
 1. Push the repository to GitHub.
 2. In **Settings → Pages**, select **GitHub Actions** as the source.
 3. `.github/workflows/validate.yml` validates every push and pull request.
-4. `.github/workflows/deploy-pages.yml` runs `npm run build:public` and publishes only the sanitized `public/` artifact after a successful `main`-branch push.
+4. [`.github/workflows/deploy-pages.yml`](https://github.com/AgenticAPP-Web/Jev-Research-Index/blob/main/.github/workflows/deploy-pages.yml) runs `npm run build:public` and publishes only the sanitized `public/` artifact after a successful `main`-branch push.
 
 The first snapshot is dated **2026-09-24** and is explicitly not a claim of complete internet coverage. Dynamic stars, forks, issue counts, prices, and model versions are not stored as timeless facts; if they are added later, they must carry an `as_of` date and a source URL.
 
@@ -619,12 +646,12 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 
 ## Update information
 
-- **Last update:** 2026-09-24 (Asia/Hong_Kong)
-- **Current snapshot:** 12 papers, 337 projects, 108 public materials, and 31 sources
-- **Project dates:** 330 public GitHub repository creation dates confirmed; 7 remain unconfirmed.
-- **Change log:** [updates/2026-09-24.md](updates/2026-09-24.md)
+- **Last update:** 2026-09-25 (Asia/Hong_Kong)
+- **Current snapshot:** 13 papers, 349 projects, 122 public materials, and 50 sources
+- **Project dates:** 341 public GitHub repository creation dates confirmed; 8 remain unconfirmed.
+- **Change log:** [updates/2026-09-25.md](updates/2026-09-25.md)
 - **Validation:** `npm run validate` checks JSON structure, source references, duplicate records, and README synchronization.
-- **Deployment:** GitHub Pages is published from the `main` branch through [Deploy Jev Research Index to GitHub Pages](.github/workflows/deploy-pages.yml).
+- **Deployment:** GitHub Pages is published from the `main` branch through [Deploy Jev Research Index to GitHub Pages](https://github.com/AgenticAPP-Web/Jev-Research-Index/blob/main/.github/workflows/deploy-pages.yml).
 
 Any subsequent automation must preserve `source_url`, `retrieved_at`, `evidence_note`, and failure records.
 

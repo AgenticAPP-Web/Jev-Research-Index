@@ -237,5 +237,25 @@
     "codeUrl": null,
     "sourceIds": ["source:arxiv"],
     "lastVerifiedAt": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27331",
+    "title": "JEV-Star: Fast, Low-Cost StarCraft II Control with Language-Model Planning",
+    "titleZh": "JEV-Star：结合语言模型规划的快速低成本星际争霸 II 控制",
+    "authors": ["Weiyu Ma", "Liangbing Zhao", "Yongcheng Zeng", "Jian Zhao"],
+    "published": "2026-09-23",
+    "venue": "arXiv · cs.GT",
+    "paperType": "系统 / 游戏控制评测",
+    "relation": "uses_jev",
+    "topics": ["game control", "planning", "typed decisions", "latency"],
+    "summaryEn": "Presents a StarCraft II controller that combines fast JEV action selection with persistent GPT-6 planning. The paper reports complete-game results across 35 maps and compares the combined system with a JEV-only controller, while noting that concurrent interface improvements prevent an isolated planning ablation.",
+    "summaryZh": "提出一种星际争霸 II 控制器，将快速 JEV 动作选择与持久 GPT-6 规划结合。论文报告了 35 张地图上的完整对局结果，并与仅使用 JEV 的控制器比较；作者同时说明并行的接口改进使规划贡献无法被单独消融。",
+    "evidenceNote": "arXiv 一手记录给出作者、提交日期、JEV/GPT-6 分工、35 张地图实验和局限；胜率、延迟与成本是该预印本在其测试设置中的作者报告。",
+    "confidence": "verified",
+    "status": "preprint",
+    "canonicalUrl": "https://arxiv.org/abs/2609.27331",
+    "codeUrl": "https://github.com/sc2musa/Jev_Star",
+    "sourceIds": ["source:arxiv"],
+    "lastVerifiedAt": "2026-09-25"
   }
 ]

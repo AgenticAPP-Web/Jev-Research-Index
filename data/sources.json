@@ -277,5 +277,176 @@
     "url": "https://x.com/yibie/status/2102797612474638410",
     "retrievedAt": "2026-09-24",
     "note": "公开 X 帖子，宣布 awesome-jev 周期巡检新增条目；帖子内容保留为作者报告，不替代所列项目的一手来源。"
+  },
+  {
+    "id": "source:vercel-jev-changelog",
+    "name": "Vercel AI Gateway Jev changelog",
+    "type": "integration_announcement",
+    "tier": "A",
+    "url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
+    "retrievedAt": "2026-09-24",
+    "note": "Vercel 的一手集成公告；用于核验 AI Gateway / AI SDK evaluate 接入、作者、日期和示例。文中的速度与价格数字仍归属于 TypeSafe 的工作流评测主张。"
+  },
+  {
+    "id": "source:langchain-harness-jev",
+    "name": "LangChain Building a Harness with Jev",
+    "type": "integration_guide",
+    "tier": "A",
+    "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "LangChain 一手指南；用于核验作者、日期、TypeSafeClassifier 集成、路由和工具风险门控示例。"
+  },
+  {
+    "id": "source:langchain-jev-evals",
+    "name": "LangChain Jev-as-a-Judge evaluation",
+    "type": "independent_experiment",
+    "tier": "A",
+    "url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+    "retrievedAt": "2026-09-24",
+    "note": "LangChain 一手实验报告；用于核验五个天气样本、重复评测、人工 oracle、成本/延迟和版本可复现性说明。结果是单一窄实验，不能泛化。"
+  },
+  {
+    "id": "source:langchain-jev-langsmith",
+    "name": "LangChain Jev in LangSmith Evals",
+    "type": "integration_announcement",
+    "tier": "A",
+    "url": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+    "retrievedAt": "2026-09-24",
+    "note": "LangChain 一手产品说明；用于核验 LangSmith 中的 Jev judge 配置、线上评测场景和限制提示。"
+  },
+  {
+    "id": "source:jevaiguide",
+    "name": "Jev AI Guide",
+    "type": "independent_guide",
+    "tier": "B",
+    "url": "https://jevaiguide.com/jev-review/",
+    "retrievedAt": "2026-09-24",
+    "note": "独立 handbook 的实践页面；页面标注 last checked 2026-09-19，但无具名个人作者，动态 API/价格信息按 probable 和时点性材料处理。"
+  },
+  {
+    "id": "source:bks-lab-jev",
+    "name": "BKS-Lab Jev in practice",
+    "type": "independent_experiment",
+    "tier": "B",
+    "url": "https://www.bks-lab.com/en/blog/jev-im-praxistest/",
+    "retrievedAt": "2026-09-24",
+    "note": "Michael Boiman 的公司实践报告；报告 1,732 个例子、11 个测试和后续发票样例，均是特定工作负载与 API 版本上的作者自测，不是通用基准。"
+  },
+  {
+    "id": "source:eesel-jev-review",
+    "name": "eesel TypeSafe Jev review",
+    "type": "independent_review",
+    "tier": "B",
+    "url": "https://www.eesel.ai/blog/typesafe-jev-review",
+    "retrievedAt": "2026-09-24",
+    "note": "有具名作者和审阅者的产品分析；主要核对官方文档与产品主张，没有独立 API benchmark，营销语境和引用数字保持归属。"
+  },
+  {
+    "id": "source:oximy-jev-review",
+    "name": "Oximy Jev review",
+    "type": "independent_review",
+    "tier": "B",
+    "url": "https://oximy.com/resources/releases/jev",
+    "retrievedAt": "2026-09-24",
+    "note": "Oximy Research 的机构评述；页面更新时间为 2026-09-18，强调当时缺少独立 benchmark，属于带时点的产品评论而非实测证明。"
+  },
+  {
+    "id": "source:wavect-jev-review",
+    "name": "Wavect Jev review",
+    "type": "independent_review",
+    "tier": "B",
+    "url": "https://wavect.io/blog/jev-ai-decision-model-review/",
+    "retrievedAt": "2026-09-24",
+    "note": "Kevin Riedl 的架构与文档评述；作者明确不是独立延迟 benchmark 或生产部署报告，适合记录 typed-versus-correct 的边界。"
+  },
+  {
+    "id": "source:codearia-sieve",
+    "name": "Codearia Sieve repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/AntonG87/codearia-sieve",
+    "retrievedAt": "2026-09-24",
+    "note": "MIT 开源仓库 README 与 examples/jev.ts；用于核验 Jev/jev-mcp 示例链路、作者归属和小规模自测结果。"
+  },
+  {
+    "id": "source:github-search-2026-09-25",
+    "name": "GitHub Jev repository search (2026-09-25)",
+    "type": "repository_search",
+    "tier": "B",
+    "url": "https://github.com/search?q=Jev&type=repositories",
+    "retrievedAt": "2026-09-25",
+    "note": "GitHub 公开仓库搜索用于发现 2026-09-24 创建的 Jev 项目；项目名称、描述和创建日期需以各仓库页面为准，记录按 probable 保留，未将搜索结果当作独立性能证据。"
+  },
+  {
+    "id": "source:eran-broder-jev-skills",
+    "name": "eran-broder jev-skills repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/eran-broder/jev-skills",
+    "retrievedAt": "2026-09-25",
+    "note": "项目 README 与公开仓库页面；用于核验 Claude Code/Codex 插件使用 Jev 选择技能、安装方式和作者自报测量。"
+  },
+  {
+    "id": "source:zapier-jev",
+    "name": "Zapier Jev explainer",
+    "type": "independent_article",
+    "tier": "B",
+    "url": "https://zapier.com/blog/jev/",
+    "retrievedAt": "2026-09-25",
+    "note": "Zapier 的具名作者文章，包含 CV 示例和产品边界；作者的测试与产品描述按文章归属记录。"
+  },
+  {
+    "id": "source:postman-jev-pong",
+    "name": "Postman JevPong demonstration",
+    "type": "official_blog",
+    "tier": "A",
+    "url": "https://blog.postman.com/i-gave-jev-a-paddle-can-you-beat-jev-at-pong/",
+    "retrievedAt": "2026-09-25",
+    "note": "Postman 一手博客与 JevPong 演示；用于核验作者、日期、游戏决策状态和公开实现说明。"
+  },
+  {
+    "id": "source:reindeer-jev",
+    "name": "Reindeer first-week Jev notes",
+    "type": "independent_article",
+    "tier": "B",
+    "url": "https://reindeer.ai/blog/shift-left-again-notes-from-our-first-week-with-jev",
+    "retrievedAt": "2026-09-25",
+    "note": "Reindeer 工程实践文章；记录团队对 Jev 的早期工作流观察和采用方向，未视为通用 benchmark。"
+  },
+  {
+    "id": "source:terranet-jev",
+    "name": "TerraNet Jev and Laya explainer",
+    "type": "independent_article",
+    "tier": "B",
+    "url": "https://terranettechnologies.com/blog/jev-laya-decision-models-vs-llms-explained",
+    "retrievedAt": "2026-09-25",
+    "note": "TerraNet 的比较性说明文章；同时讨论 Jev 与 Laya，保留其引用和时间边界，不把评论升级为独立评测。"
+  },
+  {
+    "id": "source:jvm-weekly-jev",
+    "name": "JVM Weekly Jev coverage",
+    "type": "independent_article",
+    "tier": "B",
+    "url": "https://www.jvm-weekly.com/p/thinking-fast-and-typed-java-and",
+    "retrievedAt": "2026-09-25",
+    "note": "JVM Weekly 对 Jev 接口和 Java 生态讨论的文章；用于记录开发者社区传播，不作为模型效果证据。"
+  },
+  {
+    "id": "source:flaviocopes-jev-api-key",
+    "name": "Flavio Copes Jev API access guide",
+    "type": "independent_article",
+    "tier": "B",
+    "url": "https://flaviocopes.com/jev-api-key/",
+    "retrievedAt": "2026-09-25",
+    "note": "Flavio Copes 的 API 访问与密钥操作指南；账户可用性与暂停注册状态按文章发布日期和作者观察保留。"
+  },
+  {
+    "id": "source:cloudflare-jev-docs",
+    "name": "Cloudflare Workers AI Jev documentation",
+    "type": "integration_documentation",
+    "tier": "A",
+    "url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+    "retrievedAt": "2026-09-25",
+    "note": "Cloudflare 官方模型文档；用于核验 Workers AI 中 typesafe/jev 的接口、Choice/Score/Noul 结构和示例。页面未给出独立发布日期。"
   }
 ]

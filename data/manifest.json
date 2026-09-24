@@ -1,8 +1,8 @@
 {
   "snapshotLabel": "bilingual catalogue snapshot",
-  "lastUpdated": "2026-09-24",
+  "lastUpdated": "2026-09-25",
   "timezone": "Asia/Hong_Kong",
-  "scopeVersion": "0.3.1",
+  "scopeVersion": "0.3.2",
   "jevLaunchDate": "2026-09-15",
   "jevLaunchSourceId": "source:typesafe-blog",
   "hiddenSourceIds": [],

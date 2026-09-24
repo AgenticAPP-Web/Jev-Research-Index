@@ -1,13 +1,19 @@
 {
   "status": "success",
-  "completedAt": "2026-09-24T23:30:00+08:00",
+  "completedAt": "2026-09-25T05:09:48+08:00",
   "windowStart": "2026-09-15",
-  "windowEnd": "2026-09-24",
+  "windowEnd": "2026-09-25",
   "queries": [
     "Jev TypeSafe AI",
     "System One Jev arXiv",
     "site:github.com Jev TypeSafe",
-    "site:arxiv.org Jev decision model"
+    "site:arxiv.org Jev decision model",
+    "Jev Vercel AI Gateway LangChain",
+    "Jev independent review practice test",
+    "Jev after 2026-09-24",
+    "site:arxiv.org/abs/2609 Jev September 24 2026",
+    "site:github.com Jev created:2026-09-24",
+    "Jev TypeSafe September 24 2026 Zapier Postman"
   ],
   "sourcesChecked": [
     "source:typesafe-github",
@@ -40,12 +46,31 @@
     "source:hellogumbo-awesome-jev",
     "source:fatwang2-awesome-jev",
     "source:yibie-awesome-jev",
-    "source:x-yibie-awesome-jev"
+    "source:x-yibie-awesome-jev",
+    "source:vercel-jev-changelog",
+    "source:langchain-harness-jev",
+    "source:langchain-jev-evals",
+    "source:langchain-jev-langsmith",
+    "source:jevaiguide",
+    "source:bks-lab-jev",
+    "source:eesel-jev-review",
+    "source:oximy-jev-review",
+    "source:wavect-jev-review",
+    "source:codearia-sieve",
+    "source:github-search-2026-09-25",
+    "source:eran-broder-jev-skills",
+    "source:zapier-jev",
+    "source:postman-jev-pong",
+    "source:reindeer-jev",
+    "source:terranet-jev",
+    "source:jvm-weekly-jev",
+    "source:flaviocopes-jev-api-key",
+    "source:cloudflare-jev-docs"
   ],
   "failedSources": [],
-  "newRecords": 437,
-  "updatedRecords": 337,
+  "newRecords": 19,
+  "updatedRecords": 0,
   "pendingRecords": 2,
-  "onlineMaterials": 108,
+  "onlineMaterials": 122,
   "importedFromAwesomeJev": 422
 }

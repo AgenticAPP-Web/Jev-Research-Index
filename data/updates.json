@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-09-25",
+    "label": "Daily web review",
+    "labelEn": "Daily web review",
+    "labelZh": "每日网络核查",
+    "summary": "Added one arXiv paper, eleven newly discovered GitHub projects, and seven dated or current public materials found after the 2026-09-24 snapshot.",
+    "summaryEn": "Added one arXiv paper, eleven newly discovered GitHub projects, and seven dated or current public materials found after the 2026-09-24 snapshot.",
+    "summaryZh": "在 2026-09-24 快照之后新增 1 篇 arXiv 论文、11 个新发现的 GitHub 项目，以及 7 条带日期或当前有效的公开材料。"
+  },
+  {
+    "date": "2026-09-24",
+    "label": "Independent integration audit",
+    "labelEn": "Independent integration audit",
+    "labelZh": "独立集成核查",
+    "summary": "Added first-party Vercel and LangChain integration records, independent practice reports, and the codearia-sieve project; the superseding catalogue now has 12 papers, 338 projects, 115 public materials, and 41 sources.",
+    "summaryEn": "Added first-party Vercel and LangChain integration records, independent practice reports, and the codearia-sieve project; the superseding catalogue now has 12 papers, 338 projects, 115 public materials, and 41 sources.",
+    "summaryZh": "新增 Vercel 与 LangChain 一手集成材料、独立实践报告及 codearia-sieve 项目；superseding 目录现含 12 篇论文、338 个项目、115 条公开材料和 41 条来源。"
+  },
+  {
     "date": "2026-09-24",
     "label": "Project publication dates",
     "labelEn": "Project publication dates",
