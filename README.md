@@ -565,7 +565,7 @@ The public interface defaults to English for an international audience and provi
 The repository has two coordinated surfaces:
 
 - `README.md` is the versioned, reference-friendly catalogue description that GitHub renders on the repository home page. It documents scope, source notes, data fields, update protocol, and release instructions.
-- `index.html`, `app.js`, `styles.css`, and the filtered public JSON snapshots form the static website. The Pages workflow validates the repository, builds a sanitized `public/` artifact, and publishes that artifact; audit-only raw snapshots remain in the repository but are not part of the Pages site.
+- `index.html`, `app.js`, `styles.css`, and the generated JSON snapshots form the static website. The Pages workflow validates the repository, builds a sanitized `public/` artifact, and publishes that artifact. The current scope 0.3.1 snapshot includes web-crawled discovery records in the public tables; their `probable` evidence level and source notes remain visible so inclusion is not mistaken for independent verification.
 
 For a root GitHub Pages address, name the repository **`<account>.github.io`** exactly; the site will then be available at `https://<account>.github.io/`. If you keep the repository name `jev-research-index`, the site will instead use the project URL `https://<account>.github.io/jev-research-index/`. After pushing the `main` branch, select **GitHub Actions** under **Settings → Pages → Build and deployment**. No database, build service, or runtime secrets are required for the static site.
 
@@ -578,7 +578,7 @@ Each review should:
 1. Read `state/last_run.json`, the most recent dated log, and the current JSON snapshots.
 2. Search the controlled Jev/TypeSafe/System One vocabulary across scholarly indexes (including arXiv), official documentation, repositories, interviews, public channels, videos, and social platforms.
 3. Normalize titles and URLs, deduplicate by stable identifier, and preserve the retrieval date.
-4. Add only records with a usable primary source to the relevant main collection. Keep unresolved leads in `pending_review.json` and unrelated same-name hits in `rejected.json`.
+4. Add records with a stable canonical URL to the relevant collection, but mark crawl- or directory-derived records `probable` until the linked primary page is independently checked. Keep leads without a stable URL, author, or date in `pending_review.json` and unrelated same-name hits in `rejected.json`.
 5. Run `npm run validate`, update `state/last_run.json`, and write a dated change log that lists additions, changes, exclusions, failed sources, and unresolved candidates.
 
 The default workflow edits the local repository only. Pushing to GitHub or changing publication settings is a separate release action.
@@ -618,8 +618,8 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 ## Update information
 
 - **Last update:** 2026-09-24 (Asia/Hong_Kong)
-- **Current snapshot:** 12 papers, 17 projects, 13 public materials, and 25 sources
-- **Project dates:** 17 public GitHub repository creation dates confirmed; excluded discovery-only records are not included in this count.
+- **Current snapshot:** 12 papers, 337 projects, 108 public materials, and 31 sources
+- **Project dates:** 330 public GitHub repository creation dates confirmed; 7 remain unconfirmed.
 - **Change log:** [updates/2026-09-24.md](updates/2026-09-24.md)
 - **Validation:** `npm run validate` checks JSON structure, source references, duplicate records, and README synchronization.
 - **Deployment:** GitHub Pages is published from the `main` branch through [Deploy Jev Research Index to GitHub Pages](.github/workflows/deploy-pages.yml).
@@ -628,10 +628,10 @@ Any subsequent automation must preserve `source_url`, `retrieved_at`, `evidence_
 
 ## Contributors and affiliations
 
-| Contributor | Affiliation |
+| Contributor | Affiliation and official mark |
 | --- | --- |
-| Weibo Gao | The Hong Kong Polytechnic University |
-| Linan Yue | Southeast University |
-| Zheng Zhang | Nanyang Technological University |
-| Yichao Du | Wuhan University |
+| Weibo Gao | <a href="https://www.polyu.edu.hk/about-polyu/university-identity/"><img src="assets/logos/polyu.png" alt="The Hong Kong Polytechnic University logo" height="56" /></a><br />The Hong Kong Polytechnic University |
+| Linan Yue | <a href="https://www.seu.edu.cn/english/22457/list.htm"><img src="assets/logos/seu.png" alt="Southeast University emblem" height="56" /></a><br />Southeast University |
+| Zheng Zhang | <a href="https://www.ntu.edu.sg/about-us/history/coat-of-arms"><img src="assets/logos/ntu.png" alt="Nanyang Technological University logo" height="56" /></a><br />Nanyang Technological University |
+| Yichao Du | <a href="https://www.whu.edu.cn/xxgk/wdbs.htm"><img src="assets/logos/whu.png" alt="Wuhan University emblem" height="56" /></a><br />Wuhan University |
 | Codex (OpenAI) | Implementation and maintenance assistance |

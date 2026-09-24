@@ -174,8 +174,8 @@ const end = readme.indexOf(END, start);
 if (end < start) throw new Error("README.md catalogue markers are out of order");
 
 const tableUpdated = `${readme.slice(0, start)}${block}${readme.slice(end + END.length)}`;
-const summaryPattern = /^- \*\*Current snapshot:\*\*:.*$/m;
-const projectDatePattern = /^- \*\*Project dates:\*\*:.*$/m;
+const summaryPattern = /^- \*\*Current snapshot:\*\*.*$/m;
+const projectDatePattern = /^- \*\*Project dates:\*\*.*$/m;
 let updated = summaryPattern.test(tableUpdated) ? tableUpdated.replace(summaryPattern, snapshotSummary) : tableUpdated;
 if (projectDatePattern.test(updated)) updated = updated.replace(projectDatePattern, projectDateSummary);
 const statsStart = updated.indexOf(STATS_START);

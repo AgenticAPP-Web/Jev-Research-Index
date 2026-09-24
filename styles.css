@@ -253,6 +253,14 @@ kbd { padding: 0.15rem 0.4rem; border: 1px solid var(--line); color: var(--faint
 .footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; padding: 1.2rem 0 1.6rem; border-top: 1px solid var(--line); color: var(--faint); font-family: var(--mono); font-size: 0.57rem; letter-spacing: 0.03em; }
 .footer-affiliations { flex: 0 0 100%; margin-top: 0.35rem; padding: 1rem 0 0.25rem; border-top: 1px solid var(--line-strong); color: var(--ink-soft); font-family: var(--sans); font-size: 0.84rem; letter-spacing: 0.01em; line-height: 1.65; }
 .footer-affiliations-label { display: block; margin-bottom: 0.35rem; color: var(--accent); font-family: var(--mono); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.affiliation-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.8rem; }
+.affiliation-card { display: grid; align-content: start; gap: 0.18rem; min-height: 9rem; padding: 0.7rem; border: 1px solid var(--line); color: var(--ink-soft); transition: border-color 160ms ease, background 160ms ease; }
+.affiliation-card:hover { border-color: var(--accent); background: var(--surface-accent); }
+.affiliation-logo { display: grid; height: 3.7rem; place-items: center; margin-bottom: 0.3rem; background: transparent; }
+.affiliation-logo img { display: block; width: auto; max-width: 90%; height: auto; max-height: 3.25rem; object-fit: contain; }
+.affiliation-card strong { font-size: 0.82rem; font-weight: 700; }
+.affiliation-card > span:last-child { color: var(--muted); font-size: 0.72rem; line-height: 1.35; }
+.contributor-note { display: block; margin-top: 0.75rem; color: var(--muted); font-size: 0.74rem; }
 
 .loading-state { padding: 2rem 0; }
 .loading-line { display: block; width: 70%; height: 1.1rem; margin-bottom: 0.7rem; background: linear-gradient(90deg, var(--surface-soft), var(--surface), var(--surface-soft)); animation: pulse 1.5s ease-in-out infinite; }
@@ -324,7 +332,9 @@ kbd { padding: 0.15rem 0.4rem; border: 1px solid var(--line); color: var(--faint
   .footer span { display: block; }
   .footer span + span { margin-top: 0.45rem; }
   .footer-affiliations { margin-top: 0.8rem; }
-  .footer-affiliations-label { display: inline; }
+  .footer-affiliations-label { display: block; }
+  .footer .affiliation-logo { display: grid; }
+  .affiliation-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (prefers-reduced-motion: reduce) {
