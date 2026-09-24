@@ -256,8 +256,8 @@ kbd { padding: 0.15rem 0.4rem; border: 1px solid var(--line); color: var(--faint
 .affiliation-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.8rem; }
 .affiliation-card { display: grid; align-content: start; gap: 0.18rem; min-height: 9rem; padding: 0.7rem; border: 1px solid var(--line); color: var(--ink-soft); transition: border-color 160ms ease, background 160ms ease; }
 .affiliation-card:hover { border-color: var(--accent); background: var(--surface-accent); }
-.affiliation-logo { display: grid; height: 3.7rem; place-items: center; margin-bottom: 0.3rem; background: transparent; }
-.affiliation-logo img { display: block; width: auto; max-width: 90%; height: auto; max-height: 3.25rem; object-fit: contain; }
+.affiliation-logo { display: grid; height: 3.15rem; min-width: 0; place-items: center; margin-bottom: 0.3rem; overflow: hidden; background: transparent; }
+.affiliation-logo img { display: block; width: auto; max-width: min(100%, 7.5rem); height: auto; max-height: 2.7rem; object-fit: contain; }
 .affiliation-card strong { font-size: 0.82rem; font-weight: 700; }
 .affiliation-card > span:last-child { color: var(--muted); font-size: 0.72rem; line-height: 1.35; }
 .contributor-note { display: block; margin-top: 0.75rem; color: var(--muted); font-size: 0.74rem; }

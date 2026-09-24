@@ -536,6 +536,8 @@ The confidence level describes the state of the evidence, not the quality of Jev
 
 Vendor statements, author-reported measurements, and social-media claims remain attributed to their authors. They are not rewritten as independent benchmarks. A failed fetch is recorded as a limitation; it is never converted into a claim that no material exists.
 
+At scope 0.3.1, 320 project records and 95 online-material records are linked to community-directory discovery sources (including 91 materials from the Yibie directory). They are retained for recall and auditability, but their `probable` status means the directory entry is not a substitute for checking the linked primary page.
+
 ## Repository layout
 
 ```text
@@ -630,8 +632,8 @@ Any subsequent automation must preserve `source_url`, `retrieved_at`, `evidence_
 
 | Contributor | Affiliation and official mark |
 | --- | --- |
-| Weibo Gao | <a href="https://www.polyu.edu.hk/about-polyu/university-identity/"><img src="assets/logos/polyu.png" alt="The Hong Kong Polytechnic University logo" height="56" /></a><br />The Hong Kong Polytechnic University |
-| Linan Yue | <a href="https://www.seu.edu.cn/english/22457/list.htm"><img src="assets/logos/seu.png" alt="Southeast University emblem" height="56" /></a><br />Southeast University |
-| Zheng Zhang | <a href="https://www.ntu.edu.sg/about-us/history/coat-of-arms"><img src="assets/logos/ntu.png" alt="Nanyang Technological University logo" height="56" /></a><br />Nanyang Technological University |
-| Yichao Du | <a href="https://www.whu.edu.cn/xxgk/wdbs.htm"><img src="assets/logos/whu.png" alt="Wuhan University emblem" height="56" /></a><br />Wuhan University |
+| Weibo Gao | <a href="https://www.polyu.edu.hk/about-polyu/university-identity/"><img src="assets/logos/polyu.png" alt="The Hong Kong Polytechnic University logo" width="56" height="56" /></a><br />The Hong Kong Polytechnic University |
+| Linan Yue | <a href="https://www.seu.edu.cn/english/22457/list.htm"><img src="assets/logos/seu.png" alt="Southeast University emblem" width="56" height="56" /></a><br />Southeast University |
+| Zheng Zhang | <a href="https://www.ntu.edu.sg/about-us/history/coat-of-arms"><img src="assets/logos/ntu.png" alt="Nanyang Technological University logo" width="52" height="56" /></a><br />Nanyang Technological University |
+| Yichao Du | <a href="https://www.whu.edu.cn/xxgk/wdbs.htm"><img src="assets/logos/whu.png" alt="Wuhan University emblem" width="56" height="56" /></a><br />Wuhan University |
 | Codex (OpenAI) | Implementation and maintenance assistance |
