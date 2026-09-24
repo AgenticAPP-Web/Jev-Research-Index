@@ -33,6 +33,8 @@ const visiblePending = pending.filter(isVisible);
 
 const START = "<!-- CATALOGUE_TABLES_START -->";
 const END = "<!-- CATALOGUE_TABLES_END -->";
+const STATS_START = "<!-- CATALOGUE_STATS_START -->";
+const STATS_END = "<!-- CATALOGUE_STATS_END -->";
 
 const relationLabels = {
   uses_jev: "Uses Jev",
@@ -87,7 +89,7 @@ function projectRows() {
     .map((project) => {
       const work = linkedTitle(project.name, project.nameZh, project.canonicalUrl);
       const category = `${project.category || "—"}<br><sub>${project.categoryZh || "—"}</sub>`;
-      return `| ${work} | ${date(project.published)} | ${cell(project.owner)} | ${category} | ${cell(project.language)} | ${relation(project)} | ${evidence(project)} | ${date(project.lastVerifiedAt)} |`;
+      return `| ${date(project.published)} | ${work} | ${cell(project.owner)} | ${category} | ${cell(project.language)} | ${relation(project)} | ${evidence(project)} | ${date(project.lastVerifiedAt)} |`;
     })
     .join("\n");
 }
@@ -107,7 +109,7 @@ function pendingRows() {
     .map((record) => {
       const title = linkedTitle(record.title, record.titleZh, record.canonicalUrl || record.sourceUrl);
       const note = record.summaryEn || record.summaryZh || record.evidenceNote || "—";
-      return `| ${title} | ${cell(record.platform)} | ${cell(record.status)} / ${evidence(record)} | ${date(record.lastCheckedAt)} | ${cell(note)} |`;
+      return `| ${date(record.lastCheckedAt)} | ${title} | ${cell(record.platform)} | ${cell(record.status)} / ${evidence(record)} | ${cell(note)} |`;
     })
     .join("\n");
 }
@@ -125,7 +127,7 @@ ${paperRows()}
 
 ### Projects and implementations (${visibleProjects.length})
 
-| Project | Published / created | Owner | Category | Language | Relationship | Evidence | Verified |
+| Published / created | Project | Owner | Category | Language | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 ${projectRows()}
 
@@ -143,17 +145,22 @@ Records discovered only through the excluded community-directory sources listed 
 
 These leads are deliberately excluded from the main catalogue until a stable primary page, author, and date can be confirmed.
 
-| Candidate | Platform | Status / evidence | Last checked | Review note |
+| Last checked | Candidate | Platform | Status / evidence | Review note |
 | --- | --- | --- | --- | --- |
 ${pendingRows()}
 ${END}`;
 
 const snapshotSummary = `- **Current snapshot:** ${visiblePapers.length} papers, ${visibleProjects.length} projects, ${visibleOnlineMaterials.length} public materials, and ${readJson("data/sources.json").filter((source) => !hiddenSourceIds.has(source.id)).length} sources`;
+const statsBlock = `${STATS_START}\n**Catalogue size:** ${visiblePapers.length} papers · ${visibleProjects.length} projects · ${visibleOnlineMaterials.length} public materials · ${readJson("data/sources.json").filter((source) => !hiddenSourceIds.has(source.id)).length} sources\n${STATS_END}`;
 const visibleProjectDates = visibleProjects.filter((project) => project.publishedType === "github_repository_created").length;
 const projectDateSummary = `- **Project dates:** ${visibleProjectDates} public GitHub repository creation dates confirmed; ${visibleProjects.length - visibleProjectDates} remain unconfirmed.`;
 
 if (!readme.includes(START) || !readme.includes(END)) {
   throw new Error(`README.md must contain ${START} and ${END}`);
+}
+
+if (!readme.includes(STATS_START) || !readme.includes(STATS_END)) {
+  throw new Error(`README.md must contain ${STATS_START} and ${STATS_END}`);
 }
 
 const start = readme.indexOf(START);
@@ -165,6 +172,10 @@ const summaryPattern = /^- \*\*Current snapshot:\*\*:.*$/m;
 const projectDatePattern = /^- \*\*Project dates:\*\*:.*$/m;
 let updated = summaryPattern.test(tableUpdated) ? tableUpdated.replace(summaryPattern, snapshotSummary) : tableUpdated;
 if (projectDatePattern.test(updated)) updated = updated.replace(projectDatePattern, projectDateSummary);
+const statsStart = updated.indexOf(STATS_START);
+const statsEnd = updated.indexOf(STATS_END, statsStart);
+if (statsEnd < statsStart) throw new Error("README.md catalogue stats markers are out of order");
+updated = `${updated.slice(0, statsStart)}${statsBlock}${updated.slice(statsEnd + STATS_END.length)}`;
 
 if (process.argv.includes("--check")) {
   if (updated !== readme) {

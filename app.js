@@ -40,6 +40,11 @@ const translations = {
     "stats.materials": "Interviews, posts, essays, and demonstrations",
     "stats.verified": "Records with sources reviewed",
     "stats.pending": "Items to review",
+    "timeline.kicker": "TIMELINE",
+    "timeline.title": "Public record over time",
+    "timeline.aside": "Counts are grouped by recorded publication or repository-creation dates. They do not establish the start of Jev usage.",
+    "timeline.noDate": "Records without a confirmed date are excluded from the timeline.",
+    "updates.latest": "Latest update",
     "catalog.kicker": "THE CATALOGUE",
     "catalog.title": "Records",
     "catalog.aside": "Entries are organized by type, platform, and relationship. Time-dependent metrics are shown with their observation date.",
@@ -81,6 +86,8 @@ const translations = {
     "status.openOriginal": "Open original post",
     "status.copyBibtex": "Copy BibTeX",
     "status.noSummary": "No bilingual summary has been supplied; consult the canonical source.",
+    "status.loadMore": "Load more records",
+    "status.showing": "Showing",
     "entry.paper": "PAPER",
     "entry.project": "PROJECT",
     "entry.online": "PUBLIC MATERIAL",
@@ -158,6 +165,11 @@ const translations = {
     "stats.materials": "访谈、帖子、文章与演示",
     "stats.verified": "已完成来源核对的记录",
     "stats.pending": "待处理条目",
+    "timeline.kicker": "时间轴",
+    "timeline.title": "公开记录时间轴",
+    "timeline.aside": "按记录中的论文发表日期或仓库创建日期分组；这不代表 Jev 的实际使用起点。",
+    "timeline.noDate": "未确认日期的记录不计入时间轴。",
+    "updates.latest": "最近更新",
     "catalog.kicker": "研究目录",
     "catalog.title": "记录",
     "catalog.aside": "条目按类型、平台与关系组织。具有时效性的指标均标注观测日期。",
@@ -199,6 +211,8 @@ const translations = {
     "status.openOriginal": "打开原始帖子",
     "status.copyBibtex": "复制 BibTeX",
     "status.noSummary": "尚未提供双语摘要；请查阅 canonical 来源。",
+    "status.loadMore": "加载更多记录",
+    "status.showing": "当前显示",
     "entry.paper": "论文",
     "entry.project": "项目",
     "entry.online": "公开材料",
@@ -258,7 +272,8 @@ const state = {
   platform: "all",
   evidence: "all",
   relation: "all",
-  language: localStorage.getItem("jev-language") || "en"
+  language: localStorage.getItem("jev-language") || "en",
+  visibleLimit: 36
 };
 
 let loadedData = null;
@@ -500,15 +515,80 @@ function renderUpdates(updates) {
     target.innerHTML = `<p class="muted-copy">${escapeHtml(t("status.noUpdates"))}</p>`;
     return;
   }
-  target.innerHTML = updates
+  const ordered = updates
     .slice()
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .map((update) => `
+    .sort((a, b) => b.date.localeCompare(a.date));
+  const [latest, ...archive] = ordered;
+  const itemMarkup = (update) => `
       <article class="update-item">
         <span class="update-date">${escapeHtml(update.date)}</span>
         <div class="update-copy"><strong>${escapeHtml(getLocalized(update, "label"))}</strong><p>${escapeHtml(getLocalized(update, "summary"))}</p></div>
-      </article>`)
-    .join("");
+      </article>`;
+  target.innerHTML = itemMarkup(latest) + (archive.length ? `
+    <details class="updates-archive">
+      <summary>${escapeHtml(state.language === "zh" ? `查看此前 ${archive.length} 条更新` : `Show ${archive.length} previous updates`)}</summary>
+      <div class="updates-archive-list">${archive.map(itemMarkup).join("")}</div>
+    </details>` : "");
+}
+
+function parseDateValue(value) {
+  if (!value || !/^\d{4}-\d{2}-\d{2}/.test(value)) return null;
+  const timestamp = Date.parse(`${value.slice(0, 10)}T00:00:00Z`);
+  return Number.isFinite(timestamp) ? new Date(timestamp) : null;
+}
+
+function timelineBucket(date, mode) {
+  const year = date.getUTCFullYear();
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  if (mode === "day") return `${year}-${month}-${day}`;
+  if (mode === "month") return `${year}-${month}`;
+  const mondayOffset = (date.getUTCDay() + 6) % 7;
+  const monday = new Date(date.getTime() - mondayOffset * 86400000);
+  return `${monday.getUTCFullYear()}-${String(monday.getUTCMonth() + 1).padStart(2, "0")}-${String(monday.getUTCDate()).padStart(2, "0")}`;
+}
+
+function renderTimeline(data) {
+  const target = $("#timeline");
+  if (!target) return;
+  const launchDate = parseDateValue(data.manifest?.jevLaunchDate);
+  const entries = [
+    ...data.papers.map((entry) => ({ ...entry, kind: "paper" })),
+    ...data.projects.map((entry) => ({ ...entry, kind: "project" })),
+    ...data.onlineMaterials.map((entry) => ({ ...entry, kind: "online" }))
+  ].map((entry) => ({ ...entry, parsedDate: parseDateValue(entry.published) })).filter((entry) => entry.parsedDate && (!launchDate || entry.parsedDate >= launchDate));
+  if (!entries.length) {
+    target.innerHTML = `<p class="muted-copy">${escapeHtml(t("timeline.noDate"))}</p>`;
+    return;
+  }
+  const timestamps = entries.map((entry) => entry.parsedDate.getTime());
+  const spanDays = Math.max(1, Math.round((Math.max(...timestamps) - Math.min(...timestamps)) / 86400000));
+  const mode = spanDays <= 45 ? "day" : spanDays <= 150 ? "week" : "month";
+  const buckets = new Map();
+  entries.forEach((entry) => {
+    const key = timelineBucket(entry.parsedDate, mode);
+    const bucket = buckets.get(key) || { key, paper: 0, project: 0, online: 0, total: 0 };
+    bucket[entry.kind] += 1;
+    bucket.total += 1;
+    buckets.set(key, bucket);
+  });
+  const ordered = [...buckets.values()].sort((a, b) => a.key.localeCompare(b.key));
+  let cumulative = 0;
+  const maxTotal = Math.max(...ordered.map((bucket) => bucket.total));
+  const labelFor = (key) => mode === "month"
+    ? new Intl.DateTimeFormat(state.language === "zh" ? "zh-CN" : "en-GB", { year: "numeric", month: "short" }).format(parseDateValue(`${key}-01`))
+    : mode === "week"
+      ? `${formatDate(key)} · ${state.language === "zh" ? "周" : "week"}`
+      : formatDate(key);
+  target.innerHTML = ordered.map((bucket) => {
+    cumulative += bucket.total;
+    const width = Math.max(4, Math.round((bucket.total / maxTotal) * 100));
+    return `<div class="timeline-row">
+      <time class="timeline-date" datetime="${escapeHtml(bucket.key)}">${escapeHtml(labelFor(bucket.key))}</time>
+      <div class="timeline-track" aria-hidden="true"><span style="width:${width}%"></span></div>
+      <div class="timeline-counts"><span class="timeline-count paper-count">${bucket.paper} ${escapeHtml(state.language === "zh" ? "论文" : "papers")}</span><span class="timeline-count project-count">${bucket.project} ${escapeHtml(state.language === "zh" ? "项目" : "projects")}</span><span class="timeline-count material-count">${bucket.online} ${escapeHtml(state.language === "zh" ? "材料" : "materials")}</span><strong>${cumulative}</strong></div>
+    </div>`;
+  }).join("");
 }
 
 function linkMarkup(url, label) {
@@ -533,8 +613,8 @@ function renderEntry(entry) {
   const meta = isPaper
     ? `${formatDate(entry.published)} · ${entry.venue || "—"}`
     : isProject
-      ? `${formatDate(entry.published) === "—" ? t("entry.dateUnavailable") : `${formatDate(entry.published)} · ${t("entry.githubCreated")}`} · ${entry.owner || "—"} · ${entry.language || "—"} · ${localizedStatus(entry.status)}`
-      : `${formatDate(entry.published)} · ${entry.platform || "—"} · ${contentType || "—"}`;
+      ? `${formatDate(entry.published) === "—" ? t("entry.dateUnavailable") : formatDate(entry.published)} · ${entry.owner || "—"}`
+      : `${formatDate(entry.published)} · ${entry.platform || "—"}`;
   // Record content remains in its source-language form when the interface changes
   // language. Only interface labels, filters, and explanatory chrome are localized.
   const title = isProject ? (entry.name || entry.id) : (entry.title || entry.id);
@@ -564,7 +644,6 @@ function renderEntry(entry) {
       <div class="entry-main">
         <h3><a href="${escapeHtml(safeUrl(entry.canonicalUrl))}" target="_blank" rel="noreferrer noopener">${escapeHtml(title)} ↗</a></h3>
         <p class="entry-summary">${escapeHtml(summary)}</p>
-        <div class="tag-row">${topics}</div>
       </div>
       <div class="entry-side">
         <span class="evidence-marker ${escapeHtml(entry.confidence)}" title="${escapeHtml(evidence)}" aria-label="${escapeHtml(evidence)}">${evidenceLetter(entry.confidence)}</span>
@@ -576,6 +655,7 @@ function renderEntry(entry) {
           <div class="relation-line">${escapeHtml(t("entry.published"))}: ${escapeHtml(formatDate(entry.published))}${isProject && entry.published ? ` · ${escapeHtml(t("entry.githubCreated"))}` : ""} · ${escapeHtml(t("entry.relationship"))}: ${escapeHtml(relation)} · ${escapeHtml(t("entry.status"))}: ${escapeHtml(localizedStatus(entry.status))} · ${escapeHtml(t("entry.lastVerified"))}: ${escapeHtml(formatDate(entry.lastVerifiedAt))}</div>
           <div class="relation-line">${escapeHtml(isPaper ? t("entry.authors") : isProject ? t("entry.maintainer") : t("entry.creator"))}: ${escapeHtml(people)}</div>
           ${onlineDetails}
+          ${topics ? `<div class="detail-topics"><strong>${escapeHtml(state.language === "zh" ? "主题" : "Topics")}</strong><div class="tag-row">${topics}</div></div>` : ""}
           <div class="relation-line">${escapeHtml(t("entry.sourceIds"))}: ${escapeHtml((entry.sourceIds || []).join(", "))}</div>
           <p>${escapeHtml(entry.evidenceNote || t("status.noSummary"))}</p>
           <div class="details-actions">${citationButton}<a class="detail-button" href="${escapeHtml(safeUrl(entry.canonicalUrl))}" target="_blank" rel="noreferrer noopener">${escapeHtml(t("status.openCanonical"))} ↗</a></div>
@@ -593,7 +673,14 @@ function renderCatalog() {
     target.innerHTML = `<div class="empty-state"><strong>${escapeHtml(t("status.noMatches"))}</strong><span>${escapeHtml(t("status.noMatchesHint"))}</span></div>`;
     return;
   }
-  target.innerHTML = filtered.map(renderEntry).join("");
+  const visible = filtered.slice(0, state.visibleLimit);
+  const remaining = filtered.length - visible.length;
+  target.innerHTML = visible.map(renderEntry).join("") + (remaining > 0 ? `
+    <div class="load-more-wrap"><button type="button" class="load-more-button" data-load-more>${escapeHtml(t("status.loadMore"))} <span>(${remaining})</span></button></div>` : "");
+}
+
+function resetPagination() {
+  state.visibleLimit = 36;
 }
 
 function downloadFile(filename, content, type) {
@@ -651,6 +738,7 @@ function applyTranslations() {
     renderStats(loadedData);
     populateFilters();
     renderUpdates(loadedData.updates);
+    renderTimeline(loadedData);
     renderCatalog();
   }
 }
@@ -686,22 +774,27 @@ function setTheme(theme) {
 function bindInteractions() {
   $("#search-input").addEventListener("input", (event) => {
     state.query = event.target.value.trim();
+    resetPagination();
     renderCatalog();
   });
   $("#category-filter").addEventListener("change", (event) => {
     state.category = event.target.value;
+    resetPagination();
     renderCatalog();
   });
   $("#platform-filter").addEventListener("change", (event) => {
     state.platform = event.target.value;
+    resetPagination();
     renderCatalog();
   });
   $("#evidence-filter").addEventListener("change", (event) => {
     state.evidence = event.target.value;
+    resetPagination();
     renderCatalog();
   });
   $("#relation-filter").addEventListener("change", (event) => {
     state.relation = event.target.value;
+    resetPagination();
     renderCatalog();
   });
   document.querySelectorAll("[data-kind]").forEach((button) => {
@@ -709,10 +802,17 @@ function bindInteractions() {
       document.querySelectorAll("[data-kind]").forEach((item) => item.classList.remove("is-active"));
       button.classList.add("is-active");
       state.kind = button.dataset.kind;
+      resetPagination();
       renderCatalog();
     });
   });
   $("#catalog-list").addEventListener("click", async (event) => {
+    const loadMore = event.target.closest("[data-load-more]");
+    if (loadMore) {
+      state.visibleLimit += 36;
+      renderCatalog();
+      return;
+    }
     const button = event.target.closest(".copy-citation");
     if (!button) return;
     const citation = button.dataset.citation || "";
@@ -742,6 +842,14 @@ function bindInteractions() {
   });
   $("[data-theme-toggle]").addEventListener("click", () => {
     setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+  });
+  document.querySelectorAll("[data-scroll-to]").forEach((button) => {
+    button.addEventListener("click", () => {
+      window.scrollTo({
+        top: button.dataset.scrollTo === "bottom" ? document.documentElement.scrollHeight : 0,
+        behavior: "smooth"
+      });
+    });
   });
   window.addEventListener("keydown", (event) => {
     if (event.key === "/" && document.activeElement?.tagName !== "INPUT") {

@@ -11,6 +11,10 @@
 
 <p align="center"><strong>Live website:</strong> <a href="https://agenticapp-web.github.io/Jev-Research-Index/">https://agenticapp-web.github.io/Jev-Research-Index/</a></p>
 
+<!-- CATALOGUE_STATS_START -->
+**Catalogue size:** 12 papers · 17 projects · 13 public materials · 25 sources
+<!-- CATALOGUE_STATS_END -->
+
 # Jev Research Index
 
 Jev Research Index is a bilingual catalogue of papers, software projects, interviews, public analyses, demonstrations, and social-media material related to **Jev**, the TypeSafe AI System One typed probabilistic decision model.
@@ -53,25 +57,25 @@ The following tables are generated from the JSON snapshots in this repository. T
 
 ### Projects and implementations (17)
 
-| Project | Published / created | Owner | Category | Language | Relationship | Evidence | Verified |
+| Published / created | Project | Owner | Category | Language | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) | 2026-09-04 | typesafe-ai | official SDK<br><sub>官方 SDK</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
-| [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) | 2026-09-04 | typesafe-ai | official SDK<br><sub>官方 SDK</sub> | Python | Uses Jev | A — verified | 2026-09-24 |
-| [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) | 2026-08-08 | typesafe-ai | evaluation / adapter<br><sub>评测 / 兼容层</sub> | Python | Jev-inspired | A — verified | 2026-09-24 |
-| [skills](https://github.com/typesafe-ai/skills) | 2026-08-24 | typesafe-ai | official developer tool<br><sub>官方开发者工具</sub> | Markdown / Python | Uses Jev | A — verified | 2026-09-24 |
-| [Jev-Mem](https://github.com/libingzheren/Jev-Mem) | 2026-09-20 | libingzheren | agent memory<br><sub>智能体记忆</sub> | Python | Jev-inspired | B — probable | 2026-09-24 |
-| [jev-java](https://github.com/olti1947/jev-java) | 2026-09-18 | olti1947 | community SDK<br><sub>社区 SDK</sub> | Java | Uses Jev | A — verified | 2026-09-24 |
-| [jev-playground](https://github.com/shivanathd/jev-playground) | 2026-09-19 | shivanathd | playground / demo<br><sub>演示 / playground</sub> | TypeScript | Uses Jev | B — probable | 2026-09-24 |
-| [jev-ultrafast](https://github.com/browser-use/jev-ultrafast)<br><sub>Jev Ultrafast</sub> | 2026-09-16 | browser-use | browser agent<br><sub>浏览器智能体</sub> | Python / JavaScript | Uses Jev | A — verified | 2026-09-24 |
-| [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) | 2026-09-16 | awlevin | desktop computer use<br><sub>桌面电脑操作</sub> | Python / Swift | Uses Jev | A — verified | 2026-09-24 |
-| [jev-browser](https://github.com/jkudish/jev-browser)<br><sub>Jev Browser</sub> | 2026-09-17 | jkudish | browser automation / MCP<br><sub>浏览器自动化 / MCP</sub> | TypeScript / JavaScript | Uses Jev | A — verified | 2026-09-24 |
-| [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)<br><sub>Jev Voice Browser</sub> | 2026-09-17 | moritzkremb | voice browser agent<br><sub>语音浏览器智能体</sub> | JavaScript / Node.js | Uses Jev | A — verified | 2026-09-24 |
-| [jev-trader](https://github.com/jarrodwatts/jev-trader)<br><sub>Jev Trader</sub> | 2026-09-16 | jarrodwatts | DeFi trading bot<br><sub>DeFi 交易机器人</sub> | TypeScript / Bun | Uses Jev | A — verified | 2026-09-24 |
-| [sponsor-skipper](https://github.com/iomiras/sponsor-skipper)<br><sub>YouTube Sponsor Segment Skipper</sub> | 2026-09-18 | iomiras | browser extension / media<br><sub>浏览器扩展 / 媒体处理</sub> | JavaScript | Uses Jev | A — verified | 2026-09-24 |
-| [jev-skip](https://github.com/valentynkit/jev-skip)<br><sub>Jev Skip</sub> | 2026-09-18 | valentynkit | browser extension / media<br><sub>浏览器扩展 / 媒体处理</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
-| [computer-use-jev](https://github.com/paulsmith/computer-use-jev) | 2026-09-16 | paulsmith | desktop computer use<br><sub>桌面电脑操作</sub> | Go / Swift | Uses Jev | A — verified | 2026-09-24 |
-| [Jevbridge](https://github.com/tacticocc/Jevbridge) | 2026-09-18 | tacticocc | MCP / ACP adapter<br><sub>MCP / ACP 适配器</sub> | TypeScript / Node.js | Uses Jev | A — verified | 2026-09-24 |
-| [Visual-Jev](https://github.com/guanxuyu-sv/Visual-Jev)<br><sub>Visual Jev</sub> | 2026-09-21 | guanxuyu-sv | vision decision model<br><sub>视觉决策模型</sub> | Python | Jev-inspired | A — verified | 2026-09-24 |
+| 2026-09-04 | [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) | typesafe-ai | official SDK<br><sub>官方 SDK</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-04 | [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) | typesafe-ai | official SDK<br><sub>官方 SDK</sub> | Python | Uses Jev | A — verified | 2026-09-24 |
+| 2026-08-08 | [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) | typesafe-ai | evaluation / adapter<br><sub>评测 / 兼容层</sub> | Python | Jev-inspired | A — verified | 2026-09-24 |
+| 2026-08-24 | [skills](https://github.com/typesafe-ai/skills) | typesafe-ai | official developer tool<br><sub>官方开发者工具</sub> | Markdown / Python | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-20 | [Jev-Mem](https://github.com/libingzheren/Jev-Mem) | libingzheren | agent memory<br><sub>智能体记忆</sub> | Python | Jev-inspired | B — probable | 2026-09-24 |
+| 2026-09-18 | [jev-java](https://github.com/olti1947/jev-java) | olti1947 | community SDK<br><sub>社区 SDK</sub> | Java | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-19 | [jev-playground](https://github.com/shivanathd/jev-playground) | shivanathd | playground / demo<br><sub>演示 / playground</sub> | TypeScript | Uses Jev | B — probable | 2026-09-24 |
+| 2026-09-16 | [jev-ultrafast](https://github.com/browser-use/jev-ultrafast)<br><sub>Jev Ultrafast</sub> | browser-use | browser agent<br><sub>浏览器智能体</sub> | Python / JavaScript | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-16 | [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) | awlevin | desktop computer use<br><sub>桌面电脑操作</sub> | Python / Swift | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-17 | [jev-browser](https://github.com/jkudish/jev-browser)<br><sub>Jev Browser</sub> | jkudish | browser automation / MCP<br><sub>浏览器自动化 / MCP</sub> | TypeScript / JavaScript | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-17 | [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)<br><sub>Jev Voice Browser</sub> | moritzkremb | voice browser agent<br><sub>语音浏览器智能体</sub> | JavaScript / Node.js | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-16 | [jev-trader](https://github.com/jarrodwatts/jev-trader)<br><sub>Jev Trader</sub> | jarrodwatts | DeFi trading bot<br><sub>DeFi 交易机器人</sub> | TypeScript / Bun | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-18 | [sponsor-skipper](https://github.com/iomiras/sponsor-skipper)<br><sub>YouTube Sponsor Segment Skipper</sub> | iomiras | browser extension / media<br><sub>浏览器扩展 / 媒体处理</sub> | JavaScript | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-18 | [jev-skip](https://github.com/valentynkit/jev-skip)<br><sub>Jev Skip</sub> | valentynkit | browser extension / media<br><sub>浏览器扩展 / 媒体处理</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-16 | [computer-use-jev](https://github.com/paulsmith/computer-use-jev) | paulsmith | desktop computer use<br><sub>桌面电脑操作</sub> | Go / Swift | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-18 | [Jevbridge](https://github.com/tacticocc/Jevbridge) | tacticocc | MCP / ACP adapter<br><sub>MCP / ACP 适配器</sub> | TypeScript / Node.js | Uses Jev | A — verified | 2026-09-24 |
+| 2026-09-21 | [Visual-Jev](https://github.com/guanxuyu-sv/Visual-Jev)<br><sub>Visual Jev</sub> | guanxuyu-sv | vision decision model<br><sub>视觉决策模型</sub> | Python | Jev-inspired | A — verified | 2026-09-24 |
 
 ### Public materials (13)
 
@@ -99,10 +103,10 @@ Records discovered only through the excluded community-directory sources listed 
 
 These leads are deliberately excluded from the main catalogue until a stable primary page, author, and date can be confirmed.
 
-| Candidate | Platform | Status / evidence | Last checked | Review note |
+| Last checked | Candidate | Platform | Status / evidence | Review note |
 | --- | --- | --- | --- | --- |
-| [Chinese-language Jev coverage on TRAE AI](https://www.traeai.com/articles/dfba38f2-770a-4637-9e10-4cc3ac89af85)<br><sub>TRAE AI 上关于 Jev 的中文报道/转述</sub> | traeai | pending_review / C — candidate | 2026-09-24 | 检索中发现的中文页面，可能是对 Jev 或相关访谈的转述；当前抓取环境无法稳定读取正文，暂不进入已核验互联网材料目录。 |
-| Potential Xiaohongshu posts mentioning TypeSafe AI Jev<br><sub>可能提及 TypeSafe AI Jev 的小红书帖子</sub> | Xiaohongshu | pending_review / C — candidate | 2026-09-24 | Search results did not expose a stable public post URL or an attributable author during this review window. The item must not be promoted until the original post is available. |
+| 2026-09-24 | [Chinese-language Jev coverage on TRAE AI](https://www.traeai.com/articles/dfba38f2-770a-4637-9e10-4cc3ac89af85)<br><sub>TRAE AI 上关于 Jev 的中文报道/转述</sub> | traeai | pending_review / C — candidate | 检索中发现的中文页面，可能是对 Jev 或相关访谈的转述；当前抓取环境无法稳定读取正文，暂不进入已核验互联网材料目录。 |
+| 2026-09-24 | Potential Xiaohongshu posts mentioning TypeSafe AI Jev<br><sub>可能提及 TypeSafe AI Jev 的小红书帖子</sub> | Xiaohongshu | pending_review / C — candidate | Search results did not expose a stable public post URL or an attributable author during this review window. The item must not be promoted until the original post is available. |
 <!-- CATALOGUE_TABLES_END -->
 
 ## Evidence policy
