@@ -1,8 +1,8 @@
 # Jev Research Index
 
-Jev Research Index is a bilingual, source-linked showcase of papers, software projects, interviews, public analyses, demonstrations, and social-media material related to **Jev**, the TypeSafe AI System One typed probabilistic decision model.
+Jev Research Index is a bilingual catalogue of papers, software projects, interviews, public analyses, demonstrations, and social-media material related to **Jev**, the TypeSafe AI System One typed probabilistic decision model.
 
-The site is intended for anyone exploring the Jev ecosystem, including researchers, engineers, and builders. It is a static site designed for GitHub Pages; the data layer is plain JSON and can be reviewed without a database or application account.
+The site provides a structured reference for the Jev ecosystem. It is a static site designed for GitHub Pages; the data layer is plain JSON and can be reviewed without a database or application account.
 
 ## Scope
 
@@ -14,12 +14,12 @@ The catalogue separates three collections:
 - `projects`: SDKs, repositories, applications, and alternative implementations;
 - `online-materials`: interviews, podcasts, blog posts, public analyses, videos, social posts, and channel-level records.
 
-An online material is not treated as a paper or a software project. Interviews, videos, X/Twitter posts, third-party directories, and other public records are retained as public evidence with an explicit platform, author, canonical URL, relationship, evidence level, and verification date.
+An online material is not treated as a paper or a software project. Interviews, videos, X/Twitter posts, third-party directories, and other public records are retained as source-linked materials with an explicit platform, author, canonical URL, relationship, evidence level, and verification date.
 
 <!-- CATALOGUE_TABLES_START -->
 ## Catalogue snapshot
 
-The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for citation and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-24** (Asia/Hong_Kong).
+The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-24** (Asia/Hong_Kong).
 
 ### Papers and preprints (12)
 

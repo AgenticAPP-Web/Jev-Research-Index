@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-09-24",
-    "label": "Bilingual public-evidence snapshot",
-    "labelEn": "Bilingual public-evidence snapshot",
-    "labelZh": "双语公开证据快照",
-    "summary": "Established a bilingual, auditable catalogue containing 12 papers, 17 projects, and 16 public materials, with generated Markdown tables for citation and review.",
-    "summaryEn": "Established a bilingual, auditable catalogue containing 12 papers, 17 projects, and 16 public materials, with generated Markdown tables for citation and review.",
-    "summaryZh": "建立双语、可审计的 Jev 目录：收录 12 篇论文、17 个项目与 16 条公开材料，并在 README 中生成便于引用与审阅的 Markdown 表格。"
+    "label": "Bilingual catalogue snapshot",
+    "labelEn": "Bilingual catalogue snapshot",
+    "labelZh": "双语目录快照",
+    "summary": "Established a bilingual catalogue containing 12 papers, 17 projects, and 16 public materials, with generated Markdown tables for reference and review.",
+    "summaryEn": "Established a bilingual catalogue containing 12 papers, 17 projects, and 16 public materials, with generated Markdown tables for reference and review.",
+    "summaryZh": "建立双语 Jev 目录：收录 12 篇论文、17 个项目与 16 条公开材料，并在 README 中生成便于查阅的 Markdown 表格。"
   }
 ]

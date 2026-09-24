@@ -97,7 +97,7 @@ function pendingRows() {
 const block = `${START}
 ## Catalogue snapshot
 
-The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for citation and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **${manifest.lastUpdated}** (${manifest.timezone}).
+The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **${manifest.lastUpdated}** (${manifest.timezone}).
 
 ### Papers and preprints (${papers.length})
 
