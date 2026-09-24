@@ -17,7 +17,6 @@
           <span class="wordmark-mark" aria-hidden="true">J</span>
           <span>
             <span class="wordmark-title">Jev Research Index</span>
-            <span class="wordmark-subtitle" data-i18n="brand.subtitle">papers · projects · public materials</span>
           </span>
         </a>
         <div class="header-tools">
@@ -38,7 +37,6 @@
       <main id="top">
         <section class="hero" aria-labelledby="hero-title">
           <div class="hero-copy">
-            <p class="eyebrow"><span class="signal-dot" aria-hidden="true"></span><span data-i18n="hero.eyebrow">TypeSafe AI · System One · public catalogue</span></p>
             <h1 id="hero-title"><span data-i18n="hero.titleLead">A structured catalogue of</span><br /><em data-i18n="hero.titleEmphasis">Jev papers and projects.</em></h1>
             <p class="hero-lede" data-i18n="hero.lede">A bilingual catalogue of papers, software, demonstrations, interviews, and public materials related to TypeSafe AI Jev. Entries can be filtered by type, platform, relationship, and topic.</p>
             <div class="hero-actions">
@@ -51,10 +49,6 @@
             </div>
           </div>
           <div class="hero-observatory" aria-label="Catalogue scope overview">
-            <div class="observatory-heading">
-              <span data-i18n="hero.statusLabel">COLLECTION STATUS</span>
-            <span class="live-badge"><span class="signal-dot" aria-hidden="true"></span><span data-i18n="hero.statusValue">MAINTAINED CATALOGUE</span></span>
-            </div>
             <div class="orbit" aria-hidden="true">
               <span class="orbit-ring orbit-ring-a"></span>
               <span class="orbit-ring orbit-ring-b"></span>
@@ -111,23 +105,10 @@
           </article>
         </section>
 
-        <section class="timeline-section" aria-labelledby="timeline-title">
-          <div class="section-heading timeline-heading">
-            <div>
-              <p class="eyebrow"><span data-i18n="timeline.kicker">TIMELINE</span></p>
-              <h2 id="timeline-title" data-i18n="timeline.title">Public record over time</h2>
-            </div>
-            <p class="section-aside timeline-aside" data-i18n="timeline.aside">Counts are grouped by recorded publication or repository-creation dates. They do not establish the start of Jev usage.</p>
-          </div>
-          <div id="timeline" class="timeline" aria-live="polite"></div>
-          <p class="timeline-note" data-i18n="timeline.noDate">Records without a confirmed date are excluded from the timeline.</p>
-        </section>
-
         <section class="catalog-layout" id="catalog" aria-labelledby="catalog-title">
           <section class="updates-panel" aria-labelledby="updates-title">
             <div class="updates-panel-header">
               <div>
-                <p class="eyebrow" data-i18n="rail.updates">UPDATE HISTORY</p>
                 <h2 id="updates-title" data-i18n="updates.latest">Latest update</h2>
               </div>
               <a class="text-link" href="updates/2026-09-24.md"><span data-i18n="rail.fullLog">Read the full log</span> <span aria-hidden="true">↗</span></a>
@@ -137,7 +118,6 @@
           <div class="catalog-main">
             <div class="section-heading">
               <div>
-                <p class="eyebrow">01 / <span data-i18n="catalog.kicker">THE CATALOGUE</span></p>
                 <h2 id="catalog-title"><span data-i18n="catalog.title">Records</span> <span id="result-count">—</span></h2>
               </div>
               <div class="section-heading-side">
@@ -187,25 +167,21 @@
               </div>
             </div>
 
+            <section class="source-status" aria-labelledby="source-status-title">
+              <h3 id="source-status-title" data-i18n="rail.legend">Source status</h3>
+              <ul class="legend-list">
+                <li><span class="legend-marker marker-verified" tabindex="0" role="img" data-evidence="verified" data-tooltip="Verified — clear primary source or independent corroboration" aria-label="Verified">A</span><span><strong data-i18n="evidence.verified">Verified</strong><small data-i18n="evidence.verifiedNote">Clear primary source or independent corroboration</small></span></li>
+                <li><span class="legend-marker marker-probable" tabindex="0" role="img" data-evidence="probable" data-tooltip="Probable — credible source; independent confirmation pending" aria-label="Probable">B</span><span><strong data-i18n="evidence.probable">Probable</strong><small data-i18n="evidence.probableNote">Credible source; cross-check still pending</small></span></li>
+                <li><span class="legend-marker marker-candidate" tabindex="0" role="img" data-evidence="candidate" data-tooltip="Candidate — discovery item not yet in the main register" aria-label="Candidate">C</span><span><strong data-i18n="evidence.candidate">Candidate</strong><small data-i18n="evidence.candidateNote">Discovery item not yet in the main register</small></span></li>
+              </ul>
+              <p class="source-note" data-i18n="rail.boundaryText">Performance figures and product claims remain attributed to the original author or publisher.</p>
+            </section>
+
             <div id="catalog-list" class="catalog-list" aria-live="polite" aria-busy="true">
               <div class="loading-state"><span class="loading-line"></span><span class="loading-line short"></span></div>
             </div>
           </div>
 
-          <aside class="catalog-rail" aria-label="Source notes">
-            <div class="rail-block">
-              <p class="eyebrow" data-i18n="rail.legend">SOURCE STATUS</p>
-              <ul class="legend-list">
-                <li><span class="legend-marker marker-verified">A</span><span><strong data-i18n="evidence.verified">Verified</strong><small data-i18n="evidence.verifiedNote">Clear primary source or independent corroboration</small></span></li>
-                <li><span class="legend-marker marker-probable">B</span><span><strong data-i18n="evidence.probable">Probable</strong><small data-i18n="evidence.probableNote">Credible source; cross-check still pending</small></span></li>
-                <li><span class="legend-marker marker-candidate">C</span><span><strong data-i18n="evidence.candidate">Candidate</strong><small data-i18n="evidence.candidateNote">Discovery item not yet in the main register</small></span></li>
-              </ul>
-            </div>
-            <div class="rail-block rail-note">
-              <p class="eyebrow" data-i18n="rail.boundary">SOURCE NOTE</p>
-              <p data-i18n="rail.boundaryText">Performance figures and product claims remain attributed to the original author or publisher.</p>
-            </div>
-          </aside>
         </section>
 
         <nav class="scroll-nav" aria-label="Page navigation">

@@ -11,18 +11,14 @@ const DATA_FILES = {
 const translations = {
   en: {
     "a11y.skip": "Skip to catalogue",
-    "brand.subtitle": "papers · projects · public materials",
     "nav.catalog": "Catalogue",
     "nav.protocol": "README",
-    "hero.eyebrow": "TypeSafe AI · System One · public catalogue",
     "hero.titleLead": "A structured catalogue of",
     "hero.titleEmphasis": "Jev papers and projects.",
     "hero.lede": "A bilingual catalogue of papers, software, demonstrations, interviews, and public materials related to TypeSafe AI Jev. Entries can be filtered by type, platform, relationship, and topic.",
     "hero.primaryAction": "View the catalogue",
     "hero.secondaryAction": "View the README",
     "hero.githubAction": "GitHub repository",
-    "hero.statusLabel": "COLLECTION STATUS",
-    "hero.statusValue": "MAINTAINED CATALOGUE",
     "hero.scopeLabel": "Scope",
     "scope.label": "SCOPE",
     "scope.statement": "Jev denotes TypeSafe AI’s System One typed probabilistic decision model. Same-name biomedical and journal records are excluded.",
@@ -40,10 +36,6 @@ const translations = {
     "stats.materials": "Interviews, posts, essays, and demonstrations",
     "stats.verified": "Records with sources reviewed",
     "stats.pending": "Items to review",
-    "timeline.kicker": "TIMELINE",
-    "timeline.title": "Public record over time",
-    "timeline.aside": "Counts are grouped by recorded publication or repository-creation dates. They do not establish the start of Jev usage.",
-    "timeline.noDate": "Records without a confirmed date are excluded from the timeline.",
     "updates.latest": "Latest update",
     "catalog.kicker": "THE CATALOGUE",
     "catalog.title": "Records",
@@ -136,18 +128,14 @@ const translations = {
   },
   zh: {
     "a11y.skip": "跳转到目录",
-    "brand.subtitle": "论文 · 项目 · 公开材料",
     "nav.catalog": "目录",
     "nav.protocol": "README",
-    "hero.eyebrow": "TypeSafe AI · System One · 公开目录",
     "hero.titleLead": "一份结构化的",
     "hero.titleEmphasis": "Jev 论文与项目目录。",
     "hero.lede": "一个双语目录，收录与 TypeSafe AI Jev 相关的论文、软件、演示、访谈与其他公开材料。条目可按类型、平台、关系和主题筛选。",
     "hero.primaryAction": "查看目录",
     "hero.secondaryAction": "查看 README",
     "hero.githubAction": "GitHub 仓库",
-    "hero.statusLabel": "目录状态",
-    "hero.statusValue": "持续维护目录",
     "hero.scopeLabel": "范围",
     "scope.label": "范围",
     "scope.statement": "Jev 专指 TypeSafe AI 的 System One 类型化概率决策模型；同名生物医学与期刊记录不纳入统计。",
@@ -165,10 +153,6 @@ const translations = {
     "stats.materials": "访谈、帖子、文章与演示",
     "stats.verified": "已完成来源核对的记录",
     "stats.pending": "待处理条目",
-    "timeline.kicker": "时间轴",
-    "timeline.title": "公开记录时间轴",
-    "timeline.aside": "按记录中的论文发表日期或仓库创建日期分组；这不代表 Jev 的实际使用起点。",
-    "timeline.noDate": "未确认日期的记录不计入时间轴。",
     "updates.latest": "最近更新",
     "catalog.kicker": "研究目录",
     "catalog.title": "记录",
@@ -531,66 +515,6 @@ function renderUpdates(updates) {
     </details>` : "");
 }
 
-function parseDateValue(value) {
-  if (!value || !/^\d{4}-\d{2}-\d{2}/.test(value)) return null;
-  const timestamp = Date.parse(`${value.slice(0, 10)}T00:00:00Z`);
-  return Number.isFinite(timestamp) ? new Date(timestamp) : null;
-}
-
-function timelineBucket(date, mode) {
-  const year = date.getUTCFullYear();
-  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
-  const day = String(date.getUTCDate()).padStart(2, "0");
-  if (mode === "day") return `${year}-${month}-${day}`;
-  if (mode === "month") return `${year}-${month}`;
-  const mondayOffset = (date.getUTCDay() + 6) % 7;
-  const monday = new Date(date.getTime() - mondayOffset * 86400000);
-  return `${monday.getUTCFullYear()}-${String(monday.getUTCMonth() + 1).padStart(2, "0")}-${String(monday.getUTCDate()).padStart(2, "0")}`;
-}
-
-function renderTimeline(data) {
-  const target = $("#timeline");
-  if (!target) return;
-  const launchDate = parseDateValue(data.manifest?.jevLaunchDate);
-  const entries = [
-    ...data.papers.map((entry) => ({ ...entry, kind: "paper" })),
-    ...data.projects.map((entry) => ({ ...entry, kind: "project" })),
-    ...data.onlineMaterials.map((entry) => ({ ...entry, kind: "online" }))
-  ].map((entry) => ({ ...entry, parsedDate: parseDateValue(entry.published) })).filter((entry) => entry.parsedDate && (!launchDate || entry.parsedDate >= launchDate));
-  if (!entries.length) {
-    target.innerHTML = `<p class="muted-copy">${escapeHtml(t("timeline.noDate"))}</p>`;
-    return;
-  }
-  const timestamps = entries.map((entry) => entry.parsedDate.getTime());
-  const spanDays = Math.max(1, Math.round((Math.max(...timestamps) - Math.min(...timestamps)) / 86400000));
-  const mode = spanDays <= 45 ? "day" : spanDays <= 150 ? "week" : "month";
-  const buckets = new Map();
-  entries.forEach((entry) => {
-    const key = timelineBucket(entry.parsedDate, mode);
-    const bucket = buckets.get(key) || { key, paper: 0, project: 0, online: 0, total: 0 };
-    bucket[entry.kind] += 1;
-    bucket.total += 1;
-    buckets.set(key, bucket);
-  });
-  const ordered = [...buckets.values()].sort((a, b) => a.key.localeCompare(b.key));
-  let cumulative = 0;
-  const maxTotal = Math.max(...ordered.map((bucket) => bucket.total));
-  const labelFor = (key) => mode === "month"
-    ? new Intl.DateTimeFormat(state.language === "zh" ? "zh-CN" : "en-GB", { year: "numeric", month: "short" }).format(parseDateValue(`${key}-01`))
-    : mode === "week"
-      ? `${formatDate(key)} · ${state.language === "zh" ? "周" : "week"}`
-      : formatDate(key);
-  target.innerHTML = ordered.map((bucket) => {
-    cumulative += bucket.total;
-    const width = Math.max(4, Math.round((bucket.total / maxTotal) * 100));
-    return `<div class="timeline-row">
-      <time class="timeline-date" datetime="${escapeHtml(bucket.key)}">${escapeHtml(labelFor(bucket.key))}</time>
-      <div class="timeline-track" aria-hidden="true"><span style="width:${width}%"></span></div>
-      <div class="timeline-counts"><span class="timeline-count paper-count">${bucket.paper} ${escapeHtml(state.language === "zh" ? "论文" : "papers")}</span><span class="timeline-count project-count">${bucket.project} ${escapeHtml(state.language === "zh" ? "项目" : "projects")}</span><span class="timeline-count material-count">${bucket.online} ${escapeHtml(state.language === "zh" ? "材料" : "materials")}</span><strong>${cumulative}</strong></div>
-    </div>`;
-  }).join("");
-}
-
 function linkMarkup(url, label) {
   if (!url || !label) return "";
   const href = escapeHtml(safeUrl(url));
@@ -646,7 +570,7 @@ function renderEntry(entry) {
         <p class="entry-summary">${escapeHtml(summary)}</p>
       </div>
       <div class="entry-side">
-        <span class="evidence-marker ${escapeHtml(entry.confidence)}" title="${escapeHtml(evidence)}" aria-label="${escapeHtml(evidence)}">${evidenceLetter(entry.confidence)}</span>
+        <span class="evidence-marker ${escapeHtml(entry.confidence)}" data-evidence="${escapeHtml(entry.confidence)}" data-tooltip="${escapeHtml(evidence)}" title="${escapeHtml(evidence)}" tabindex="0" role="img" aria-label="${escapeHtml(evidence)}">${evidenceLetter(entry.confidence)}</span>
         <div class="entry-links">${links}</div>
       </div>
       <details class="entry-details">
@@ -677,6 +601,7 @@ function renderCatalog() {
   const remaining = filtered.length - visible.length;
   target.innerHTML = visible.map(renderEntry).join("") + (remaining > 0 ? `
     <div class="load-more-wrap"><button type="button" class="load-more-button" data-load-more>${escapeHtml(t("status.loadMore"))} <span>(${remaining})</span></button></div>` : "");
+  updateEvidenceTooltips();
 }
 
 function resetPagination() {
@@ -738,7 +663,6 @@ function applyTranslations() {
     renderStats(loadedData);
     populateFilters();
     renderUpdates(loadedData.updates);
-    renderTimeline(loadedData);
     renderCatalog();
   }
 }
@@ -764,11 +688,25 @@ function updateThemeControl() {
   if (iconNode) iconNode.textContent = isDark ? "☀" : "☾";
 }
 
+function updateEvidenceTooltips() {
+  const noteKeys = {
+    verified: "evidence.verifiedNote",
+    probable: "evidence.probableNote",
+    candidate: "evidence.candidateNote"
+  };
+  document.querySelectorAll("[data-evidence]").forEach((marker) => {
+    const confidence = marker.dataset.evidence;
+    marker.dataset.tooltip = `${t(`evidence.${confidence}`)} — ${t(noteKeys[confidence])}`;
+    marker.setAttribute("aria-label", `${t(`evidence.${confidence}`)} — ${t(noteKeys[confidence])}`);
+  });
+}
+
 function setTheme(theme) {
   const next = theme === "dark" ? "dark" : "light";
   document.documentElement.dataset.theme = next;
   localStorage.setItem("jev-theme", next);
   updateThemeControl();
+  updateEvidenceTooltips();
 }
 
 function bindInteractions() {
