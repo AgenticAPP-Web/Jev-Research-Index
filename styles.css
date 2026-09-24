@@ -254,7 +254,7 @@ kbd { padding: 0.15rem 0.4rem; border: 1px solid var(--line); color: var(--faint
 .footer-affiliations { flex: 0 0 100%; margin-top: 0.35rem; padding: 1rem 0 0.25rem; border-top: 1px solid var(--line-strong); color: var(--ink-soft); font-family: var(--sans); font-size: 0.84rem; letter-spacing: 0.01em; line-height: 1.65; }
 .footer-affiliations-label { display: block; margin-bottom: 0.35rem; color: var(--accent); font-family: var(--mono); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
 .affiliation-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.8rem; }
-.affiliation-card { display: grid; align-content: start; gap: 0.18rem; min-height: 9rem; padding: 0.7rem; border: 1px solid var(--line); color: var(--ink-soft); transition: border-color 160ms ease, background 160ms ease; }
+.affiliation-card { display: grid; align-content: start; gap: 0.18rem; min-height: 9rem; padding: 0.7rem; border: 1px solid var(--line); color: var(--ink-soft); text-align: center; transition: border-color 160ms ease, background 160ms ease; }
 .affiliation-card:hover { border-color: var(--accent); background: var(--surface-accent); }
 .affiliation-logo { display: grid; height: 3.15rem; min-width: 0; place-items: center; margin-bottom: 0.3rem; overflow: hidden; background: transparent; }
 .affiliation-logo img { display: block; width: auto; max-width: min(100%, 7.5rem); height: auto; max-height: 2.7rem; object-fit: contain; }
