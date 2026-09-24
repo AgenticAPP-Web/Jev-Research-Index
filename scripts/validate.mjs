@@ -140,7 +140,13 @@ function validateRecords(records, kind) {
       requireField(record, "published", label);
       if (record.published && !isoDate.test(record.published)) errors.push(`${label}: invalid published`);
     }
-    if (kind === "project") requireField(record, "name", label);
+    if (kind === "project") {
+      requireField(record, "name", label);
+      if (!Object.prototype.hasOwnProperty.call(record, "published")) errors.push(`${label}: missing published`);
+      if (record.published !== null && record.published !== undefined && !isoDate.test(record.published)) errors.push(`${label}: invalid published`);
+      if (!Object.prototype.hasOwnProperty.call(record, "publishedType")) errors.push(`${label}: missing publishedType`);
+      if (!Object.prototype.hasOwnProperty.call(record, "publishedSource")) errors.push(`${label}: missing publishedSource`);
+    }
   }
 }
 

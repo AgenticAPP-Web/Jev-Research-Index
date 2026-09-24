@@ -53,345 +53,345 @@ The following tables are generated from the JSON snapshots in this repository. T
 
 ### Projects and implementations (337)
 
-| Project | Owner | Category | Language | Relationship | Evidence | Verified |
-| --- | --- | --- | --- | --- | --- | --- |
-| [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) | typesafe-ai | official SDK<br><sub>官方 SDK</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
-| [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) | typesafe-ai | official SDK<br><sub>官方 SDK</sub> | Python | Uses Jev | A — verified | 2026-09-24 |
-| [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) | typesafe-ai | evaluation / adapter<br><sub>评测 / 兼容层</sub> | Python | Jev-inspired | A — verified | 2026-09-24 |
-| [skills](https://github.com/typesafe-ai/skills) | typesafe-ai | official developer tool<br><sub>官方开发者工具</sub> | Markdown / Python | Uses Jev | A — verified | 2026-09-24 |
-| [Jev-Mem](https://github.com/libingzheren/Jev-Mem) | libingzheren | agent memory<br><sub>智能体记忆</sub> | Python | Jev-inspired | B — probable | 2026-09-24 |
-| [jev-java](https://github.com/olti1947/jev-java) | olti1947 | community SDK<br><sub>社区 SDK</sub> | Java | Uses Jev | A — verified | 2026-09-24 |
-| [jev-playground](https://github.com/shivanathd/jev-playground) | shivanathd | playground / demo<br><sub>演示 / playground</sub> | TypeScript | Uses Jev | B — probable | 2026-09-24 |
-| [jev-ultrafast](https://github.com/browser-use/jev-ultrafast)<br><sub>Jev Ultrafast</sub> | browser-use | browser agent<br><sub>浏览器智能体</sub> | Python / JavaScript | Uses Jev | A — verified | 2026-09-24 |
-| [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) | awlevin | desktop computer use<br><sub>桌面电脑操作</sub> | Python / Swift | Uses Jev | A — verified | 2026-09-24 |
-| [jev-browser](https://github.com/jkudish/jev-browser)<br><sub>Jev Browser</sub> | jkudish | browser automation / MCP<br><sub>浏览器自动化 / MCP</sub> | TypeScript / JavaScript | Uses Jev | A — verified | 2026-09-24 |
-| [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)<br><sub>Jev Voice Browser</sub> | moritzkremb | voice browser agent<br><sub>语音浏览器智能体</sub> | JavaScript / Node.js | Uses Jev | A — verified | 2026-09-24 |
-| [jev-trader](https://github.com/jarrodwatts/jev-trader)<br><sub>Jev Trader</sub> | jarrodwatts | DeFi trading bot<br><sub>DeFi 交易机器人</sub> | TypeScript / Bun | Uses Jev | A — verified | 2026-09-24 |
-| [sponsor-skipper](https://github.com/iomiras/sponsor-skipper)<br><sub>YouTube Sponsor Segment Skipper</sub> | iomiras | browser extension / media<br><sub>浏览器扩展 / 媒体处理</sub> | JavaScript | Uses Jev | A — verified | 2026-09-24 |
-| [jev-skip](https://github.com/valentynkit/jev-skip)<br><sub>Jev Skip</sub> | valentynkit | browser extension / media<br><sub>浏览器扩展 / 媒体处理</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
-| [computer-use-jev](https://github.com/paulsmith/computer-use-jev) | paulsmith | desktop computer use<br><sub>桌面电脑操作</sub> | Go / Swift | Uses Jev | A — verified | 2026-09-24 |
-| [Jevbridge](https://github.com/tacticocc/Jevbridge) | tacticocc | MCP / ACP adapter<br><sub>MCP / ACP 适配器</sub> | TypeScript / Node.js | Uses Jev | A — verified | 2026-09-24 |
-| [Visual-Jev](https://github.com/guanxuyu-sv/Visual-Jev)<br><sub>Visual Jev</sub> | guanxuyu-sv | vision decision model<br><sub>视觉决策模型</sub> | Python | Jev-inspired | A — verified | 2026-09-24 |
-| [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) | Hangzhi | Classification & Routing<br><sub>Classification & Routing</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
-| [Notra](https://github.com/usenotra/notra) | usenotra | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-router](https://github.com/gargpratyush/jev-router) | gargpratyush | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-router (prismhq)](https://github.com/prismhq/jev-router) | prismhq | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-jev-router](https://github.com/mejiasd3v/pi-jev-router) | mejiasd3v | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jcm-router](https://github.com/adarshmishra07/jcm-router) | adarshmishra07 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Codex Jev Router](https://github.com/suenot/codex-jev-router) | suenot | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Auto Router](https://github.com/miniLV/Jev-Auto-Router) | miniLV | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router) | GodsBoy | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafe-jev CV screener](https://github.com/gtaras7/typesafe-jev) | gtaras7 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev email intent workflow](https://github.com/GiesN/typesafe-jev-workflow) | GiesN | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [DiffJury](https://github.com/raihankhan-rk/diffjury) | raihankhan-rk | Classification & Routing<br><sub>Classification & Routing</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [HA-Jev](https://github.com/AboveColin/HA-Jev) | AboveColin | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [secondlayer](https://github.com/ryanwaits/secondlayer) | ryanwaits | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage) | jyatesdotdev | Classification & Routing<br><sub>Classification & Routing</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [new-api-typesafe-plugin](https://github.com/FFatTiger/new-api-plugin-typesafe) | FFatTiger | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [duet-agent](https://github.com/dzhng/duet-agent) | dzhng | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [omo-jevlike-router](https://github.com/islee23520/omo-jevlike-router) | islee23520 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
-| [jev-cookbook](https://github.com/nexibeo/jev-cookbook) | nexibeo | Classification & Routing<br><sub>Classification & Routing</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [flue-jev-demo](https://github.com/matthewp/flue-jev-demo) | matthewp | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [DocJev](https://github.com/jerryjliu/docjev) | jerryjliu | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-fit](https://jev-fit.com) | jev-fit.com | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-skill-router](https://github.com/shimo4228/jev-skill-router) | shimo4228 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Wrapped](https://github.com/gaborishka/jev-wrapped) | gaborishka | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev-Mail](https://github.com/vynnlee/jev-mail) | vynnlee | Classification & Routing<br><sub>Classification & Routing</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [AI-decision-maker](https://github.com/zlZayn/AI-decision-maker) | zlZayn | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [hearth-jev-rental-search](https://github.com/Nancy-Chauhan/hearth-jev-rental-search) | Nancy-Chauhan | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-jev-skill-picker](https://github.com/safzanpirani/pi-jev-skill-picker) | safzanpirani | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jevonian](https://github.com/xinyao27/jevonian) | xinyao27 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Switchboard](https://github.com/ruban-24/switchboard) | ruban-24 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Tab Sorter](https://github.com/AstonyCat/jev-tab-grouper) | AstonyCat | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Feed Lens](https://github.com/SkywalkerDarren/feed-lens) | SkywalkerDarren | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-table-import-mapper](https://github.com/DuvInc/jev-table-import-mapper) | DuvInc | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-oncall](https://github.com/mingleiw/jev-oncall) | mingleiw | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jevidence](https://github.com/peakevergreen/jevidence) | peakevergreen | Classification & Routing<br><sub>Classification & Routing</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [JevBystander](https://github.com/Nisaka520/JevBystander) | Nisaka520 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [langchain-skill-router](https://github.com/deyna256/langchain-skill-router) | deyna256 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-rental](https://github.com/klauswg/jev-suite) | klauswg | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-resume-disqualifier](https://github.com/AiPersonacademy/jev-resume-disqualifier) | AiPersonacademy | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev-IOT](https://github.com/pjmenon45/Jev-IOT) | pjmenon45 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [AgentScope](https://github.com/agentscope-ai/agentscope) | agentscope-ai | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafe-adblock](https://github.com/realZachi/typesafe-adblock) | realZachi | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [unclutter](https://github.com/kitze/unclutter) | kitze | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [sift](https://github.com/bohutang/sift) | bohutang | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [json-render](https://github.com/vercel-labs/json-render) | vercel-labs | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [PlotVeil](https://github.com/Dearest/plotveil) | Dearest | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-canvas](https://github.com/gaborishka/jev-canvas) | gaborishka | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [DWIM](https://github.com/rohit9mehta/dwim) | rohit9mehta | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [SemanticSpace](https://semanticspace.dev) | semanticspace.dev | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [is-malicious](https://github.com/luantak/is-malicious) | luantak | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-review](https://github.com/devagrawal09/jev-review) | devagrawal09 | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [pi-jev](https://github.com/y0usaf/pi-jev) | y0usaf | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [OpenWork](https://github.com/different-ai/openwork) | different-ai | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-guard (leepokai)](https://github.com/leepokai/jev-guard) | leepokai | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Foreman](https://github.com/thruwire/foreman) | thruwire | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [stanley-code](https://github.com/devagrawal09/stanley-code) | devagrawal09 | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [opencompany](https://github.com/useopencompany/opencompany) | useopencompany | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [jev-git](https://github.com/AkashPriyadarshii/jev-git) | AkashPriyadarshii | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed) | Nyarlathoteppppp | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Hunch (Kelbie)](https://github.com/Kelbie/hunch) | Kelbie | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [Abide](https://github.com/coldteadotai/abide) | coldteadotai | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [fx](https://github.com/vercel-labs/fx) | vercel-labs | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [Sniff Test](https://github.com/DanRWilloughby/snifftest) | DanRWilloughby | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-pref](https://github.com/doeixd/jev-pref) | doeixd | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [jev-axi](https://github.com/shiftynick/jev-axi) | shiftynick | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-verdict](https://github.com/jesset/pi-verdict) | jesset | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-commit](https://github.com/valentynkit/jev-commit) | valentynkit | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [hermes-jev-approvals](https://github.com/anpicasso/hermes-jev-approvals) | anpicasso | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [taste-lint](https://github.com/mblode/taste-lint) | mblode | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-engineering](https://github.com/eugeniughelbur/jev-engineering) | eugeniughelbur | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-harness](https://github.com/ismaelsoilet/jev-harness) | ismaelsoilet | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Reflex](https://github.com/kaustav1996/reflex) | kaustav1996 | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [r2r-jev](https://github.com/Thneoly/r2r-jev) | Thneoly | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [GeekLink Jev Subtitle Translator](https://github.com/GeekLinkDev/jev-subtitle-translator) | GeekLinkDev | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [Agent Chaperone](https://github.com/agent-chaperone/agent-chaperone) | agent-chaperone | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [approval-judge-bridge](https://github.com/oppih/approval-judge-bridge) | oppih | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Dub](https://github.com/dubinc/dub) | dubinc | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Canny](https://github.com/qkal/Canny) | qkal | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [JevGate](https://github.com/Tech-Byte-Frontier/jevgate) | Tech-Byte-Frontier | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [Clean Code Judge](https://github.com/frostney/clean-code-review) | frostney | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [citation-verifier](https://github.com/MarissaFamularo/citation-verifier) | MarissaFamularo | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-assist](https://github.com/glud123/jev-assist) | glud123 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-bfs](https://github.com/komikat/jev-bfs) | komikat | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Search](https://github.com/superagents-lab/jev-search) | superagents-lab | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pagegrade](https://github.com/kitze/pagegrade) | kitze | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-scout](https://github.com/AkashPriyadarshii/jev-scout) | AkashPriyadarshii | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-seo](https://github.com/AkashPriyadarshii/jev-seo) | AkashPriyadarshii | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [JevSlop](https://github.com/TKY-27/JevSlop) | TKY-27 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Supercov](https://github.com/supercorp-ai/supercov) | supercorp-ai | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev.nvim](https://github.com/valentynkit/jev.nvim) | valentynkit | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-reranker](https://github.com/hotchpotch/jev-reranker) | hotchpotch | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Reranker (Rust CLI)](https://github.com/shinpr/jev-reranker) | shinpr | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-semgrep](https://github.com/uehaj/jev-semgrep) | uehaj | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [nlgrep](https://github.com/YehuiTang0316/jev-nlgrep) | YehuiTang0316 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [JevPDF](https://github.com/kylemclaren/jevpdf) | kylemclaren | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [slop-grader](https://github.com/lukstei/slop-grader) | lukstei | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jselect](https://github.com/keltokhy/jselect) | keltokhy | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jsort](https://github.com/keltokhy/jsort) | keltokhy | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jgrep (kyu1204)](https://github.com/kyu1204/jgrep) | kyu1204 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-resume-screening](https://github.com/nanami-0713/jev-resume-screening) | nanami-0713 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [hippo-memory](https://github.com/kitfunso/hippo-memory) | kitfunso | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [MemSearch Jev reranking](https://github.com/zilliztech/memsearch) | zilliztech | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Oko](https://github.com/bartlomein/oko) | bartlomein | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [grokbot-jev-jobs](https://github.com/mcgalleg/grokbot-jev-jobs) | mcgalleg | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jeff](https://github.com/saembit/jeff-cli) | saembit | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Paper Radar](https://github.com/Eliot5566/JEV-Paper-Radar) | Eliot5566 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [OpenViking](https://github.com/volcengine/OpenViking) | volcengine | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevsearch](https://github.com/kylemclaren/jevsearch) | kylemclaren | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-retrieval](https://github.com/romeromarcelo/jev-retrieval) | romeromarcelo | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Learn Jev end to end](https://github.com/harshithsunku/learn-jev-end-to-end) | harshithsunku | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Hermes JIT Context OS](https://github.com/wojciechwiesner/jit-context) | wojciechwiesner | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev by Example](https://github.com/ReallyArtificial/jev-by-example) | ReallyArtificial | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-social](https://github.com/socai-io/jev-social) | socai-io | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-agent-browser](https://github.com/forvela/jev-agent-browser) | forvela | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-typesafe-jev](https://github.com/legacybridge-tech/pi-typesafe-jev) | legacybridge-tech | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-judgment](https://github.com/HyunjunJeon/jev-judgment) | HyunjunJeon | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [limpet](https://github.com/noplan-inc/limpet) | noplan-inc | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [robo-harness](https://github.com/grmkris/robo-harness) | grmkris | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) | git.allen-software.com | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [augustus](https://github.com/24601/Augustus) | 24601 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [yoshi](https://github.com/compozy/yoshi) | compozy | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-jev (TheoOliveira)](https://github.com/TheoOliveira/pi-jev) | TheoOliveira | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-quiet-ask](https://github.com/HyunjunJeon/pi-quiet-ask) | HyunjunJeon | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [fastbrowse](https://github.com/agent-labs-dev/fastbrowse) | agent-labs-dev | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [super-jev](https://github.com/Kevthetech143/super-jev) | Kevthetech143 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-superpowers](https://github.com/AkashPriyadarshii/jev-superpowers) | AkashPriyadarshii | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-fast-jev-compaction](https://github.com/joelhooks/pi-fast-jev-compaction) | joelhooks | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Atomic](https://github.com/bastani-inc/atomic) | bastani-inc | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | tamaratran | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction) | leonaaardob | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [public-browser](https://github.com/Silbercue/public-browser) | Silbercue | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pi-typesafe-router](https://github.com/jekozyra/pi-typesafe-router) | jekozyra | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [wakegate](https://github.com/shitianfang/wakegate) | shitianfang | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [BrowserClaw](https://github.com/GoldenLoaf24h/browserclaw) | GoldenLoaf24h | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-belay](https://github.com/valentynkit/jev-belay) | valentynkit | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) | chy4pro | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-pruner](https://github.com/tamaratran/jev-pruner) | tamaratran | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-desktop](https://github.com/yikangy873-gif/jev-desktop) | yikangy873-gif | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill) | yuyang2230 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Yappy](https://yappy.biz/jev) | yappy.biz | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [JevLoop (zjunlp)](https://github.com/zjunlp/JevLoop) | zjunlp | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [JevLoop (parkavenue9639)](https://github.com/parkavenue9639/jevloop) | parkavenue9639 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [DataJev](https://github.com/zzz1YAO/DataJev) | zzz1YAO | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-mobile](https://github.com/Friedjof/jev-mobile) | Friedjof | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [GUI JEV Harness](https://github.com/ZihuaEvan/GUI_JEV) | ZihuaEvan | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-compaction](https://github.com/Waxmell114514/jev-compaction) | Waxmell114514 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Visual-JEV](https://github.com/jiangxiluning/Visual-Jev) | jiangxiluning | Agent Decisions<br><sub>Agent Decisions</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
-| [DeepSearcher stopping-policy experiment](https://github.com/zilliztech/deep-searcher) | zilliztech | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [OmniJev](https://github.com/shapsider/OmniJev) | shapsider | Agent Decisions<br><sub>Agent Decisions</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
-| [neo4jev](https://github.com/jexp/neo4jev) | jexp | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-chat](https://github.com/jev-chat/jev-chat-jarvis) | jev-chat | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills) | kerpopule | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-browser-use](https://github.com/wy-coliney/jev-browser-use) | wy-coliney | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [mobile-jev](https://github.com/droidrun/mobile-jev) | droidrun | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev-cu](https://github.com/Sac-Y/Jev-cu) | Sac-Y | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [SkillRanker](https://github.com/Dicklesworthstone/skillranker) | Dicklesworthstone | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Significant-Gravitas | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-align (Sutro)](https://github.com/sutro-sh/jev-align) | sutro-sh | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-curate](https://github.com/AkashPriyadarshii/jev-curate) | AkashPriyadarshii | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typeful-triage](https://github.com/cephalization/jev-triage) | cephalization | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jlink](https://github.com/keltokhy/jlink) | keltokhy | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jgrep](https://github.com/keltokhy/jgrep) | keltokhy | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevgrep (allebee)](https://github.com/allebee/jevgrep) | allebee | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) | shimo4228 | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Web Analyzer](https://github.com/replynodes/jev-web-analyzer) | replynodes | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Playground](https://github.com/hegargarcia/jev-playground) | hegargarcia | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-research-eval](https://github.com/jgridifier/jev-research-eval) | jgridifier | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Pong](https://github.com/ably-labs/jev-pong) | ably-labs | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevcal](https://github.com/abhixhek/jevcal) | abhixhek | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [WindTunnel](https://github.com/nekuda-ai/WindTunnel) | nekuda-ai | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-eval](https://github.com/Shogo-nfrealmusic/jev-eval) | Shogo-nfrealmusic | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [minutes](https://github.com/silverstein/minutes) | silverstein | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | yodablocks | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration) | scienthoon | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [ASSAY-001](https://github.com/jourdanlabs/assay-001) | jourdanlabs | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-acento](https://github.com/marcosmartinez/jev-acento) | marcosmartinez | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev vs GPT-4.1 on a synthetic survey](https://github.com/jjd-lab/jev-synthetic-survey) | jjd-lab | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [pytest-jev](https://github.com/allebee/pytest-jev) | allebee | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev IDS](https://github.com/jev-ids/jev-ids) | jev-ids | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-test](https://github.com/souvikr/jev-test) | souvikr | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [DecisionBench](https://github.com/Hanno-Labs/decision-bench) | Hanno-Labs | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-regress-bench](https://github.com/redhatpanda/jev-regress-bench) | redhatpanda | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) | blowxian | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [SystemOneHarness](https://github.com/HarnessRouter/SystemOneHarness) | HarnessRouter | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [decider](https://github.com/Mapika/decider) | Mapika | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [openjev](https://github.com/zhihz/openjev) | zhihz | Calibration & Research<br><sub>Calibration & Research</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [NanoJev](https://github.com/TianyuCodings/NanoJev) | TianyuCodings | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [open-alternative-jev](https://github.com/ikermoel/open-alternative-jev) | ikermoel | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [mini-jev](https://github.com/r-ms/mini-jev) | r-ms | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [Laya](https://github.com/NandhaKishorM/laya) | NandhaKishorM | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [kev](https://github.com/jaredpalmer/kev) | jaredpalmer | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [jev-paint](https://github.com/achimala/jev-paint) | achimala | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-local](https://github.com/us/jev-local) | us | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [LitJev](https://github.com/zhengxuyu/litjev) | zhengxuyu | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [ruling](https://github.com/bradAGI/ruling) | bradAGI | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [jevlike](https://github.com/vinnylarouge/jevlike) | vinnylarouge | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevbetter](https://github.com/olanotolu/jevbetter) | olanotolu | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevlike-esp32](https://github.com/david-cermak/jevlike-esp32) | david-cermak | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [von](https://github.com/wfzyx/von) | wfzyx | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [JevForge](https://github.com/zwliJay/jev-forge) | zwliJay | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [minojev](https://github.com/zeredy879/minojev) | zeredy879 | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [Luce](https://github.com/scienthoon/luce) | scienthoon | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [poorjev](https://github.com/rupeshpoojary9/poorjev) | rupeshpoojary9 | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) | Heman10x-NGU | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [OpenDecision](https://github.com/deepanwadhwa/OpenDecision) | deepanwadhwa | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [TinyJev](https://github.com/ankit-aglawe/tinyjev) | ankit-aglawe | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [Jev calculator](https://github.com/pc418/jev-calculator) | pc418 | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev) | TheoLeeCJ | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
-| [jev-verify](https://github.com/stillmarcus24/jev-verify) | stillmarcus24 | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [eve](https://github.com/vercel/eve) | vercel | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [AI CLI](https://github.com/vercel-labs/ai-cli) | vercel-labs | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-mcp (jkudish)](https://github.com/jkudish/jev-mcp) | jkudish | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-mcp (blakestone-x)](https://github.com/blakestone-x/jev-mcp) | blakestone-x | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai) | jamesward | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [laya-mlx](https://github.com/mizorewww/laya-mlx) | mizorewww | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [TypeSafe AI Swift SDK](https://github.com/alterhq/typesafe-sdk-swift) | alterhq | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) | Butochnikov | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [advocaat](https://github.com/pithings/advocaat) | pithings | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevclient](https://pypi.org/project/jevclient) | pypi.org | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-trust](https://pypi.org/project/jev-trust) | pypi.org | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [LlamaIndex Jev](https://github.com/WiktorB2004/llama-index-jev) | WiktorB2004 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [safer-with-jev](https://github.com/andrelandgraf/safer-with-jev) | andrelandgraf | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Smithers](https://github.com/smithersai/smithers) | smithersai | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [skillbox](https://github.com/kitze/skillbox) | kitze | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev (Elixir)](https://github.com/dannote/jev) | dannote | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-go](https://github.com/Stumble/jev-go) | Stumble | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-cli](https://github.com/tumf/jev-cli) | tumf | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [decide-mcp](https://github.com/dakdevs/decide-mcp) | dakdevs | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafe-jev-examples](https://github.com/rajivkuriakose/typesafe-jev-examples) | rajivkuriakose | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [ai-python](https://github.com/vercel-labs/ai-python) | vercel-labs | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Cline plugins](https://github.com/cline/plugins) | cline | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [hono-jev-router](https://github.com/yusukebe/hono-jev-router) | yusukebe | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [rotom](https://github.com/RyanKung/rotom) | RyanKung | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev AI](https://jev-ai.pro) | jev-ai.pro | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [jevql](https://github.com/kylemclaren/jevql) | kylemclaren | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [sqlite-jev](https://github.com/mgaitan/sqlite-jev) | mgaitan | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [duckdb-jev](https://github.com/prasanthj/duckdb-jev) | prasanthj | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevkit](https://github.com/ariel-frischer/jevkit) | ariel-frischer | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-use](https://github.com/shitianfang/jev-use) | shitianfang | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [huncho](https://github.com/edgardcham/huncho) | edgardcham | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-experiments](https://github.com/dabit3/jev-experiments) | dabit3 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [ruby_decision_model](https://github.com/obie/ruby_decision_model) | obie | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [s1_ruby](https://github.com/innocentdiaz/s1_ruby) | innocentdiaz | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [JarvisCore](https://github.com/Prescott-Data/jarviscore-framework) | Prescott-Data | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [hunch (carldaws)](https://github.com/carldaws/hunch) | carldaws | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-mcp (burnigtm)](https://github.com/burnigtm/jev-mcp) | burnigtm | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-skill-suggester](https://github.com/win4r/jev-skill-suggester) | win4r | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [grok-bot-jev](https://github.com/Bodila51/grok-bot-jev) | Bodila51 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-architect](https://github.com/karanb192/jev-architect) | karanb192 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [openrouter-jev-mcp](https://github.com/ctmx/openrouter-jev-mcp) | ctmx | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [neurolink](https://github.com/juspay/neurolink) | juspay | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-spring-boot-starter](https://github.com/danvega/jev-spring-boot-starter) | danvega | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevify](https://github.com/altryne/jevify) | altryne | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [mysql-ailike](https://github.com/maayanlevy/mysql-ailike) | maayanlevy | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-usecases](https://github.com/kenhuangus/jev-usecases) | kenhuangus | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [FastJev](https://github.com/chengyongru/fastjev) | chengyongru | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [kojev](https://github.com/ItisNoMatter/kojev) | ItisNoMatter | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [ask-jev](https://github.com/logicrw/ask-jev) | logicrw | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Search with Jev and Milvus](https://github.com/milvus-io/bootcamp) | milvus-io | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [discern](https://github.com/doeixd/discern) | doeixd | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jeff (logan-markewich)](https://github.com/logan-markewich/jeff) | logan-markewich | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [CloJev](https://github.com/antlobach/clojev) | antlobach | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch) | steven-shoemaker | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafe-mcp](https://github.com/itsmostafa/typesafe-mcp) | itsmostafa | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [spring-ai-typesafe](https://github.com/spring-ai-community/spring-ai-typesafe) | spring-ai-community | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [JevFlow](https://github.com/Mawfyy/jevflow) | Mawfyy | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [stuntd](https://github.com/bladedevoff/stuntd) | bladedevoff | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jeview](https://github.com/andududu/jeview) | andududu | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [SemDecide](https://github.com/sharziki/semdecide) | sharziki | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-foundation-models](https://github.com/peterfriese/jev-foundation-models) | peterfriese | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [simple-jev](https://github.com/featherless-ai/simple-jev) | featherless-ai | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [cu-Jev](https://github.com/dtunai/cu-Jev) | dtunai | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevcache](https://github.com/hyperspaceai/jevcache) | hyperspaceai | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-switch](https://github.com/ARCJ137442/jev-switch) | ARCJ137442 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Qwev](https://github.com/HopLee6/Qwev) | HopLee6 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
-| [jev-sdk-go](https://github.com/HomayoonAlimohammadi/jev-sdk-go) | HomayoonAlimohammadi | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk) | saibimajdi | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevcompat](https://github.com/mandu5/jevcompat) | mandu5 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafe-ai (Rust)](https://github.com/Twister915/typesafe-ai) | Twister915 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | pydantic | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafe-mario](https://github.com/fhshaik/typesafe-mario) | fhshaik | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-drone](https://github.com/RomanSlack/jev-drone) | RomanSlack | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [tsai-sc](https://github.com/phyous/tsai-sc) | phyous | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) | milanboers | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafe-jev-drone-demo](https://github.com/kxzk/typesafe-jev-drone-demo) | kxzk | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [typesafe-playground](https://github.com/kavehmz/typesafe-playground) | kavehmz | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [PlayJev](https://github.com/OmniJev/PlayJev) | OmniJev | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) | valentynkit | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab) | khordoo | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Soupbase](https://github.com/spoonnotfound/soupbase) | spoonnotfound | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-torneo-animales](https://github.com/hectorlcastro09/jev-torneo-animales) | hectorlcastro09 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [2048 × Jev](https://github.com/ARCJ137442/jev-2048) | ARCJ137442 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Mentions only | B — probable | 2026-09-24 |
-| [Jevtown](https://github.com/gaborishka/jevtown) | gaborishka | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [RoboJEV](https://github.com/lykycy123/RoboJEV) | lykycy123 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Life Chess × Jev](https://github.com/ARCJ137442/jev-life) | ARCJ137442 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [kNES](https://github.com/ArturSkowronski/kNES) | ArturSkowronski | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Laya vs Jev arena](https://github.com/PromptEngineer48/laya-vs-jev-arena) | PromptEngineer48 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [JEV-Star](https://github.com/sc2musa/Jev_Star) | sc2musa | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [THE HUNDRED EYES](https://github.com/mintannn/THE-HUNDRED-EYES) | mintannn | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-pilot-reflex](https://github.com/manhua-man/jev-pilot-reflex) | manhua-man | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jevinik](https://github.com/unicodeveloper/jevocks) | unicodeveloper | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev_stock](https://github.com/sosopop/jev_stock) | sosopop | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-trade](https://github.com/aowang-ai/jev-trade) | aowang-ai | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev X Sentiment Analysis](https://github.com/brainstormity/Jev-X-Sentiment-Analysis) | brainstormity | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-guard (klauswg)](https://github.com/klauswg/jev-guard) | klauswg | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [LegalForecast-MTD](https://github.com/johnhughes3/LegalForecastBench) | johnhughes3 | Compliance & Legal<br><sub>Compliance & Legal</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | brainstormity | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-spam-eval](https://github.com/bitnovus/jev-spam-eval) | bitnovus | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [mastra-jev-moderation](https://github.com/CodeAlive-AI/mastra-jev-moderation) | CodeAlive-AI | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Jev Chat for Twitch](https://github.com/ethanplusai/jev-chat-for-twitch) | ethanplusai | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [profanity-checker](https://github.com/4rays/profanity-checker) | 4rays | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev_antispam_bot](https://github.com/backmeupplz/jev_antispam_bot) | backmeupplz | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-slop-guard](https://github.com/davertor/jev-slop-guard) | davertor | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jev-screen-mcp](https://github.com/jiawei686/jev-screen-mcp) | jiawei686 | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Awesome Jev by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) | Anil-matcha | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [深入解读 Jev 模型：毫秒级判定与工程边界](https://github.com/kuhung/understanding-jev) | kuhung | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Awesome TypeSafe Jev](https://github.com/AbdelStark/awesome-typesafe-jev) | AbdelStark | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Spike: Jev as a judgement layer to cut model cost](https://github.com/open-orcha/orcha) | open-orcha | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [Awesome Jev Robustness](https://github.com/Yifan-Lan/awesome-jev-robustness) | Yifan-Lan | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| [jevchat](https://github.com/kyle-pena-nlp/jevchat) | kyle-pena-nlp | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| Project | Published / created | Owner | Category | Language | Relationship | Evidence | Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js) | 2026-09-04 | typesafe-ai | official SDK<br><sub>官方 SDK</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
+| [typesafe-sdk-python](https://github.com/typesafe-ai/typesafe-sdk-python) | 2026-09-04 | typesafe-ai | official SDK<br><sub>官方 SDK</sub> | Python | Uses Jev | A — verified | 2026-09-24 |
+| [system-one-adapter-python](https://github.com/typesafe-ai/system-one-adapter-python) | 2026-08-08 | typesafe-ai | evaluation / adapter<br><sub>评测 / 兼容层</sub> | Python | Jev-inspired | A — verified | 2026-09-24 |
+| [skills](https://github.com/typesafe-ai/skills) | 2026-08-24 | typesafe-ai | official developer tool<br><sub>官方开发者工具</sub> | Markdown / Python | Uses Jev | A — verified | 2026-09-24 |
+| [Jev-Mem](https://github.com/libingzheren/Jev-Mem) | 2026-09-20 | libingzheren | agent memory<br><sub>智能体记忆</sub> | Python | Jev-inspired | B — probable | 2026-09-24 |
+| [jev-java](https://github.com/olti1947/jev-java) | 2026-09-18 | olti1947 | community SDK<br><sub>社区 SDK</sub> | Java | Uses Jev | A — verified | 2026-09-24 |
+| [jev-playground](https://github.com/shivanathd/jev-playground) | 2026-09-19 | shivanathd | playground / demo<br><sub>演示 / playground</sub> | TypeScript | Uses Jev | B — probable | 2026-09-24 |
+| [jev-ultrafast](https://github.com/browser-use/jev-ultrafast)<br><sub>Jev Ultrafast</sub> | 2026-09-16 | browser-use | browser agent<br><sub>浏览器智能体</sub> | Python / JavaScript | Uses Jev | A — verified | 2026-09-24 |
+| [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) | 2026-09-16 | awlevin | desktop computer use<br><sub>桌面电脑操作</sub> | Python / Swift | Uses Jev | A — verified | 2026-09-24 |
+| [jev-browser](https://github.com/jkudish/jev-browser)<br><sub>Jev Browser</sub> | 2026-09-17 | jkudish | browser automation / MCP<br><sub>浏览器自动化 / MCP</sub> | TypeScript / JavaScript | Uses Jev | A — verified | 2026-09-24 |
+| [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)<br><sub>Jev Voice Browser</sub> | 2026-09-17 | moritzkremb | voice browser agent<br><sub>语音浏览器智能体</sub> | JavaScript / Node.js | Uses Jev | A — verified | 2026-09-24 |
+| [jev-trader](https://github.com/jarrodwatts/jev-trader)<br><sub>Jev Trader</sub> | 2026-09-16 | jarrodwatts | DeFi trading bot<br><sub>DeFi 交易机器人</sub> | TypeScript / Bun | Uses Jev | A — verified | 2026-09-24 |
+| [sponsor-skipper](https://github.com/iomiras/sponsor-skipper)<br><sub>YouTube Sponsor Segment Skipper</sub> | 2026-09-18 | iomiras | browser extension / media<br><sub>浏览器扩展 / 媒体处理</sub> | JavaScript | Uses Jev | A — verified | 2026-09-24 |
+| [jev-skip](https://github.com/valentynkit/jev-skip)<br><sub>Jev Skip</sub> | 2026-09-18 | valentynkit | browser extension / media<br><sub>浏览器扩展 / 媒体处理</sub> | TypeScript | Uses Jev | A — verified | 2026-09-24 |
+| [computer-use-jev](https://github.com/paulsmith/computer-use-jev) | 2026-09-16 | paulsmith | desktop computer use<br><sub>桌面电脑操作</sub> | Go / Swift | Uses Jev | A — verified | 2026-09-24 |
+| [Jevbridge](https://github.com/tacticocc/Jevbridge) | 2026-09-18 | tacticocc | MCP / ACP adapter<br><sub>MCP / ACP 适配器</sub> | TypeScript / Node.js | Uses Jev | A — verified | 2026-09-24 |
+| [Visual-Jev](https://github.com/guanxuyu-sv/Visual-Jev)<br><sub>Visual Jev</sub> | 2026-09-21 | guanxuyu-sv | vision decision model<br><sub>视觉决策模型</sub> | Python | Jev-inspired | A — verified | 2026-09-24 |
+| [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) | 2026-09-21 | Hangzhi | Classification & Routing<br><sub>Classification & Routing</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
+| [Notra](https://github.com/usenotra/notra) | 2025-12-13 | usenotra | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-router](https://github.com/gargpratyush/jev-router) | 2026-09-16 | gargpratyush | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-router (prismhq)](https://github.com/prismhq/jev-router) | 2026-09-17 | prismhq | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-jev-router](https://github.com/mejiasd3v/pi-jev-router) | 2026-09-17 | mejiasd3v | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jcm-router](https://github.com/adarshmishra07/jcm-router) | 2026-09-17 | adarshmishra07 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Codex Jev Router](https://github.com/suenot/codex-jev-router) | 2026-09-23 | suenot | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Auto Router](https://github.com/miniLV/Jev-Auto-Router) | 2026-08-01 | miniLV | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router) | 2026-09-16 | GodsBoy | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafe-jev CV screener](https://github.com/gtaras7/typesafe-jev) | 2026-09-17 | gtaras7 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev email intent workflow](https://github.com/GiesN/typesafe-jev-workflow) | 2026-09-16 | GiesN | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [DiffJury](https://github.com/raihankhan-rk/diffjury) | 2026-09-17 | raihankhan-rk | Classification & Routing<br><sub>Classification & Routing</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [HA-Jev](https://github.com/AboveColin/HA-Jev) | 2026-09-17 | AboveColin | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [secondlayer](https://github.com/ryanwaits/secondlayer) | 2025-05-25 | ryanwaits | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage) | 2026-09-19 | jyatesdotdev | Classification & Routing<br><sub>Classification & Routing</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [new-api-typesafe-plugin](https://github.com/FFatTiger/new-api-plugin-typesafe) | 2026-09-18 | FFatTiger | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [duet-agent](https://github.com/dzhng/duet-agent) | 2026-04-10 | dzhng | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [omo-jevlike-router](https://github.com/islee23520/omo-jevlike-router) | 2026-09-18 | islee23520 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
+| [jev-cookbook](https://github.com/nexibeo/jev-cookbook) | 2026-09-19 | nexibeo | Classification & Routing<br><sub>Classification & Routing</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [flue-jev-demo](https://github.com/matthewp/flue-jev-demo) | 2026-09-18 | matthewp | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [DocJev](https://github.com/jerryjliu/docjev) | 2026-09-19 | jerryjliu | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-fit](https://jev-fit.com) | — | jev-fit.com | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-skill-router](https://github.com/shimo4228/jev-skill-router) | 2026-09-21 | shimo4228 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Wrapped](https://github.com/gaborishka/jev-wrapped) | 2026-09-19 | gaborishka | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev-Mail](https://github.com/vynnlee/jev-mail) | 2026-09-20 | vynnlee | Classification & Routing<br><sub>Classification & Routing</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [AI-decision-maker](https://github.com/zlZayn/AI-decision-maker) | 2026-05-12 | zlZayn | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [hearth-jev-rental-search](https://github.com/Nancy-Chauhan/hearth-jev-rental-search) | 2026-09-20 | Nancy-Chauhan | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-jev-skill-picker](https://github.com/safzanpirani/pi-jev-skill-picker) | 2026-09-20 | safzanpirani | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jevonian](https://github.com/xinyao27/jevonian) | 2026-09-19 | xinyao27 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Switchboard](https://github.com/ruban-24/switchboard) | 2026-09-20 | ruban-24 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Tab Sorter](https://github.com/AstonyCat/jev-tab-grouper) | 2026-09-20 | AstonyCat | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Feed Lens](https://github.com/SkywalkerDarren/feed-lens) | 2026-09-22 | SkywalkerDarren | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-table-import-mapper](https://github.com/DuvInc/jev-table-import-mapper) | 2026-09-21 | DuvInc | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-oncall](https://github.com/mingleiw/jev-oncall) | 2026-09-21 | mingleiw | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jevidence](https://github.com/peakevergreen/jevidence) | 2026-09-22 | peakevergreen | Classification & Routing<br><sub>Classification & Routing</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [JevBystander](https://github.com/Nisaka520/JevBystander) | 2026-09-22 | Nisaka520 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [langchain-skill-router](https://github.com/deyna256/langchain-skill-router) | 2026-09-20 | deyna256 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-rental](https://github.com/klauswg/jev-suite) | 2026-09-22 | klauswg | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-resume-disqualifier](https://github.com/AiPersonacademy/jev-resume-disqualifier) | 2026-09-20 | AiPersonacademy | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev-IOT](https://github.com/pjmenon45/Jev-IOT) | 2026-09-22 | pjmenon45 | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [AgentScope](https://github.com/agentscope-ai/agentscope) | 2024-01-12 | agentscope-ai | Classification & Routing<br><sub>Classification & Routing</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafe-adblock](https://github.com/realZachi/typesafe-adblock) | 2026-09-17 | realZachi | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [unclutter](https://github.com/kitze/unclutter) | 2026-09-17 | kitze | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [sift](https://github.com/bohutang/sift) | 2026-09-19 | bohutang | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [json-render](https://github.com/vercel-labs/json-render) | 2026-01-14 | vercel-labs | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [PlotVeil](https://github.com/Dearest/plotveil) | 2026-09-21 | Dearest | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-canvas](https://github.com/gaborishka/jev-canvas) | 2026-09-19 | gaborishka | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [DWIM](https://github.com/rohit9mehta/dwim) | 2026-09-21 | rohit9mehta | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [SemanticSpace](https://semanticspace.dev) | — | semanticspace.dev | Adaptive & Realtime UI<br><sub>Adaptive & Realtime UI</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [is-malicious](https://github.com/luantak/is-malicious) | 2026-09-18 | luantak | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-review](https://github.com/devagrawal09/jev-review) | 2026-09-16 | devagrawal09 | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [pi-jev](https://github.com/y0usaf/pi-jev) | 2026-09-16 | y0usaf | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [OpenWork](https://github.com/different-ai/openwork) | 2026-01-14 | different-ai | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-guard (leepokai)](https://github.com/leepokai/jev-guard) | 2026-09-17 | leepokai | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Foreman](https://github.com/thruwire/foreman) | 2026-09-17 | thruwire | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [stanley-code](https://github.com/devagrawal09/stanley-code) | 2026-09-17 | devagrawal09 | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [opencompany](https://github.com/useopencompany/opencompany) | 2026-05-20 | useopencompany | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [jev-git](https://github.com/AkashPriyadarshii/jev-git) | 2026-09-18 | AkashPriyadarshii | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed) | 2026-09-18 | Nyarlathoteppppp | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Hunch (Kelbie)](https://github.com/Kelbie/hunch) | 2026-09-18 | Kelbie | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [Abide](https://github.com/coldteadotai/abide) | 2026-09-18 | coldteadotai | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [fx](https://github.com/vercel-labs/fx) | 2026-08-11 | vercel-labs | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [Sniff Test](https://github.com/DanRWilloughby/snifftest) | 2026-09-17 | DanRWilloughby | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-pref](https://github.com/doeixd/jev-pref) | 2026-09-17 | doeixd | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [jev-axi](https://github.com/shiftynick/jev-axi) | 2026-09-16 | shiftynick | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-verdict](https://github.com/jesset/pi-verdict) | 2026-08-25 | jesset | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-commit](https://github.com/valentynkit/jev-commit) | 2026-09-18 | valentynkit | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [hermes-jev-approvals](https://github.com/anpicasso/hermes-jev-approvals) | 2026-09-17 | anpicasso | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [taste-lint](https://github.com/mblode/taste-lint) | 2026-09-19 | mblode | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-engineering](https://github.com/eugeniughelbur/jev-engineering) | 2026-09-20 | eugeniughelbur | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-harness](https://github.com/ismaelsoilet/jev-harness) | 2026-09-21 | ismaelsoilet | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Reflex](https://github.com/kaustav1996/reflex) | 2026-09-18 | kaustav1996 | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [r2r-jev](https://github.com/Thneoly/r2r-jev) | 2026-09-21 | Thneoly | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [GeekLink Jev Subtitle Translator](https://github.com/GeekLinkDev/jev-subtitle-translator) | 2026-09-21 | GeekLinkDev | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [Agent Chaperone](https://github.com/agent-chaperone/agent-chaperone) | 2026-09-18 | agent-chaperone | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [approval-judge-bridge](https://github.com/oppih/approval-judge-bridge) | 2026-09-21 | oppih | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Dub](https://github.com/dubinc/dub) | 2022-08-27 | dubinc | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Canny](https://github.com/qkal/Canny) | 2026-09-11 | qkal | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [JevGate](https://github.com/Tech-Byte-Frontier/jevgate) | 2026-09-18 | Tech-Byte-Frontier | Verification & Guardrails<br><sub>Verification & Guardrails</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [Clean Code Judge](https://github.com/frostney/clean-code-review) | 2026-09-17 | frostney | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [citation-verifier](https://github.com/MarissaFamularo/citation-verifier) | 2026-09-17 | MarissaFamularo | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-assist](https://github.com/glud123/jev-assist) | 2026-09-20 | glud123 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-bfs](https://github.com/komikat/jev-bfs) | 2026-09-17 | komikat | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Search](https://github.com/superagents-lab/jev-search) | 2026-09-17 | superagents-lab | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pagegrade](https://github.com/kitze/pagegrade) | 2026-09-17 | kitze | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-scout](https://github.com/AkashPriyadarshii/jev-scout) | 2026-09-18 | AkashPriyadarshii | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-seo](https://github.com/AkashPriyadarshii/jev-seo) | 2026-09-18 | AkashPriyadarshii | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [JevSlop](https://github.com/TKY-27/JevSlop) | 2026-09-18 | TKY-27 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Supercov](https://github.com/supercorp-ai/supercov) | 2026-08-23 | supercorp-ai | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev.nvim](https://github.com/valentynkit/jev.nvim) | 2026-09-18 | valentynkit | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-reranker](https://github.com/hotchpotch/jev-reranker) | 2026-09-19 | hotchpotch | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Reranker (Rust CLI)](https://github.com/shinpr/jev-reranker) | 2026-09-20 | shinpr | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-semgrep](https://github.com/uehaj/jev-semgrep) | 2026-09-19 | uehaj | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [nlgrep](https://github.com/YehuiTang0316/jev-nlgrep) | 2026-09-20 | YehuiTang0316 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [JevPDF](https://github.com/kylemclaren/jevpdf) | 2026-09-22 | kylemclaren | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [slop-grader](https://github.com/lukstei/slop-grader) | 2026-09-20 | lukstei | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jselect](https://github.com/keltokhy/jselect) | 2026-09-19 | keltokhy | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jsort](https://github.com/keltokhy/jsort) | 2026-09-19 | keltokhy | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jgrep (kyu1204)](https://github.com/kyu1204/jgrep) | 2026-09-19 | kyu1204 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-resume-screening](https://github.com/nanami-0713/jev-resume-screening) | 2026-09-19 | nanami-0713 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [hippo-memory](https://github.com/kitfunso/hippo-memory) | 2026-03-15 | kitfunso | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [MemSearch Jev reranking](https://github.com/zilliztech/memsearch) | 2026-02-09 | zilliztech | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Oko](https://github.com/bartlomein/oko) | 2026-09-18 | bartlomein | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [grokbot-jev-jobs](https://github.com/mcgalleg/grokbot-jev-jobs) | 2026-09-18 | mcgalleg | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jeff](https://github.com/saembit/jeff-cli) | 2026-09-22 | saembit | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Paper Radar](https://github.com/Eliot5566/JEV-Paper-Radar) | 2026-09-23 | Eliot5566 | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [OpenViking](https://github.com/volcengine/OpenViking) | 2026-01-05 | volcengine | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevsearch](https://github.com/kylemclaren/jevsearch) | 2026-09-21 | kylemclaren | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-retrieval](https://github.com/romeromarcelo/jev-retrieval) | 2026-09-23 | romeromarcelo | Scoring & Ranking<br><sub>Scoring & Ranking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Learn Jev end to end](https://github.com/harshithsunku/learn-jev-end-to-end) | 2026-09-23 | harshithsunku | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Hermes JIT Context OS](https://github.com/wojciechwiesner/jit-context) | 2026-08-31 | wojciechwiesner | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev by Example](https://github.com/ReallyArtificial/jev-by-example) | 2026-09-21 | ReallyArtificial | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-social](https://github.com/socai-io/jev-social) | 2026-09-18 | socai-io | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-agent-browser](https://github.com/forvela/jev-agent-browser) | 2026-09-19 | forvela | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-typesafe-jev](https://github.com/legacybridge-tech/pi-typesafe-jev) | 2026-09-17 | legacybridge-tech | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-judgment](https://github.com/HyunjunJeon/jev-judgment) | 2026-09-17 | HyunjunJeon | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [limpet](https://github.com/noplan-inc/limpet) | 2026-09-17 | noplan-inc | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [robo-harness](https://github.com/grmkris/robo-harness) | 2026-09-07 | grmkris | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) | — | git.allen-software.com | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [augustus](https://github.com/24601/Augustus) | 2026-09-18 | 24601 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [yoshi](https://github.com/compozy/yoshi) | 2026-09-18 | compozy | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-jev (TheoOliveira)](https://github.com/TheoOliveira/pi-jev) | 2026-09-17 | TheoOliveira | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-quiet-ask](https://github.com/HyunjunJeon/pi-quiet-ask) | 2026-09-17 | HyunjunJeon | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [fastbrowse](https://github.com/agent-labs-dev/fastbrowse) | 2026-09-17 | agent-labs-dev | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [super-jev](https://github.com/Kevthetech143/super-jev) | 2026-09-17 | Kevthetech143 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-superpowers](https://github.com/AkashPriyadarshii/jev-superpowers) | 2026-09-18 | AkashPriyadarshii | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-fast-jev-compaction](https://github.com/joelhooks/pi-fast-jev-compaction) | 2026-09-18 | joelhooks | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Atomic](https://github.com/bastani-inc/atomic) | 2025-10-23 | bastani-inc | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | 2026-09-17 | tamaratran | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction) | 2026-09-18 | leonaaardob | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [public-browser](https://github.com/Silbercue/public-browser) | 2026-04-07 | Silbercue | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pi-typesafe-router](https://github.com/jekozyra/pi-typesafe-router) | 2026-09-18 | jekozyra | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [wakegate](https://github.com/shitianfang/wakegate) | 2026-09-18 | shitianfang | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [BrowserClaw](https://github.com/GoldenLoaf24h/browserclaw) | 2026-09-10 | GoldenLoaf24h | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-belay](https://github.com/valentynkit/jev-belay) | 2026-09-18 | valentynkit | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) | 2026-09-18 | chy4pro | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-pruner](https://github.com/tamaratran/jev-pruner) | 2026-09-18 | tamaratran | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-desktop](https://github.com/yikangy873-gif/jev-desktop) | 2026-09-19 | yikangy873-gif | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill) | 2026-09-19 | yuyang2230 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Yappy](https://yappy.biz/jev) | — | yappy.biz | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [JevLoop (zjunlp)](https://github.com/zjunlp/JevLoop) | 2026-09-20 | zjunlp | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [JevLoop (parkavenue9639)](https://github.com/parkavenue9639/jevloop) | 2026-09-22 | parkavenue9639 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [DataJev](https://github.com/zzz1YAO/DataJev) | 2026-09-21 | zzz1YAO | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-mobile](https://github.com/Friedjof/jev-mobile) | 2026-09-17 | Friedjof | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [GUI JEV Harness](https://github.com/ZihuaEvan/GUI_JEV) | 2026-09-21 | ZihuaEvan | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-compaction](https://github.com/Waxmell114514/jev-compaction) | 2026-09-19 | Waxmell114514 | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Visual-JEV](https://github.com/jiangxiluning/Visual-Jev) | 2026-09-22 | jiangxiluning | Agent Decisions<br><sub>Agent Decisions</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
+| [DeepSearcher stopping-policy experiment](https://github.com/zilliztech/deep-searcher) | 2025-02-08 | zilliztech | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [OmniJev](https://github.com/shapsider/OmniJev) | 2026-09-22 | shapsider | Agent Decisions<br><sub>Agent Decisions</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
+| [neo4jev](https://github.com/jexp/neo4jev) | 2026-09-16 | jexp | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-chat](https://github.com/jev-chat/jev-chat-jarvis) | 2026-09-21 | jev-chat | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills) | 2026-09-18 | kerpopule | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-browser-use](https://github.com/wy-coliney/jev-browser-use) | 2026-09-18 | wy-coliney | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [mobile-jev](https://github.com/droidrun/mobile-jev) | 2026-09-17 | droidrun | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev-cu](https://github.com/Sac-Y/Jev-cu) | 2026-09-18 | Sac-Y | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [SkillRanker](https://github.com/Dicklesworthstone/skillranker) | 2026-09-17 | Dicklesworthstone | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 2023-03-16 | Significant-Gravitas | Agent Decisions<br><sub>Agent Decisions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-align (Sutro)](https://github.com/sutro-sh/jev-align) | 2026-09-19 | sutro-sh | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-curate](https://github.com/AkashPriyadarshii/jev-curate) | 2026-09-18 | AkashPriyadarshii | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typeful-triage](https://github.com/cephalization/jev-triage) | 2026-09-17 | cephalization | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jlink](https://github.com/keltokhy/jlink) | 2026-09-18 | keltokhy | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jgrep](https://github.com/keltokhy/jgrep) | 2026-09-18 | keltokhy | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevgrep (allebee)](https://github.com/allebee/jevgrep) | 2026-09-21 | allebee | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) | 2026-09-23 | shimo4228 | Data Labeling & Curation<br><sub>Data Labeling & Curation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Web Analyzer](https://github.com/replynodes/jev-web-analyzer) | 2026-09-19 | replynodes | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Playground](https://github.com/hegargarcia/jev-playground) | 2026-09-17 | hegargarcia | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-research-eval](https://github.com/jgridifier/jev-research-eval) | 2026-09-17 | jgridifier | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Pong](https://github.com/ably-labs/jev-pong) | 2026-09-17 | ably-labs | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevcal](https://github.com/abhixhek/jevcal) | 2026-09-18 | abhixhek | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [WindTunnel](https://github.com/nekuda-ai/WindTunnel) | 2026-07-27 | nekuda-ai | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-eval](https://github.com/Shogo-nfrealmusic/jev-eval) | 2026-09-18 | Shogo-nfrealmusic | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [minutes](https://github.com/silverstein/minutes) | 2026-03-18 | silverstein | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | 2026-09-19 | yodablocks | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration) | 2026-09-19 | scienthoon | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [ASSAY-001](https://github.com/jourdanlabs/assay-001) | 2026-09-17 | jourdanlabs | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-acento](https://github.com/marcosmartinez/jev-acento) | 2026-09-20 | marcosmartinez | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev vs GPT-4.1 on a synthetic survey](https://github.com/jjd-lab/jev-synthetic-survey) | 2026-09-20 | jjd-lab | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [pytest-jev](https://github.com/allebee/pytest-jev) | 2026-09-21 | allebee | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev IDS](https://github.com/jev-ids/jev-ids) | 2026-09-21 | jev-ids | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-test](https://github.com/souvikr/jev-test) | 2026-09-19 | souvikr | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [DecisionBench](https://github.com/Hanno-Labs/decision-bench) | 2026-09-20 | Hanno-Labs | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-regress-bench](https://github.com/redhatpanda/jev-regress-bench) | 2026-09-23 | redhatpanda | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) | 2026-09-23 | blowxian | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [SystemOneHarness](https://github.com/HarnessRouter/SystemOneHarness) | 2026-09-19 | HarnessRouter | Evaluation & Benchmarking<br><sub>Evaluation & Benchmarking</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [decider](https://github.com/Mapika/decider) | 2026-09-16 | Mapika | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [openjev](https://github.com/zhihz/openjev) | 2026-09-16 | zhihz | Calibration & Research<br><sub>Calibration & Research</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [NanoJev](https://github.com/TianyuCodings/NanoJev) | 2026-09-17 | TianyuCodings | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [open-alternative-jev](https://github.com/ikermoel/open-alternative-jev) | 2026-09-18 | ikermoel | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [mini-jev](https://github.com/r-ms/mini-jev) | 2026-09-17 | r-ms | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [Laya](https://github.com/NandhaKishorM/laya) | 2026-09-18 | NandhaKishorM | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [kev](https://github.com/jaredpalmer/kev) | 2026-09-17 | jaredpalmer | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [jev-paint](https://github.com/achimala/jev-paint) | 2026-09-18 | achimala | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-local](https://github.com/us/jev-local) | 2026-09-18 | us | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [LitJev](https://github.com/zhengxuyu/litjev) | 2026-09-17 | zhengxuyu | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [ruling](https://github.com/bradAGI/ruling) | 2026-09-18 | bradAGI | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [jevlike](https://github.com/vinnylarouge/jevlike) | 2026-09-16 | vinnylarouge | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevbetter](https://github.com/olanotolu/jevbetter) | 2026-09-16 | olanotolu | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevlike-esp32](https://github.com/david-cermak/jevlike-esp32) | 2026-09-18 | david-cermak | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [von](https://github.com/wfzyx/von) | 2026-09-18 | wfzyx | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [JevForge](https://github.com/zwliJay/jev-forge) | 2026-09-19 | zwliJay | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [minojev](https://github.com/zeredy879/minojev) | 2026-09-18 | zeredy879 | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [Luce](https://github.com/scienthoon/luce) | 2026-09-20 | scienthoon | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [poorjev](https://github.com/rupeshpoojary9/poorjev) | 2026-09-19 | rupeshpoojary9 | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) | 2026-09-19 | Heman10x-NGU | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [OpenDecision](https://github.com/deepanwadhwa/OpenDecision) | 2026-09-17 | deepanwadhwa | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [TinyJev](https://github.com/ankit-aglawe/tinyjev) | 2026-09-22 | ankit-aglawe | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [Jev calculator](https://github.com/pc418/jev-calculator) | 2026-09-22 | pc418 | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev) | 2026-09-16 | TheoLeeCJ | Calibration & Research<br><sub>Calibration & Research</sub> | — | Open replica | B — probable | 2026-09-24 |
+| [jev-verify](https://github.com/stillmarcus24/jev-verify) | 2026-09-23 | stillmarcus24 | Calibration & Research<br><sub>Calibration & Research</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [eve](https://github.com/vercel/eve) | 2026-06-16 | vercel | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [AI CLI](https://github.com/vercel-labs/ai-cli) | 2025-07-28 | vercel-labs | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-mcp (jkudish)](https://github.com/jkudish/jev-mcp) | 2026-09-17 | jkudish | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-mcp (blakestone-x)](https://github.com/blakestone-x/jev-mcp) | 2026-09-16 | blakestone-x | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai) | 2026-09-17 | jamesward | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [laya-mlx](https://github.com/mizorewww/laya-mlx) | 2026-09-19 | mizorewww | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [TypeSafe AI Swift SDK](https://github.com/alterhq/typesafe-sdk-swift) | 2026-09-15 | alterhq | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) | 2026-09-17 | Butochnikov | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [advocaat](https://github.com/pithings/advocaat) | 2026-09-16 | pithings | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevclient](https://pypi.org/project/jevclient) | — | pypi.org | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-trust](https://pypi.org/project/jev-trust) | — | pypi.org | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [LlamaIndex Jev](https://github.com/WiktorB2004/llama-index-jev) | 2026-09-18 | WiktorB2004 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [safer-with-jev](https://github.com/andrelandgraf/safer-with-jev) | 2026-09-17 | andrelandgraf | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Smithers](https://github.com/smithersai/smithers) | 2026-01-05 | smithersai | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [skillbox](https://github.com/kitze/skillbox) | 2026-09-17 | kitze | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev (Elixir)](https://github.com/dannote/jev) | 2026-09-17 | dannote | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-go](https://github.com/Stumble/jev-go) | 2026-09-17 | Stumble | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-cli](https://github.com/tumf/jev-cli) | 2026-09-17 | tumf | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [decide-mcp](https://github.com/dakdevs/decide-mcp) | 2026-09-17 | dakdevs | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafe-jev-examples](https://github.com/rajivkuriakose/typesafe-jev-examples) | 2026-09-18 | rajivkuriakose | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [ai-python](https://github.com/vercel-labs/ai-python) | 2026-01-16 | vercel-labs | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Cline plugins](https://github.com/cline/plugins) | 2026-05-31 | cline | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [hono-jev-router](https://github.com/yusukebe/hono-jev-router) | 2026-09-18 | yusukebe | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [rotom](https://github.com/RyanKung/rotom) | 2026-04-27 | RyanKung | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev AI](https://jev-ai.pro) | — | jev-ai.pro | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [jevql](https://github.com/kylemclaren/jevql) | 2026-09-18 | kylemclaren | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [sqlite-jev](https://github.com/mgaitan/sqlite-jev) | 2026-09-18 | mgaitan | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [duckdb-jev](https://github.com/prasanthj/duckdb-jev) | 2026-09-20 | prasanthj | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevkit](https://github.com/ariel-frischer/jevkit) | 2026-09-18 | ariel-frischer | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-use](https://github.com/shitianfang/jev-use) | 2026-09-19 | shitianfang | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [huncho](https://github.com/edgardcham/huncho) | 2026-09-18 | edgardcham | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-experiments](https://github.com/dabit3/jev-experiments) | 2026-09-17 | dabit3 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [ruby_decision_model](https://github.com/obie/ruby_decision_model) | 2026-09-18 | obie | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [s1_ruby](https://github.com/innocentdiaz/s1_ruby) | 2026-09-18 | innocentdiaz | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [JarvisCore](https://github.com/Prescott-Data/jarviscore-framework) | 2026-01-07 | Prescott-Data | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [hunch (carldaws)](https://github.com/carldaws/hunch) | 2026-09-18 | carldaws | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-mcp (burnigtm)](https://github.com/burnigtm/jev-mcp) | 2026-09-17 | burnigtm | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-skill-suggester](https://github.com/win4r/jev-skill-suggester) | 2026-09-19 | win4r | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [grok-bot-jev](https://github.com/Bodila51/grok-bot-jev) | 2026-09-19 | Bodila51 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-architect](https://github.com/karanb192/jev-architect) | 2026-09-20 | karanb192 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [openrouter-jev-mcp](https://github.com/ctmx/openrouter-jev-mcp) | 2026-09-19 | ctmx | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [neurolink](https://github.com/juspay/neurolink) | 2025-05-31 | juspay | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-spring-boot-starter](https://github.com/danvega/jev-spring-boot-starter) | 2026-09-20 | danvega | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevify](https://github.com/altryne/jevify) | 2026-09-17 | altryne | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [mysql-ailike](https://github.com/maayanlevy/mysql-ailike) | 2026-09-19 | maayanlevy | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-usecases](https://github.com/kenhuangus/jev-usecases) | 2026-09-18 | kenhuangus | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [FastJev](https://github.com/chengyongru/fastjev) | 2026-09-20 | chengyongru | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [kojev](https://github.com/ItisNoMatter/kojev) | 2026-09-20 | ItisNoMatter | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [ask-jev](https://github.com/logicrw/ask-jev) | 2026-09-20 | logicrw | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Search with Jev and Milvus](https://github.com/milvus-io/bootcamp) | 2019-08-09 | milvus-io | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [discern](https://github.com/doeixd/discern) | 2026-09-21 | doeixd | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jeff (logan-markewich)](https://github.com/logan-markewich/jeff) | 2026-09-19 | logan-markewich | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [CloJev](https://github.com/antlobach/clojev) | 2026-09-20 | antlobach | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch) | 2026-09-20 | steven-shoemaker | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafe-mcp](https://github.com/itsmostafa/typesafe-mcp) | 2026-09-17 | itsmostafa | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [spring-ai-typesafe](https://github.com/spring-ai-community/spring-ai-typesafe) | 2026-09-20 | spring-ai-community | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [JevFlow](https://github.com/Mawfyy/jevflow) | 2026-09-20 | Mawfyy | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [stuntd](https://github.com/bladedevoff/stuntd) | 2026-09-23 | bladedevoff | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jeview](https://github.com/andududu/jeview) | 2026-09-21 | andududu | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [SemDecide](https://github.com/sharziki/semdecide) | 2026-09-16 | sharziki | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-foundation-models](https://github.com/peterfriese/jev-foundation-models) | 2026-09-21 | peterfriese | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [simple-jev](https://github.com/featherless-ai/simple-jev) | 2026-09-18 | featherless-ai | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [cu-Jev](https://github.com/dtunai/cu-Jev) | 2026-09-20 | dtunai | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevcache](https://github.com/hyperspaceai/jevcache) | 2026-09-18 | hyperspaceai | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-switch](https://github.com/ARCJ137442/jev-switch) | 2026-09-22 | ARCJ137442 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Qwev](https://github.com/HopLee6/Qwev) | 2026-09-23 | HopLee6 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Jev-inspired | B — probable | 2026-09-24 |
+| [jev-sdk-go](https://github.com/HomayoonAlimohammadi/jev-sdk-go) | 2026-09-22 | HomayoonAlimohammadi | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk) | 2026-09-16 | saibimajdi | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevcompat](https://github.com/mandu5/jevcompat) | 2026-09-24 | mandu5 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafe-ai (Rust)](https://github.com/Twister915/typesafe-ai) | 2026-09-16 | Twister915 | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | 2024-06-21 | pydantic | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafe-mario](https://github.com/fhshaik/typesafe-mario) | 2026-09-16 | fhshaik | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-drone](https://github.com/RomanSlack/jev-drone) | 2026-09-16 | RomanSlack | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [tsai-sc](https://github.com/phyous/tsai-sc) | 2026-09-16 | phyous | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) | 2026-09-17 | milanboers | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafe-jev-drone-demo](https://github.com/kxzk/typesafe-jev-drone-demo) | 2026-09-17 | kxzk | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [typesafe-playground](https://github.com/kavehmz/typesafe-playground) | 2026-09-17 | kavehmz | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [PlayJev](https://github.com/OmniJev/PlayJev) | 2026-09-17 | OmniJev | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) | 2026-09-18 | valentynkit | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab) | 2026-09-18 | khordoo | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Soupbase](https://github.com/spoonnotfound/soupbase) | 2026-09-19 | spoonnotfound | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-torneo-animales](https://github.com/hectorlcastro09/jev-torneo-animales) | 2026-09-19 | hectorlcastro09 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [2048 × Jev](https://github.com/ARCJ137442/jev-2048) | 2026-09-20 | ARCJ137442 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Mentions only | B — probable | 2026-09-24 |
+| [Jevtown](https://github.com/gaborishka/jevtown) | 2026-09-20 | gaborishka | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [RoboJEV](https://github.com/lykycy123/RoboJEV) | 2026-09-20 | lykycy123 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Life Chess × Jev](https://github.com/ARCJ137442/jev-life) | 2026-09-22 | ARCJ137442 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [kNES](https://github.com/ArturSkowronski/kNES) | 2025-03-04 | ArturSkowronski | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Laya vs Jev arena](https://github.com/PromptEngineer48/laya-vs-jev-arena) | 2026-09-21 | PromptEngineer48 | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [JEV-Star](https://github.com/sc2musa/Jev_Star) | 2026-09-22 | sc2musa | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [THE HUNDRED EYES](https://github.com/mintannn/THE-HUNDRED-EYES) | 2026-09-21 | mintannn | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-pilot-reflex](https://github.com/manhua-man/jev-pilot-reflex) | 2026-09-22 | manhua-man | Game & Simulation<br><sub>Game & Simulation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jevinik](https://github.com/unicodeveloper/jevocks) | 2026-09-18 | unicodeveloper | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev_stock](https://github.com/sosopop/jev_stock) | 2026-09-17 | sosopop | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-trade](https://github.com/aowang-ai/jev-trade) | 2026-09-17 | aowang-ai | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev X Sentiment Analysis](https://github.com/brainstormity/Jev-X-Sentiment-Analysis) | 2026-09-19 | brainstormity | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-guard (klauswg)](https://github.com/klauswg/jev-guard) | 2026-09-22 | klauswg | Finance & Trading<br><sub>Finance & Trading</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [LegalForecast-MTD](https://github.com/johnhughes3/LegalForecastBench) | 2026-05-18 | johnhughes3 | Compliance & Legal<br><sub>Compliance & Legal</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | 2026-09-17 | brainstormity | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-spam-eval](https://github.com/bitnovus/jev-spam-eval) | 2026-09-17 | bitnovus | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [mastra-jev-moderation](https://github.com/CodeAlive-AI/mastra-jev-moderation) | 2026-09-18 | CodeAlive-AI | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Jev Chat for Twitch](https://github.com/ethanplusai/jev-chat-for-twitch) | 2026-09-19 | ethanplusai | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [profanity-checker](https://github.com/4rays/profanity-checker) | 2026-09-20 | 4rays | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev_antispam_bot](https://github.com/backmeupplz/jev_antispam_bot) | 2026-09-18 | backmeupplz | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-slop-guard](https://github.com/davertor/jev-slop-guard) | 2026-09-21 | davertor | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jev-screen-mcp](https://github.com/jiawei686/jev-screen-mcp) | 2026-09-21 | jiawei686 | Content Moderation<br><sub>Content Moderation</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Awesome Jev by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) | 2023-05-17 | Anil-matcha | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [深入解读 Jev 模型：毫秒级判定与工程边界](https://github.com/kuhung/understanding-jev) | 2026-09-18 | kuhung | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Awesome TypeSafe Jev](https://github.com/AbdelStark/awesome-typesafe-jev) | 2026-09-17 | AbdelStark | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Spike: Jev as a judgement layer to cut model cost](https://github.com/open-orcha/orcha) | 2026-06-16 | open-orcha | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [Awesome Jev Robustness](https://github.com/Yifan-Lan/awesome-jev-robustness) | 2026-09-23 | Yifan-Lan | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| [jevchat](https://github.com/kyle-pena-nlp/jevchat) | 2026-09-20 | kyle-pena-nlp | Related Practices / Discussions<br><sub>Related Practices / Discussions</sub> | — | Uses Jev | B — probable | 2026-09-24 |
 
 ### Public materials (108)
 
@@ -546,6 +546,7 @@ updates/YYYY-MM-DD.md         Human-readable change log for each review date
 schema/*.schema.json          Lightweight JSON Schema descriptions
 scripts/validate.mjs          Deterministic local and CI validation
 scripts/render-readme.mjs     Rebuild the Markdown catalogue tables from JSON
+scripts/enrich-project-dates.mjs  Add GitHub repository creation dates to project records
 index.html / app.js / styles.css  Static bilingual GitHub Pages surface
 ```
 
@@ -602,6 +603,8 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 
 本仓库面向全球学者，默认显示英文，并提供中文界面切换。目录将论文、项目和互联网材料分层保存；访谈、播客、博客、X/Twitter、小红书线索等不会与论文或软件项目混为一类。每条主目录记录都保存 canonical URL、关系、证据等级、来源 ID 和最后核验日期。
 
+论文的 `published` 使用论文或预印本来源日期。项目的 `published` 在 GitHub 项目中表示公开仓库创建日期，不等同于首个 release；非 GitHub 项目在稳定公开日期确认前保留为日期未确认。
+
 小红书等平台如果只能得到搜索摘要、无法确认原帖 URL、作者或发布时间，则只进入 `data/pending_review.json`，不会直接写入已核验目录。另一个对话中的检索结果不会自动同步到本仓库；需要提供稳定链接或导出文件后，才能按相同数据模型合并。
 
 如果希望使用根地址 `https://<account>.github.io/`，GitHub 仓库必须严格命名为 `<account>.github.io`；如果保留 `jev-research-index`，网站地址则是 `https://<account>.github.io/jev-research-index/`。GitHub 仓库首页显示 `README.md` 的目录说明；同一仓库中的 GitHub Actions 会在校验通过后发布 `index.html` 静态站点。论文、项目、X 帖子和视频演示均保留原始链接与来源状态，无法直接读取的内容不会被写成已核验事实。
@@ -610,6 +613,7 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 
 - **Last update:** 2026-09-24 (Asia/Hong_Kong)
 - **Current snapshot:** 12 papers, 337 projects, 108 public materials, and 31 sources
+- **Project dates:** 330 GitHub repository creation dates confirmed; 7 non-GitHub project dates remain unconfirmed.
 - **Change log:** [updates/2026-09-24.md](updates/2026-09-24.md)
 - **Validation:** `npm run validate` checks JSON structure, source references, duplicate records, and README synchronization.
 - **Deployment:** GitHub Pages is published from the `main` branch through [Deploy Jev Research Index to GitHub Pages](.github/workflows/deploy-pages.yml).

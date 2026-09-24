@@ -5,6 +5,7 @@
   "description": "Bilingual, auditable index of TypeSafe AI Jev papers, projects, and public materials",
   "scripts": {
     "update:readme": "node scripts/render-readme.mjs",
+    "enrich:project-dates": "node scripts/enrich-project-dates.mjs",
     "validate": "node scripts/render-readme.mjs --check && node scripts/validate.mjs"
   },
   "engines": {

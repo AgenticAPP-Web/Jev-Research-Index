@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-09-24",
+    "label": "Project publication dates",
+    "labelEn": "Project publication dates",
+    "labelZh": "项目公开日期",
+    "summary": "Added a publication-date field for every project. GitHub projects use the repository creation date from the public repository page; non-GitHub projects remain explicitly unconfirmed.",
+    "summaryEn": "Added a publication-date field for every project. GitHub projects use the repository creation date from the public repository page; non-GitHub projects remain explicitly unconfirmed.",
+    "summaryZh": "为每个项目增加公开日期字段。GitHub 项目使用公开仓库页面中的创建日期；非 GitHub 项目明确保留为日期未确认。"
+  },
+  {
+    "date": "2026-09-24",
     "label": "awesome-jev directory import",
     "labelEn": "awesome-jev directory import",
     "labelZh": "导入 awesome-jev 目录",

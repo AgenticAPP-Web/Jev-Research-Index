@@ -25,7 +25,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:typesafe-github"
-    ]
+    ],
+    "published": "2026-09-04",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/typesafe-ai/typesafe-sdk-js"
   },
   {
     "id": "github:typesafe-ai/typesafe-sdk-python",
@@ -52,7 +55,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:typesafe-github"
-    ]
+    ],
+    "published": "2026-09-04",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/typesafe-ai/typesafe-sdk-python"
   },
   {
     "id": "github:typesafe-ai/system-one-adapter-python",
@@ -79,7 +85,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:typesafe-github"
-    ]
+    ],
+    "published": "2026-08-08",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/typesafe-ai/system-one-adapter-python"
   },
   {
     "id": "github:typesafe-ai/skills",
@@ -106,7 +115,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:typesafe-github"
-    ]
+    ],
+    "published": "2026-08-24",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/typesafe-ai/skills"
   },
   {
     "id": "github:libingzheren/Jev-Mem",
@@ -134,7 +146,10 @@
     "sourceIds": [
       "source:arxiv",
       "source:jev-mem-repo"
-    ]
+    ],
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/libingzheren/Jev-Mem"
   },
   {
     "id": "github:olti1947/jev-java",
@@ -161,7 +176,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:jev-java-repo"
-    ]
+    ],
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/olti1947/jev-java"
   },
   {
     "id": "github:shivanathd/jev-playground",
@@ -189,7 +207,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:jev-playground-repo"
-    ]
+    ],
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/shivanathd/jev-playground"
   },
   {
     "id": "github:browser-use/jev-ultrafast",
@@ -217,7 +238,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:browser-use-jev-ultrafast"
-    ]
+    ],
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/browser-use/jev-ultrafast"
   },
   {
     "id": "github:awlevin/typesafe-computer-use",
@@ -245,7 +269,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:awlevin-typesafe-computer-use"
-    ]
+    ],
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/awlevin/typesafe-computer-use"
   },
   {
     "id": "github:jkudish/jev-browser",
@@ -273,7 +300,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:jkudish-jev-browser"
-    ]
+    ],
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jkudish/jev-browser"
   },
   {
     "id": "github:moritzkremb/jev-voice-browser",
@@ -301,7 +331,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:moritzkremb-jev-voice-browser"
-    ]
+    ],
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/moritzkremb/jev-voice-browser"
   },
   {
     "id": "github:jarrodwatts/jev-trader",
@@ -329,7 +362,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:jarrodwatts-jev-trader"
-    ]
+    ],
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jarrodwatts/jev-trader"
   },
   {
     "id": "github:iomiras/sponsor-skipper",
@@ -357,7 +393,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:iomiras-sponsor-skipper"
-    ]
+    ],
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/iomiras/sponsor-skipper"
   },
   {
     "id": "github:valentynkit/jev-skip",
@@ -385,7 +424,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:valentynkit-jev-skip"
-    ]
+    ],
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/valentynkit/jev-skip"
   },
   {
     "id": "github:paulsmith/computer-use-jev",
@@ -413,7 +455,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:paulsmith-computer-use-jev"
-    ]
+    ],
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/paulsmith/computer-use-jev"
   },
   {
     "id": "github:tacticocc/Jevbridge",
@@ -442,7 +487,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:tacticocc-jevbridge"
-    ]
+    ],
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/tacticocc/Jevbridge"
   },
   {
     "id": "github:guanxuyu-sv/Visual-Jev",
@@ -470,7 +518,10 @@
     "lastVerifiedAt": "2026-09-24",
     "sourceIds": [
       "source:guanxuyu-sv-visual-jev"
-    ]
+    ],
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/guanxuyu-sv/Visual-Jev"
   },
   {
     "id": "github:Hangzhi/diffusion-jev-sglang",
@@ -493,7 +544,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Hangzhi/diffusion-jev-sglang"
   },
   {
     "id": "github:usenotra/notra",
@@ -516,7 +570,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2025-12-13",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/usenotra/notra"
   },
   {
     "id": "github:gargpratyush/jev-router",
@@ -540,7 +597,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/gargpratyush/jev-router"
   },
   {
     "id": "github:prismhq/jev-router",
@@ -563,7 +623,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/prismhq/jev-router"
   },
   {
     "id": "github:mejiasd3v/pi-jev-router",
@@ -587,7 +650,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/mejiasd3v/pi-jev-router"
   },
   {
     "id": "github:adarshmishra07/jcm-router",
@@ -610,7 +676,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/adarshmishra07/jcm-router"
   },
   {
     "id": "github:suenot/codex-jev-router",
@@ -634,7 +703,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/suenot/codex-jev-router"
   },
   {
     "id": "github:miniLV/Jev-Auto-Router",
@@ -659,7 +731,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-08-01",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/miniLV/Jev-Auto-Router"
   },
   {
     "id": "github:GodsBoy/jev-agent-skill-router",
@@ -682,7 +757,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/GodsBoy/jev-agent-skill-router"
   },
   {
     "id": "github:gtaras7/typesafe-jev",
@@ -705,7 +783,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/gtaras7/typesafe-jev"
   },
   {
     "id": "github:GiesN/typesafe-jev-workflow",
@@ -728,7 +809,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/GiesN/typesafe-jev-workflow"
   },
   {
     "id": "github:raihankhan-rk/diffjury",
@@ -751,7 +835,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/raihankhan-rk/diffjury"
   },
   {
     "id": "github:AboveColin/HA-Jev",
@@ -774,7 +861,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AboveColin/HA-Jev"
   },
   {
     "id": "github:ryanwaits/secondlayer",
@@ -797,7 +887,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2025-05-25",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ryanwaits/secondlayer"
   },
   {
     "id": "github:jyatesdotdev/jev-logtriage",
@@ -820,7 +913,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jyatesdotdev/jev-logtriage"
   },
   {
     "id": "github:FFatTiger/new-api-plugin-typesafe",
@@ -843,7 +939,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/FFatTiger/new-api-plugin-typesafe"
   },
   {
     "id": "github:dzhng/duet-agent",
@@ -866,7 +965,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-04-10",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/dzhng/duet-agent"
   },
   {
     "id": "github:islee23520/omo-jevlike-router",
@@ -889,7 +991,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/islee23520/omo-jevlike-router"
   },
   {
     "id": "github:nexibeo/jev-cookbook",
@@ -912,7 +1017,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/nexibeo/jev-cookbook"
   },
   {
     "id": "github:matthewp/flue-jev-demo",
@@ -935,7 +1043,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/matthewp/flue-jev-demo"
   },
   {
     "id": "github:jerryjliu/docjev",
@@ -958,7 +1069,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jerryjliu/docjev"
   },
   {
     "id": "project:jev-fit-com",
@@ -981,7 +1095,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": null,
+    "publishedType": "unconfirmed",
+    "publishedSource": "https://jev-fit.com"
   },
   {
     "id": "github:shimo4228/jev-skill-router",
@@ -1006,7 +1123,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/shimo4228/jev-skill-router"
   },
   {
     "id": "github:gaborishka/jev-wrapped",
@@ -1029,7 +1149,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/gaborishka/jev-wrapped"
   },
   {
     "id": "github:vynnlee/jev-mail",
@@ -1052,7 +1175,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/vynnlee/jev-mail"
   },
   {
     "id": "github:zlZayn/AI-decision-maker",
@@ -1075,7 +1201,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-05-12",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zlZayn/AI-decision-maker"
   },
   {
     "id": "github:Nancy-Chauhan/hearth-jev-rental-search",
@@ -1098,7 +1227,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Nancy-Chauhan/hearth-jev-rental-search"
   },
   {
     "id": "github:safzanpirani/pi-jev-skill-picker",
@@ -1122,7 +1254,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/safzanpirani/pi-jev-skill-picker"
   },
   {
     "id": "github:xinyao27/jevonian",
@@ -1145,7 +1280,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/xinyao27/jevonian"
   },
   {
     "id": "github:ruban-24/switchboard",
@@ -1170,7 +1308,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ruban-24/switchboard"
   },
   {
     "id": "github:AstonyCat/jev-tab-grouper",
@@ -1193,7 +1334,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AstonyCat/jev-tab-grouper"
   },
   {
     "id": "github:SkywalkerDarren/feed-lens",
@@ -1217,7 +1361,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/SkywalkerDarren/feed-lens"
   },
   {
     "id": "github:DuvInc/jev-table-import-mapper",
@@ -1240,7 +1387,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/DuvInc/jev-table-import-mapper"
   },
   {
     "id": "github:mingleiw/jev-oncall",
@@ -1263,7 +1413,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/mingleiw/jev-oncall"
   },
   {
     "id": "github:peakevergreen/jevidence",
@@ -1286,7 +1439,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/peakevergreen/jevidence"
   },
   {
     "id": "github:Nisaka520/JevBystander",
@@ -1309,7 +1465,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Nisaka520/JevBystander"
   },
   {
     "id": "github:deyna256/langchain-skill-router",
@@ -1332,7 +1491,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/deyna256/langchain-skill-router"
   },
   {
     "id": "github:klauswg/jev-suite",
@@ -1356,7 +1518,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/klauswg/jev-suite"
   },
   {
     "id": "github:AiPersonacademy/jev-resume-disqualifier",
@@ -1379,7 +1544,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AiPersonacademy/jev-resume-disqualifier"
   },
   {
     "id": "github:pjmenon45/Jev-IOT",
@@ -1402,7 +1570,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/pjmenon45/Jev-IOT"
   },
   {
     "id": "github:agentscope-ai/agentscope",
@@ -1425,7 +1596,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2024-01-12",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/agentscope-ai/agentscope"
   },
   {
     "id": "github:realZachi/typesafe-adblock",
@@ -1449,7 +1623,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/realZachi/typesafe-adblock"
   },
   {
     "id": "github:kitze/unclutter",
@@ -1472,7 +1649,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kitze/unclutter"
   },
   {
     "id": "github:bohutang/sift",
@@ -1496,7 +1676,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/bohutang/sift"
   },
   {
     "id": "github:vercel-labs/json-render",
@@ -1519,7 +1702,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-01-14",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/vercel-labs/json-render"
   },
   {
     "id": "github:Dearest/plotveil",
@@ -1543,7 +1729,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Dearest/plotveil"
   },
   {
     "id": "github:gaborishka/jev-canvas",
@@ -1566,7 +1755,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/gaborishka/jev-canvas"
   },
   {
     "id": "github:rohit9mehta/dwim",
@@ -1589,7 +1781,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/rohit9mehta/dwim"
   },
   {
     "id": "project:semanticspace-dev",
@@ -1613,7 +1808,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": null,
+    "publishedType": "unconfirmed",
+    "publishedSource": "https://semanticspace.dev"
   },
   {
     "id": "github:luantak/is-malicious",
@@ -1636,7 +1834,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/luantak/is-malicious"
   },
   {
     "id": "github:devagrawal09/jev-review",
@@ -1659,7 +1860,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/devagrawal09/jev-review"
   },
   {
     "id": "github:y0usaf/pi-jev",
@@ -1684,7 +1888,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/y0usaf/pi-jev"
   },
   {
     "id": "github:different-ai/openwork",
@@ -1707,7 +1914,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-01-14",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/different-ai/openwork"
   },
   {
     "id": "github:leepokai/jev-guard",
@@ -1731,7 +1941,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/leepokai/jev-guard"
   },
   {
     "id": "github:thruwire/foreman",
@@ -1755,7 +1968,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/thruwire/foreman"
   },
   {
     "id": "github:devagrawal09/stanley-code",
@@ -1778,7 +1994,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/devagrawal09/stanley-code"
   },
   {
     "id": "github:useopencompany/opencompany",
@@ -1801,7 +2020,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-05-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/useopencompany/opencompany"
   },
   {
     "id": "github:AkashPriyadarshii/jev-git",
@@ -1824,7 +2046,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AkashPriyadarshii/jev-git"
   },
   {
     "id": "github:Nyarlathoteppppp/pi-heed",
@@ -1849,7 +2074,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Nyarlathoteppppp/pi-heed"
   },
   {
     "id": "github:Kelbie/hunch",
@@ -1872,7 +2100,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Kelbie/hunch"
   },
   {
     "id": "github:coldteadotai/abide",
@@ -1895,7 +2126,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/coldteadotai/abide"
   },
   {
     "id": "github:vercel-labs/fx",
@@ -1918,7 +2152,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-08-11",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/vercel-labs/fx"
   },
   {
     "id": "github:DanRWilloughby/snifftest",
@@ -1943,7 +2180,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/DanRWilloughby/snifftest"
   },
   {
     "id": "github:doeixd/jev-pref",
@@ -1966,7 +2206,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/doeixd/jev-pref"
   },
   {
     "id": "github:shiftynick/jev-axi",
@@ -1991,7 +2234,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/shiftynick/jev-axi"
   },
   {
     "id": "github:jesset/pi-verdict",
@@ -2016,7 +2262,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-08-25",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jesset/pi-verdict"
   },
   {
     "id": "github:valentynkit/jev-commit",
@@ -2039,7 +2288,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/valentynkit/jev-commit"
   },
   {
     "id": "github:anpicasso/hermes-jev-approvals",
@@ -2062,7 +2314,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/anpicasso/hermes-jev-approvals"
   },
   {
     "id": "github:mblode/taste-lint",
@@ -2085,7 +2340,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/mblode/taste-lint"
   },
   {
     "id": "github:eugeniughelbur/jev-engineering",
@@ -2108,7 +2366,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/eugeniughelbur/jev-engineering"
   },
   {
     "id": "github:ismaelsoilet/jev-harness",
@@ -2133,7 +2394,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ismaelsoilet/jev-harness"
   },
   {
     "id": "github:kaustav1996/reflex",
@@ -2157,7 +2421,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kaustav1996/reflex"
   },
   {
     "id": "github:Thneoly/r2r-jev",
@@ -2180,7 +2447,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Thneoly/r2r-jev"
   },
   {
     "id": "github:GeekLinkDev/jev-subtitle-translator",
@@ -2203,7 +2473,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/GeekLinkDev/jev-subtitle-translator"
   },
   {
     "id": "github:agent-chaperone/agent-chaperone",
@@ -2226,7 +2499,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/agent-chaperone/agent-chaperone"
   },
   {
     "id": "github:oppih/approval-judge-bridge",
@@ -2250,7 +2526,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/oppih/approval-judge-bridge"
   },
   {
     "id": "github:dubinc/dub",
@@ -2273,7 +2552,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2022-08-27",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/dubinc/dub"
   },
   {
     "id": "github:qkal/Canny",
@@ -2298,7 +2580,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-11",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/qkal/Canny"
   },
   {
     "id": "github:Tech-Byte-Frontier/jevgate",
@@ -2322,7 +2607,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Tech-Byte-Frontier/jevgate"
   },
   {
     "id": "github:frostney/clean-code-review",
@@ -2345,7 +2633,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/frostney/clean-code-review"
   },
   {
     "id": "github:MarissaFamularo/citation-verifier",
@@ -2368,7 +2659,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/MarissaFamularo/citation-verifier"
   },
   {
     "id": "github:glud123/jev-assist",
@@ -2391,7 +2685,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/glud123/jev-assist"
   },
   {
     "id": "github:komikat/jev-bfs",
@@ -2414,7 +2711,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/komikat/jev-bfs"
   },
   {
     "id": "github:superagents-lab/jev-search",
@@ -2437,7 +2737,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/superagents-lab/jev-search"
   },
   {
     "id": "github:kitze/pagegrade",
@@ -2460,7 +2763,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kitze/pagegrade"
   },
   {
     "id": "github:AkashPriyadarshii/jev-scout",
@@ -2483,7 +2789,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AkashPriyadarshii/jev-scout"
   },
   {
     "id": "github:AkashPriyadarshii/jev-seo",
@@ -2506,7 +2815,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AkashPriyadarshii/jev-seo"
   },
   {
     "id": "github:TKY-27/JevSlop",
@@ -2529,7 +2841,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/TKY-27/JevSlop"
   },
   {
     "id": "github:supercorp-ai/supercov",
@@ -2552,7 +2867,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-08-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/supercorp-ai/supercov"
   },
   {
     "id": "github:valentynkit/jev.nvim",
@@ -2575,7 +2893,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/valentynkit/jev.nvim"
   },
   {
     "id": "github:hotchpotch/jev-reranker",
@@ -2598,7 +2919,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/hotchpotch/jev-reranker"
   },
   {
     "id": "github:shinpr/jev-reranker",
@@ -2621,7 +2945,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/shinpr/jev-reranker"
   },
   {
     "id": "github:uehaj/jev-semgrep",
@@ -2644,7 +2971,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/uehaj/jev-semgrep"
   },
   {
     "id": "github:YehuiTang0316/jev-nlgrep",
@@ -2667,7 +2997,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/YehuiTang0316/jev-nlgrep"
   },
   {
     "id": "github:kylemclaren/jevpdf",
@@ -2690,7 +3023,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kylemclaren/jevpdf"
   },
   {
     "id": "github:lukstei/slop-grader",
@@ -2713,7 +3049,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/lukstei/slop-grader"
   },
   {
     "id": "github:keltokhy/jselect",
@@ -2736,7 +3075,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/keltokhy/jselect"
   },
   {
     "id": "github:keltokhy/jsort",
@@ -2759,7 +3101,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/keltokhy/jsort"
   },
   {
     "id": "github:kyu1204/jgrep",
@@ -2782,7 +3127,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kyu1204/jgrep"
   },
   {
     "id": "github:nanami-0713/jev-resume-screening",
@@ -2805,7 +3153,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/nanami-0713/jev-resume-screening"
   },
   {
     "id": "github:kitfunso/hippo-memory",
@@ -2828,7 +3179,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-03-15",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kitfunso/hippo-memory"
   },
   {
     "id": "github:zilliztech/memsearch",
@@ -2852,7 +3206,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-02-09",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zilliztech/memsearch"
   },
   {
     "id": "github:bartlomein/oko",
@@ -2875,7 +3232,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/bartlomein/oko"
   },
   {
     "id": "github:mcgalleg/grokbot-jev-jobs",
@@ -2898,7 +3258,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/mcgalleg/grokbot-jev-jobs"
   },
   {
     "id": "github:saembit/jeff-cli",
@@ -2922,7 +3285,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/saembit/jeff-cli"
   },
   {
     "id": "github:Eliot5566/JEV-Paper-Radar",
@@ -2945,7 +3311,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Eliot5566/JEV-Paper-Radar"
   },
   {
     "id": "github:volcengine/OpenViking",
@@ -2968,7 +3337,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-01-05",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/volcengine/OpenViking"
   },
   {
     "id": "github:kylemclaren/jevsearch",
@@ -2991,7 +3363,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kylemclaren/jevsearch"
   },
   {
     "id": "github:romeromarcelo/jev-retrieval",
@@ -3016,7 +3391,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/romeromarcelo/jev-retrieval"
   },
   {
     "id": "github:harshithsunku/learn-jev-end-to-end",
@@ -3039,7 +3417,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/harshithsunku/learn-jev-end-to-end"
   },
   {
     "id": "github:wojciechwiesner/jit-context",
@@ -3062,7 +3443,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-08-31",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/wojciechwiesner/jit-context"
   },
   {
     "id": "github:ReallyArtificial/jev-by-example",
@@ -3085,7 +3469,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ReallyArtificial/jev-by-example"
   },
   {
     "id": "github:socai-io/jev-social",
@@ -3108,7 +3495,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/socai-io/jev-social"
   },
   {
     "id": "github:forvela/jev-agent-browser",
@@ -3131,7 +3521,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/forvela/jev-agent-browser"
   },
   {
     "id": "github:legacybridge-tech/pi-typesafe-jev",
@@ -3156,7 +3549,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/legacybridge-tech/pi-typesafe-jev"
   },
   {
     "id": "github:HyunjunJeon/jev-judgment",
@@ -3179,7 +3575,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/HyunjunJeon/jev-judgment"
   },
   {
     "id": "github:noplan-inc/limpet",
@@ -3202,7 +3601,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/noplan-inc/limpet"
   },
   {
     "id": "github:grmkris/robo-harness",
@@ -3225,7 +3627,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-07",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/grmkris/robo-harness"
   },
   {
     "id": "project:git-allen-software-com-allenh1-dsh-auto-mode",
@@ -3248,7 +3653,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": null,
+    "publishedType": "unconfirmed",
+    "publishedSource": "https://git.allen-software.com/allenh1/dsh-auto-mode"
   },
   {
     "id": "github:24601/Augustus",
@@ -3271,7 +3679,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/24601/Augustus"
   },
   {
     "id": "github:compozy/yoshi",
@@ -3296,7 +3707,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/compozy/yoshi"
   },
   {
     "id": "github:TheoOliveira/pi-jev",
@@ -3320,7 +3734,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/TheoOliveira/pi-jev"
   },
   {
     "id": "github:HyunjunJeon/pi-quiet-ask",
@@ -3344,7 +3761,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/HyunjunJeon/pi-quiet-ask"
   },
   {
     "id": "github:agent-labs-dev/fastbrowse",
@@ -3367,7 +3787,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/agent-labs-dev/fastbrowse"
   },
   {
     "id": "github:Kevthetech143/super-jev",
@@ -3390,7 +3813,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Kevthetech143/super-jev"
   },
   {
     "id": "github:AkashPriyadarshii/jev-superpowers",
@@ -3413,7 +3839,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AkashPriyadarshii/jev-superpowers"
   },
   {
     "id": "github:joelhooks/pi-fast-jev-compaction",
@@ -3438,7 +3867,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/joelhooks/pi-fast-jev-compaction"
   },
   {
     "id": "github:bastani-inc/atomic",
@@ -3461,7 +3893,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2025-10-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/bastani-inc/atomic"
   },
   {
     "id": "github:tamaratran/fast-jev-compaction",
@@ -3486,7 +3921,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/tamaratran/fast-jev-compaction"
   },
   {
     "id": "github:leonaaardob/fast-dev-compaction",
@@ -3511,7 +3949,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/leonaaardob/fast-dev-compaction"
   },
   {
     "id": "github:Silbercue/public-browser",
@@ -3535,7 +3976,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-04-07",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Silbercue/public-browser"
   },
   {
     "id": "github:jekozyra/pi-typesafe-router",
@@ -3559,7 +4003,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jekozyra/pi-typesafe-router"
   },
   {
     "id": "github:shitianfang/wakegate",
@@ -3582,7 +4029,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/shitianfang/wakegate"
   },
   {
     "id": "github:GoldenLoaf24h/browserclaw",
@@ -3605,7 +4055,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-10",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/GoldenLoaf24h/browserclaw"
   },
   {
     "id": "github:valentynkit/jev-belay",
@@ -3630,7 +4083,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/valentynkit/jev-belay"
   },
   {
     "id": "github:chy4pro/jev-for-chrome",
@@ -3654,7 +4110,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/chy4pro/jev-for-chrome"
   },
   {
     "id": "github:tamaratran/jev-pruner",
@@ -3679,7 +4138,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/tamaratran/jev-pruner"
   },
   {
     "id": "github:yikangy873-gif/jev-desktop",
@@ -3703,7 +4165,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/yikangy873-gif/jev-desktop"
   },
   {
     "id": "github:yuyang2230/jev-agent-skill",
@@ -3728,7 +4193,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/yuyang2230/jev-agent-skill"
   },
   {
     "id": "project:yappy-biz-jev",
@@ -3752,7 +4220,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": null,
+    "publishedType": "unconfirmed",
+    "publishedSource": "https://yappy.biz/jev"
   },
   {
     "id": "github:zjunlp/JevLoop",
@@ -3775,7 +4246,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zjunlp/JevLoop"
   },
   {
     "id": "github:parkavenue9639/jevloop",
@@ -3798,7 +4272,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/parkavenue9639/jevloop"
   },
   {
     "id": "github:zzz1YAO/DataJev",
@@ -3821,7 +4298,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zzz1YAO/DataJev"
   },
   {
     "id": "github:Friedjof/jev-mobile",
@@ -3844,7 +4324,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Friedjof/jev-mobile"
   },
   {
     "id": "github:ZihuaEvan/GUI_JEV",
@@ -3867,7 +4350,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ZihuaEvan/GUI_JEV"
   },
   {
     "id": "github:Waxmell114514/jev-compaction",
@@ -3890,7 +4376,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Waxmell114514/jev-compaction"
   },
   {
     "id": "github:jiangxiluning/Visual-Jev",
@@ -3913,7 +4402,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jiangxiluning/Visual-Jev"
   },
   {
     "id": "github:zilliztech/deep-searcher",
@@ -3937,7 +4429,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2025-02-08",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zilliztech/deep-searcher"
   },
   {
     "id": "github:shapsider/OmniJev",
@@ -3960,7 +4455,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/shapsider/OmniJev"
   },
   {
     "id": "github:jexp/neo4jev",
@@ -3983,7 +4481,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jexp/neo4jev"
   },
   {
     "id": "github:jev-chat/jev-chat-jarvis",
@@ -4006,7 +4507,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jev-chat/jev-chat-jarvis"
   },
   {
     "id": "github:kerpopule/hermes-jev-skills",
@@ -4030,7 +4534,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kerpopule/hermes-jev-skills"
   },
   {
     "id": "github:wy-coliney/jev-browser-use",
@@ -4054,7 +4561,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/wy-coliney/jev-browser-use"
   },
   {
     "id": "github:droidrun/mobile-jev",
@@ -4077,7 +4587,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/droidrun/mobile-jev"
   },
   {
     "id": "github:Sac-Y/Jev-cu",
@@ -4100,7 +4613,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Sac-Y/Jev-cu"
   },
   {
     "id": "github:Dicklesworthstone/skillranker",
@@ -4125,7 +4641,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Dicklesworthstone/skillranker"
   },
   {
     "id": "github:Significant-Gravitas/AutoGPT",
@@ -4148,7 +4667,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2023-03-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Significant-Gravitas/AutoGPT"
   },
   {
     "id": "github:sutro-sh/jev-align",
@@ -4171,7 +4693,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/sutro-sh/jev-align"
   },
   {
     "id": "github:AkashPriyadarshii/jev-curate",
@@ -4194,7 +4719,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AkashPriyadarshii/jev-curate"
   },
   {
     "id": "github:cephalization/jev-triage",
@@ -4217,7 +4745,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/cephalization/jev-triage"
   },
   {
     "id": "github:keltokhy/jlink",
@@ -4240,7 +4771,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/keltokhy/jlink"
   },
   {
     "id": "github:keltokhy/jgrep",
@@ -4263,7 +4797,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/keltokhy/jgrep"
   },
   {
     "id": "github:allebee/jevgrep",
@@ -4286,7 +4823,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/allebee/jevgrep"
   },
   {
     "id": "github:shimo4228/jev-research-pipeline",
@@ -4309,7 +4849,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/shimo4228/jev-research-pipeline"
   },
   {
     "id": "github:replynodes/jev-web-analyzer",
@@ -4332,7 +4875,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/replynodes/jev-web-analyzer"
   },
   {
     "id": "github:hegargarcia/jev-playground",
@@ -4355,7 +4901,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/hegargarcia/jev-playground"
   },
   {
     "id": "github:jgridifier/jev-research-eval",
@@ -4378,7 +4927,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jgridifier/jev-research-eval"
   },
   {
     "id": "github:ably-labs/jev-pong",
@@ -4401,7 +4953,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ably-labs/jev-pong"
   },
   {
     "id": "github:abhixhek/jevcal",
@@ -4424,7 +4979,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/abhixhek/jevcal"
   },
   {
     "id": "github:nekuda-ai/WindTunnel",
@@ -4447,7 +5005,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-07-27",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/nekuda-ai/WindTunnel"
   },
   {
     "id": "github:Shogo-nfrealmusic/jev-eval",
@@ -4470,7 +5031,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Shogo-nfrealmusic/jev-eval"
   },
   {
     "id": "github:silverstein/minutes",
@@ -4493,7 +5057,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-03-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/silverstein/minutes"
   },
   {
     "id": "github:yodablocks/jev-orderby-bench",
@@ -4516,7 +5083,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/yodablocks/jev-orderby-bench"
   },
   {
     "id": "github:scienthoon/jev-ood-calibration",
@@ -4539,7 +5109,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/scienthoon/jev-ood-calibration"
   },
   {
     "id": "github:jourdanlabs/assay-001",
@@ -4562,7 +5135,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jourdanlabs/assay-001"
   },
   {
     "id": "github:marcosmartinez/jev-acento",
@@ -4585,7 +5161,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/marcosmartinez/jev-acento"
   },
   {
     "id": "github:jjd-lab/jev-synthetic-survey",
@@ -4608,7 +5187,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jjd-lab/jev-synthetic-survey"
   },
   {
     "id": "github:allebee/pytest-jev",
@@ -4631,7 +5213,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/allebee/pytest-jev"
   },
   {
     "id": "github:jev-ids/jev-ids",
@@ -4654,7 +5239,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jev-ids/jev-ids"
   },
   {
     "id": "github:souvikr/jev-test",
@@ -4677,7 +5265,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/souvikr/jev-test"
   },
   {
     "id": "github:Hanno-Labs/decision-bench",
@@ -4700,7 +5291,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Hanno-Labs/decision-bench"
   },
   {
     "id": "github:redhatpanda/jev-regress-bench",
@@ -4723,7 +5317,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/redhatpanda/jev-regress-bench"
   },
   {
     "id": "github:blowxian/jev-fanout-bench",
@@ -4746,7 +5343,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/blowxian/jev-fanout-bench"
   },
   {
     "id": "github:HarnessRouter/SystemOneHarness",
@@ -4770,7 +5370,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/HarnessRouter/SystemOneHarness"
   },
   {
     "id": "github:Mapika/decider",
@@ -4793,7 +5396,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Mapika/decider"
   },
   {
     "id": "github:zhihz/openjev",
@@ -4816,7 +5422,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zhihz/openjev"
   },
   {
     "id": "github:TianyuCodings/NanoJev",
@@ -4839,7 +5448,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/TianyuCodings/NanoJev"
   },
   {
     "id": "github:ikermoel/open-alternative-jev",
@@ -4862,7 +5474,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ikermoel/open-alternative-jev"
   },
   {
     "id": "github:r-ms/mini-jev",
@@ -4885,7 +5500,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/r-ms/mini-jev"
   },
   {
     "id": "github:NandhaKishorM/laya",
@@ -4908,7 +5526,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/NandhaKishorM/laya"
   },
   {
     "id": "github:jaredpalmer/kev",
@@ -4931,7 +5552,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jaredpalmer/kev"
   },
   {
     "id": "github:achimala/jev-paint",
@@ -4954,7 +5578,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/achimala/jev-paint"
   },
   {
     "id": "github:us/jev-local",
@@ -4977,7 +5604,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/us/jev-local"
   },
   {
     "id": "github:zhengxuyu/litjev",
@@ -5000,7 +5630,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zhengxuyu/litjev"
   },
   {
     "id": "github:bradAGI/ruling",
@@ -5023,7 +5656,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/bradAGI/ruling"
   },
   {
     "id": "github:vinnylarouge/jevlike",
@@ -5046,7 +5682,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/vinnylarouge/jevlike"
   },
   {
     "id": "github:olanotolu/jevbetter",
@@ -5069,7 +5708,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/olanotolu/jevbetter"
   },
   {
     "id": "github:david-cermak/jevlike-esp32",
@@ -5092,7 +5734,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/david-cermak/jevlike-esp32"
   },
   {
     "id": "github:wfzyx/von",
@@ -5115,7 +5760,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/wfzyx/von"
   },
   {
     "id": "github:zwliJay/jev-forge",
@@ -5138,7 +5786,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zwliJay/jev-forge"
   },
   {
     "id": "github:zeredy879/minojev",
@@ -5161,7 +5812,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/zeredy879/minojev"
   },
   {
     "id": "github:scienthoon/luce",
@@ -5184,7 +5838,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/scienthoon/luce"
   },
   {
     "id": "github:rupeshpoojary9/poorjev",
@@ -5207,7 +5864,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/rupeshpoojary9/poorjev"
   },
   {
     "id": "github:Heman10x-NGU/openJev-verdict-2.0",
@@ -5230,7 +5890,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Heman10x-NGU/openJev-verdict-2.0"
   },
   {
     "id": "github:deepanwadhwa/OpenDecision",
@@ -5253,7 +5916,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/deepanwadhwa/OpenDecision"
   },
   {
     "id": "github:ankit-aglawe/tinyjev",
@@ -5276,7 +5942,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ankit-aglawe/tinyjev"
   },
   {
     "id": "github:pc418/jev-calculator",
@@ -5300,7 +5969,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/pc418/jev-calculator"
   },
   {
     "id": "github:TheoLeeCJ/SemIf-OpenJev",
@@ -5323,7 +5995,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/TheoLeeCJ/SemIf-OpenJev"
   },
   {
     "id": "github:stillmarcus24/jev-verify",
@@ -5346,7 +6021,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/stillmarcus24/jev-verify"
   },
   {
     "id": "github:vercel/eve",
@@ -5369,7 +6047,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-06-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/vercel/eve"
   },
   {
     "id": "github:vercel-labs/ai-cli",
@@ -5392,7 +6073,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2025-07-28",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/vercel-labs/ai-cli"
   },
   {
     "id": "github:jkudish/jev-mcp",
@@ -5415,7 +6099,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jkudish/jev-mcp"
   },
   {
     "id": "github:blakestone-x/jev-mcp",
@@ -5438,7 +6125,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/blakestone-x/jev-mcp"
   },
   {
     "id": "github:jamesward/zio-typesafe-ai",
@@ -5461,7 +6151,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jamesward/zio-typesafe-ai"
   },
   {
     "id": "github:mizorewww/laya-mlx",
@@ -5484,7 +6177,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/mizorewww/laya-mlx"
   },
   {
     "id": "github:alterhq/typesafe-sdk-swift",
@@ -5507,7 +6203,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-15",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/alterhq/typesafe-sdk-swift"
   },
   {
     "id": "github:Butochnikov/laravel-typesafe-jev",
@@ -5530,7 +6229,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Butochnikov/laravel-typesafe-jev"
   },
   {
     "id": "github:pithings/advocaat",
@@ -5553,7 +6255,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/pithings/advocaat"
   },
   {
     "id": "project:pypi-org-project-jevclient",
@@ -5577,7 +6282,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": null,
+    "publishedType": "unconfirmed",
+    "publishedSource": "https://pypi.org/project/jevclient"
   },
   {
     "id": "project:pypi-org-project-jev-trust",
@@ -5601,7 +6309,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": null,
+    "publishedType": "unconfirmed",
+    "publishedSource": "https://pypi.org/project/jev-trust"
   },
   {
     "id": "github:WiktorB2004/llama-index-jev",
@@ -5624,7 +6335,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/WiktorB2004/llama-index-jev"
   },
   {
     "id": "github:andrelandgraf/safer-with-jev",
@@ -5647,7 +6361,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/andrelandgraf/safer-with-jev"
   },
   {
     "id": "github:smithersai/smithers",
@@ -5670,7 +6387,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-01-05",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/smithersai/smithers"
   },
   {
     "id": "github:kitze/skillbox",
@@ -5693,7 +6413,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kitze/skillbox"
   },
   {
     "id": "github:dannote/jev",
@@ -5716,7 +6439,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/dannote/jev"
   },
   {
     "id": "github:Stumble/jev-go",
@@ -5739,7 +6465,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Stumble/jev-go"
   },
   {
     "id": "github:tumf/jev-cli",
@@ -5762,7 +6491,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/tumf/jev-cli"
   },
   {
     "id": "github:dakdevs/decide-mcp",
@@ -5785,7 +6517,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/dakdevs/decide-mcp"
   },
   {
     "id": "github:rajivkuriakose/typesafe-jev-examples",
@@ -5808,7 +6543,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/rajivkuriakose/typesafe-jev-examples"
   },
   {
     "id": "github:vercel-labs/ai-python",
@@ -5831,7 +6569,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-01-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/vercel-labs/ai-python"
   },
   {
     "id": "github:cline/plugins",
@@ -5856,7 +6597,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-05-31",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/cline/plugins"
   },
   {
     "id": "github:yusukebe/hono-jev-router",
@@ -5879,7 +6623,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/yusukebe/hono-jev-router"
   },
   {
     "id": "github:RyanKung/rotom",
@@ -5902,7 +6649,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-04-27",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/RyanKung/rotom"
   },
   {
     "id": "project:jev-ai-pro",
@@ -5925,7 +6675,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": null,
+    "publishedType": "unconfirmed",
+    "publishedSource": "https://jev-ai.pro"
   },
   {
     "id": "github:kylemclaren/jevql",
@@ -5948,7 +6701,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kylemclaren/jevql"
   },
   {
     "id": "github:mgaitan/sqlite-jev",
@@ -5971,7 +6727,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/mgaitan/sqlite-jev"
   },
   {
     "id": "github:prasanthj/duckdb-jev",
@@ -5994,7 +6753,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/prasanthj/duckdb-jev"
   },
   {
     "id": "github:ariel-frischer/jevkit",
@@ -6017,7 +6779,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ariel-frischer/jevkit"
   },
   {
     "id": "github:shitianfang/jev-use",
@@ -6042,7 +6807,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/shitianfang/jev-use"
   },
   {
     "id": "github:edgardcham/huncho",
@@ -6065,7 +6833,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/edgardcham/huncho"
   },
   {
     "id": "github:dabit3/jev-experiments",
@@ -6088,7 +6859,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/dabit3/jev-experiments"
   },
   {
     "id": "github:obie/ruby_decision_model",
@@ -6111,7 +6885,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/obie/ruby_decision_model"
   },
   {
     "id": "github:innocentdiaz/s1_ruby",
@@ -6134,7 +6911,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/innocentdiaz/s1_ruby"
   },
   {
     "id": "github:Prescott-Data/jarviscore-framework",
@@ -6157,7 +6937,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-01-07",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Prescott-Data/jarviscore-framework"
   },
   {
     "id": "github:carldaws/hunch",
@@ -6180,7 +6963,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/carldaws/hunch"
   },
   {
     "id": "github:burnigtm/jev-mcp",
@@ -6204,7 +6990,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/burnigtm/jev-mcp"
   },
   {
     "id": "github:win4r/jev-skill-suggester",
@@ -6227,7 +7016,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/win4r/jev-skill-suggester"
   },
   {
     "id": "github:Bodila51/grok-bot-jev",
@@ -6250,7 +7042,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Bodila51/grok-bot-jev"
   },
   {
     "id": "github:karanb192/jev-architect",
@@ -6273,7 +7068,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/karanb192/jev-architect"
   },
   {
     "id": "github:ctmx/openrouter-jev-mcp",
@@ -6296,7 +7094,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ctmx/openrouter-jev-mcp"
   },
   {
     "id": "github:juspay/neurolink",
@@ -6319,7 +7120,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2025-05-31",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/juspay/neurolink"
   },
   {
     "id": "github:danvega/jev-spring-boot-starter",
@@ -6342,7 +7146,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/danvega/jev-spring-boot-starter"
   },
   {
     "id": "github:altryne/jevify",
@@ -6365,7 +7172,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/altryne/jevify"
   },
   {
     "id": "github:maayanlevy/mysql-ailike",
@@ -6388,7 +7198,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/maayanlevy/mysql-ailike"
   },
   {
     "id": "github:kenhuangus/jev-usecases",
@@ -6411,7 +7224,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kenhuangus/jev-usecases"
   },
   {
     "id": "github:chengyongru/fastjev",
@@ -6434,7 +7250,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/chengyongru/fastjev"
   },
   {
     "id": "github:ItisNoMatter/kojev",
@@ -6457,7 +7276,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ItisNoMatter/kojev"
   },
   {
     "id": "github:logicrw/ask-jev",
@@ -6480,7 +7302,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/logicrw/ask-jev"
   },
   {
     "id": "github:milvus-io/bootcamp",
@@ -6504,7 +7329,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2019-08-09",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/milvus-io/bootcamp"
   },
   {
     "id": "github:doeixd/discern",
@@ -6527,7 +7355,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/doeixd/discern"
   },
   {
     "id": "github:logan-markewich/jeff",
@@ -6550,7 +7381,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/logan-markewich/jeff"
   },
   {
     "id": "github:antlobach/clojev",
@@ -6573,7 +7407,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/antlobach/clojev"
   },
   {
     "id": "github:steven-shoemaker/hunch",
@@ -6596,7 +7433,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/steven-shoemaker/hunch"
   },
   {
     "id": "github:itsmostafa/typesafe-mcp",
@@ -6621,7 +7461,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/itsmostafa/typesafe-mcp"
   },
   {
     "id": "github:spring-ai-community/spring-ai-typesafe",
@@ -6645,7 +7488,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/spring-ai-community/spring-ai-typesafe"
   },
   {
     "id": "github:Mawfyy/jevflow",
@@ -6669,7 +7515,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Mawfyy/jevflow"
   },
   {
     "id": "github:bladedevoff/stuntd",
@@ -6693,7 +7542,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/bladedevoff/stuntd"
   },
   {
     "id": "github:andududu/jeview",
@@ -6717,7 +7569,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/andududu/jeview"
   },
   {
     "id": "github:sharziki/semdecide",
@@ -6741,7 +7596,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/sharziki/semdecide"
   },
   {
     "id": "github:peterfriese/jev-foundation-models",
@@ -6764,7 +7622,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/peterfriese/jev-foundation-models"
   },
   {
     "id": "github:featherless-ai/simple-jev",
@@ -6787,7 +7648,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/featherless-ai/simple-jev"
   },
   {
     "id": "github:dtunai/cu-Jev",
@@ -6810,7 +7674,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/dtunai/cu-Jev"
   },
   {
     "id": "github:hyperspaceai/jevcache",
@@ -6833,7 +7700,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/hyperspaceai/jevcache"
   },
   {
     "id": "github:ARCJ137442/jev-switch",
@@ -6857,7 +7727,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ARCJ137442/jev-switch"
   },
   {
     "id": "github:HopLee6/Qwev",
@@ -6881,7 +7754,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/HopLee6/Qwev"
   },
   {
     "id": "github:HomayoonAlimohammadi/jev-sdk-go",
@@ -6905,7 +7781,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/HomayoonAlimohammadi/jev-sdk-go"
   },
   {
     "id": "github:saibimajdi/typesafeai-dotnet-sdk",
@@ -6929,7 +7808,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/saibimajdi/typesafeai-dotnet-sdk"
   },
   {
     "id": "github:mandu5/jevcompat",
@@ -6953,7 +7835,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-24",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/mandu5/jevcompat"
   },
   {
     "id": "github:Twister915/typesafe-ai",
@@ -6977,7 +7862,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Twister915/typesafe-ai"
   },
   {
     "id": "github:pydantic/pydantic-ai",
@@ -7001,7 +7889,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2024-06-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/pydantic/pydantic-ai"
   },
   {
     "id": "github:fhshaik/typesafe-mario",
@@ -7024,7 +7915,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/fhshaik/typesafe-mario"
   },
   {
     "id": "github:RomanSlack/jev-drone",
@@ -7047,7 +7941,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/RomanSlack/jev-drone"
   },
   {
     "id": "github:phyous/tsai-sc",
@@ -7070,7 +7967,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/phyous/tsai-sc"
   },
   {
     "id": "github:milanboers/jev-plays-pokemon",
@@ -7093,7 +7993,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/milanboers/jev-plays-pokemon"
   },
   {
     "id": "github:kxzk/typesafe-jev-drone-demo",
@@ -7116,7 +8019,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kxzk/typesafe-jev-drone-demo"
   },
   {
     "id": "github:kavehmz/typesafe-playground",
@@ -7139,7 +8045,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kavehmz/typesafe-playground"
   },
   {
     "id": "github:OmniJev/PlayJev",
@@ -7162,7 +8071,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/OmniJev/PlayJev"
   },
   {
     "id": "github:valentynkit/jev-plays-pokemon-red",
@@ -7185,7 +8097,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/valentynkit/jev-plays-pokemon-red"
   },
   {
     "id": "github:khordoo/jev-reflex-autonomy-lab",
@@ -7208,7 +8123,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/khordoo/jev-reflex-autonomy-lab"
   },
   {
     "id": "github:spoonnotfound/soupbase",
@@ -7231,7 +8149,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/spoonnotfound/soupbase"
   },
   {
     "id": "github:hectorlcastro09/jev-torneo-animales",
@@ -7254,7 +8175,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/hectorlcastro09/jev-torneo-animales"
   },
   {
     "id": "github:ARCJ137442/jev-2048",
@@ -7277,7 +8201,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ARCJ137442/jev-2048"
   },
   {
     "id": "github:gaborishka/jevtown",
@@ -7300,7 +8227,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/gaborishka/jevtown"
   },
   {
     "id": "github:lykycy123/RoboJEV",
@@ -7323,7 +8253,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/lykycy123/RoboJEV"
   },
   {
     "id": "github:ARCJ137442/jev-life",
@@ -7346,7 +8279,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ARCJ137442/jev-life"
   },
   {
     "id": "github:ArturSkowronski/kNES",
@@ -7369,7 +8305,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2025-03-04",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ArturSkowronski/kNES"
   },
   {
     "id": "github:PromptEngineer48/laya-vs-jev-arena",
@@ -7392,7 +8331,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/PromptEngineer48/laya-vs-jev-arena"
   },
   {
     "id": "github:sc2musa/Jev_Star",
@@ -7415,7 +8357,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/sc2musa/Jev_Star"
   },
   {
     "id": "github:mintannn/THE-HUNDRED-EYES",
@@ -7438,7 +8383,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/mintannn/THE-HUNDRED-EYES"
   },
   {
     "id": "github:manhua-man/jev-pilot-reflex",
@@ -7461,7 +8409,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/manhua-man/jev-pilot-reflex"
   },
   {
     "id": "github:unicodeveloper/jevocks",
@@ -7484,7 +8435,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/unicodeveloper/jevocks"
   },
   {
     "id": "github:sosopop/jev_stock",
@@ -7507,7 +8461,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/sosopop/jev_stock"
   },
   {
     "id": "github:aowang-ai/jev-trade",
@@ -7530,7 +8487,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/aowang-ai/jev-trade"
   },
   {
     "id": "github:brainstormity/Jev-X-Sentiment-Analysis",
@@ -7553,7 +8513,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/brainstormity/Jev-X-Sentiment-Analysis"
   },
   {
     "id": "github:klauswg/jev-guard",
@@ -7576,7 +8539,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-22",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/klauswg/jev-guard"
   },
   {
     "id": "github:johnhughes3/LegalForecastBench",
@@ -7599,7 +8565,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-05-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/johnhughes3/LegalForecastBench"
   },
   {
     "id": "github:brainstormity/Jev-Moderation-Bot",
@@ -7622,7 +8591,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/brainstormity/Jev-Moderation-Bot"
   },
   {
     "id": "github:bitnovus/jev-spam-eval",
@@ -7645,7 +8617,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/bitnovus/jev-spam-eval"
   },
   {
     "id": "github:CodeAlive-AI/mastra-jev-moderation",
@@ -7668,7 +8643,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/CodeAlive-AI/mastra-jev-moderation"
   },
   {
     "id": "github:ethanplusai/jev-chat-for-twitch",
@@ -7692,7 +8670,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-19",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/ethanplusai/jev-chat-for-twitch"
   },
   {
     "id": "github:4rays/profanity-checker",
@@ -7715,7 +8696,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/4rays/profanity-checker"
   },
   {
     "id": "github:backmeupplz/jev_antispam_bot",
@@ -7738,7 +8722,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/backmeupplz/jev_antispam_bot"
   },
   {
     "id": "github:davertor/jev-slop-guard",
@@ -7762,7 +8749,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/davertor/jev-slop-guard"
   },
   {
     "id": "github:jiawei686/jev-screen-mcp",
@@ -7785,7 +8775,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-21",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/jiawei686/jev-screen-mcp"
   },
   {
     "id": "github:Anil-matcha/awesome-jev-by-typesafe",
@@ -7808,7 +8801,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2023-05-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Anil-matcha/awesome-jev-by-typesafe"
   },
   {
     "id": "github:kuhung/understanding-jev",
@@ -7831,7 +8827,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-18",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kuhung/understanding-jev"
   },
   {
     "id": "github:AbdelStark/awesome-typesafe-jev",
@@ -7854,7 +8853,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-17",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/AbdelStark/awesome-typesafe-jev"
   },
   {
     "id": "github:open-orcha/orcha",
@@ -7878,7 +8880,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-06-16",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/open-orcha/orcha"
   },
   {
     "id": "github:Yifan-Lan/awesome-jev-robustness",
@@ -7901,7 +8906,10 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-23",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/Yifan-Lan/awesome-jev-robustness"
   },
   {
     "id": "github:kyle-pena-nlp/jevchat",
@@ -7924,6 +8932,9 @@
     "sourceIds": [
       "source:yibie-awesome-jev"
     ],
-    "lastVerifiedAt": "2026-09-24"
+    "lastVerifiedAt": "2026-09-24",
+    "published": "2026-09-20",
+    "publishedType": "github_repository_created",
+    "publishedSource": "https://github.com/kyle-pena-nlp/jevchat"
   }
 ]

@@ -89,6 +89,9 @@ const translations = {
     "entry.relationship": "Relationship",
     "entry.status": "Status",
     "entry.lastVerified": "Last verified",
+    "entry.published": "Published",
+    "entry.githubCreated": "GitHub repository created",
+    "entry.dateUnavailable": "Date not confirmed",
     "entry.sourceIds": "Source IDs",
     "entry.platform": "Platform",
     "entry.contentType": "Material type",
@@ -203,6 +206,9 @@ const translations = {
     "entry.relationship": "关系",
     "entry.status": "状态",
     "entry.lastVerified": "最后核验",
+    "entry.published": "发布时间",
+    "entry.githubCreated": "GitHub 仓库创建日期",
+    "entry.dateUnavailable": "日期未确认",
     "entry.sourceIds": "来源 ID",
     "entry.platform": "平台",
     "entry.contentType": "材料类型",
@@ -439,10 +445,10 @@ function renderEntry(entry) {
   const typeClass = isPaper ? "" : isProject ? "project" : "online";
   const contentType = localizedContentType(entry);
   const meta = isPaper
-    ? `${entry.published || "—"} · ${entry.venue || "—"}`
+    ? `${formatDate(entry.published)} · ${entry.venue || "—"}`
     : isProject
-      ? `${entry.owner || "—"} · ${entry.language || "—"} · ${localizedStatus(entry.status)}`
-      : `${entry.published || "—"} · ${entry.platform || "—"} · ${contentType || "—"}`;
+      ? `${formatDate(entry.published) === "—" ? t("entry.dateUnavailable") : `${formatDate(entry.published)} · ${t("entry.githubCreated")}`} · ${entry.owner || "—"} · ${entry.language || "—"} · ${localizedStatus(entry.status)}`
+      : `${formatDate(entry.published)} · ${entry.platform || "—"} · ${contentType || "—"}`;
   // Record content remains in its source-language form when the interface changes
   // language. Only interface labels, filters, and explanatory chrome are localized.
   const title = isProject ? (entry.name || entry.id) : (entry.title || entry.id);
@@ -481,7 +487,7 @@ function renderEntry(entry) {
       <details class="entry-details">
         <summary>${escapeHtml(t("status.viewDetails"))}</summary>
         <div class="details-copy">
-          <div class="relation-line">${escapeHtml(t("entry.relationship"))}: ${escapeHtml(relation)} · ${escapeHtml(t("entry.status"))}: ${escapeHtml(localizedStatus(entry.status))} · ${escapeHtml(t("entry.lastVerified"))}: ${escapeHtml(formatDate(entry.lastVerifiedAt))}</div>
+          <div class="relation-line">${escapeHtml(t("entry.published"))}: ${escapeHtml(formatDate(entry.published))}${isProject && entry.published ? ` · ${escapeHtml(t("entry.githubCreated"))}` : ""} · ${escapeHtml(t("entry.relationship"))}: ${escapeHtml(relation)} · ${escapeHtml(t("entry.status"))}: ${escapeHtml(localizedStatus(entry.status))} · ${escapeHtml(t("entry.lastVerified"))}: ${escapeHtml(formatDate(entry.lastVerifiedAt))}</div>
           <div class="relation-line">${escapeHtml(isPaper ? t("entry.authors") : isProject ? t("entry.maintainer") : t("entry.creator"))}: ${escapeHtml(people)}</div>
           ${onlineDetails}
           <div class="relation-line">${escapeHtml(t("entry.sourceIds"))}: ${escapeHtml((entry.sourceIds || []).join(", "))}</div>

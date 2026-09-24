@@ -69,7 +69,7 @@ function projectRows() {
     .map((project) => {
       const work = linkedTitle(project.name, project.nameZh, project.canonicalUrl);
       const category = `${project.category || "—"}<br><sub>${project.categoryZh || "—"}</sub>`;
-      return `| ${work} | ${cell(project.owner)} | ${category} | ${cell(project.language)} | ${relation(project)} | ${evidence(project)} | ${date(project.lastVerifiedAt)} |`;
+      return `| ${work} | ${date(project.published)} | ${cell(project.owner)} | ${category} | ${cell(project.language)} | ${relation(project)} | ${evidence(project)} | ${date(project.lastVerifiedAt)} |`;
     })
     .join("\n");
 }
@@ -107,8 +107,8 @@ ${paperRows()}
 
 ### Projects and implementations (${projects.length})
 
-| Project | Owner | Category | Language | Relationship | Evidence | Verified |
-| --- | --- | --- | --- | --- | --- | --- |
+| Project | Published / created | Owner | Category | Language | Relationship | Evidence | Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 ${projectRows()}
 
 ### Public materials (${onlineMaterials.length})

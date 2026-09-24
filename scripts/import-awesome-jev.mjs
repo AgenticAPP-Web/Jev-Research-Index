@@ -178,6 +178,9 @@ for (const item of discovered) {
       status: "active",
       canonicalUrl: canonical,
       ...(canonical !== item.url ? { originalUrl: item.url } : {}),
+      published: null,
+      publishedType: "unconfirmed",
+      publishedSource: canonical,
       sourceIds: [sourceId],
       lastVerifiedAt: snapshotDate
     });
