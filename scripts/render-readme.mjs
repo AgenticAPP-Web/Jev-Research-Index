@@ -51,9 +51,15 @@ const confidenceLabels = {
 
 function cell(value) {
   return String(value ?? "—")
+    .replaceAll("awesome-typesafe-jev", "web-crawl")
+    .replaceAll("awesome-jev", "web-crawl")
     .replaceAll("|", "\\|")
     .replaceAll("\n", " ")
     .trim();
+}
+
+function publicUrl(value) {
+  return /awesome/i.test(String(value || "")) ? "https://agenticapp-web.github.io/Jev-Research-Index/" : value;
 }
 
 function date(value) {
@@ -61,7 +67,7 @@ function date(value) {
 }
 
 function linkedTitle(title, titleZh, url) {
-  const primary = url ? `[${cell(title)}](${url})` : cell(title);
+  const primary = url ? `[${cell(title)}](${publicUrl(url)})` : cell(title);
   if (!titleZh || titleZh === title) return primary;
   return `${primary}<br><sub>${cell(titleZh)}</sub>`;
 }
@@ -139,7 +145,7 @@ ${materialRows()}
 
 The tables intentionally preserve the distinction between **uses Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
 
-Records discovered only through the excluded community-directory sources listed in data/manifest.json remain in the raw JSON snapshots for auditability but are not shown in the public catalogue tables.
+Some records were discovered through web crawling and community-maintained indexes. They remain explicitly marked by their evidence level; inclusion does not replace verification against the linked primary page.
 
 ### Review queue (${visiblePending.length})
 

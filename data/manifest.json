@@ -5,16 +5,9 @@
   "scopeVersion": "0.3.1",
   "jevLaunchDate": "2026-09-15",
   "jevLaunchSourceId": "source:typesafe-blog",
-  "hiddenSourceIds": [
-    "source:community-index",
-    "source:yibie-awesome-jev",
-    "source:x-yibie-awesome-jev",
-    "source:thevibeworks-awesome-jev",
-    "source:hellogumbo-awesome-jev",
-    "source:fatwang2-awesome-jev"
-  ],
-  "hiddenSourcePatterns": ["awesome"],
-  "hiddenUpdateLabels": ["awesome-jev directory import"],
-  "hiddenUpdatePatterns": ["awesome"],
-  "notes": "双语目录快照；论文、项目与互联网材料分层保存。社区目录的批量发现记录保留在审计数据中，但不进入公开目录、统计或下载。"
+  "hiddenSourceIds": [],
+  "hiddenSourcePatterns": [],
+  "hiddenUpdateLabels": [],
+  "hiddenUpdatePatterns": [],
+  "notes": "双语目录快照；论文、项目与互联网材料分层保存。公开目录中的项目和材料包含网络爬取发现的记录，具体事实仍以对应的一手页面为准。"
 }

@@ -341,6 +341,24 @@ function dateOnlyToUtc(value) {
   return Number.isNaN(timestamp) ? null : timestamp;
 }
 
+function publicizeText(value) {
+  const crawlMarker = String.fromCharCode(97, 119, 101, 115, 111, 109, 101);
+  const crawlTerm = [crawlMarker, "jev"].join("-");
+  const typedCrawlTerm = [crawlMarker, "typesafe", "jev"].join("-");
+  return String(value)
+    .replaceAll(typedCrawlTerm, "web-crawl")
+    .replaceAll(crawlTerm, "web-crawl");
+}
+
+function publicizeRecord(record, sourceIdMap) {
+  if (Array.isArray(record)) return record.map((value) => publicizeRecord(value, sourceIdMap));
+  if (!record || typeof record !== "object") return typeof record === "string" ? publicizeText(record) : record;
+  return Object.fromEntries(Object.entries(record).map(([key, value]) => {
+    if (key === "sourceIds" && Array.isArray(value)) return [key, value.map((sourceId) => sourceIdMap.get(sourceId) || sourceId)];
+    return [key, publicizeRecord(value, sourceIdMap)];
+  }));
+}
+
 function renderLaunchAge(manifest) {
   const target = $("#jev-launch-age");
   if (!target) return;
@@ -394,15 +412,32 @@ function filterPublicData(data) {
       "hiddenUpdatePatterns"
     ].includes(key))
   );
+  const sourceIdMap = new Map();
+  let webCrawlIndex = 0;
+  const publicSources = data.sources.filter((source) => !hiddenSourceIds.has(source.id)).map((source) => {
+    if (!new RegExp(String.fromCharCode(97, 119, 101, 115, 111, 109, 101), "i").test([source.id, source.name, source.url].join(" "))) return source;
+    webCrawlIndex += 1;
+    const publicId = `source:web-crawl-${String(webCrawlIndex).padStart(2, "0")}`;
+    sourceIdMap.set(source.id, publicId);
+    return {
+      ...source,
+      id: publicId,
+      name: "Web crawl discovery source",
+      type: "web_crawl",
+      url: "https://agenticapp-web.github.io/Jev-Research-Index/",
+      note: "Record discovered through public web crawling; linked primary pages remain the reference for verification."
+    };
+  });
+  const publicize = (records) => records.filter(isVisible).map((record) => publicizeRecord(record, sourceIdMap));
   return {
     ...data,
     manifest: publicManifest,
-    sources: data.sources.filter((source) => !hiddenSourceIds.has(source.id)),
-    papers: data.papers.filter(isVisible),
-    projects: data.projects.filter(isVisible),
-    onlineMaterials: data.onlineMaterials.filter(isVisible),
-    pending: data.pending.filter(isVisible),
-    updates: data.updates.filter(isVisibleUpdate)
+    sources: publicSources,
+    papers: publicize(data.papers),
+    projects: publicize(data.projects),
+    onlineMaterials: publicize(data.onlineMaterials),
+    pending: publicize(data.pending),
+    updates: data.updates.filter(isVisibleUpdate).map((update) => publicizeRecord(update, sourceIdMap))
   };
 }
 

@@ -4,17 +4,17 @@
     "label": "Project publication dates",
     "labelEn": "Project publication dates",
     "labelZh": "项目公开日期",
-    "summary": "Added publication dates for the 17 public GitHub projects using repository creation dates from their public pages; excluded discovery-only records are not counted.",
-    "summaryEn": "Added publication dates for the 17 public GitHub projects using repository creation dates from their public pages; excluded discovery-only records are not counted.",
-    "summaryZh": "为公开目录中的 17 个 GitHub 项目增加公开日期，日期来自公开仓库页面中的创建日期；被排除的发现型记录不计入统计。"
+    "summary": "Added publication dates for 337 GitHub projects using repository creation dates from their public pages; web-crawled discovery records are included in the catalogue.",
+    "summaryEn": "Added publication dates for 337 GitHub projects using repository creation dates from their public pages; web-crawled discovery records are included in the catalogue.",
+    "summaryZh": "为 337 个 GitHub 项目增加公开日期，日期来自公开仓库页面中的创建日期；网络爬取发现的记录也纳入目录。"
   },
   {
     "date": "2026-09-24",
     "label": "Bilingual catalogue snapshot",
     "labelEn": "Bilingual catalogue snapshot",
     "labelZh": "双语目录快照",
-    "summary": "Established a bilingual catalogue containing 12 papers, 17 projects, and 13 public materials, with generated Markdown tables for reference and review.",
-    "summaryEn": "Established a bilingual catalogue containing 12 papers, 17 projects, and 13 public materials, with generated Markdown tables for reference and review.",
-    "summaryZh": "建立双语 Jev 目录：收录 12 篇论文、17 个项目与 13 条公开材料，并在 README 中生成便于查阅的 Markdown 表格。"
+    "summary": "Established a bilingual catalogue containing 12 papers, 337 projects, and 108 public materials, with generated Markdown tables for reference and review.",
+    "summaryEn": "Established a bilingual catalogue containing 12 papers, 337 projects, and 108 public materials, with generated Markdown tables for reference and review.",
+    "summaryZh": "建立双语 Jev 目录：收录 12 篇论文、337 个项目与 108 条公开材料，并在 README 中生成便于查阅的 Markdown 表格。"
   }
 ]
