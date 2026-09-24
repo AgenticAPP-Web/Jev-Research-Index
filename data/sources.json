@@ -259,5 +259,23 @@
     "url": "https://github.com/fatwang2/awesome-jev",
     "retrievedAt": "2026-09-24",
     "note": "带来源审查流程的社区项目目录；收录不等同于认证，具体事实仍以项目一手页面为准。"
+  },
+  {
+    "id": "source:yibie-awesome-jev",
+    "name": "yibie awesome-jev directory",
+    "type": "curated_index",
+    "tier": "C",
+    "url": "https://github.com/yibie/awesome-jev",
+    "retrievedAt": "2026-09-24",
+    "note": "社区维护的 Jev 项目、集成与讨论目录；用于批量发现，具体事实仍需回到所列项目或文章的一手页面核验。"
+  },
+  {
+    "id": "source:x-yibie-awesome-jev",
+    "name": "yibie X post announcing an awesome-jev review",
+    "type": "social_post",
+    "tier": "B",
+    "url": "https://x.com/yibie/status/2102797612474638410",
+    "retrievedAt": "2026-09-24",
+    "note": "公开 X 帖子，宣布 awesome-jev 周期巡检新增条目；帖子内容保留为作者报告，不替代所列项目的一手来源。"
   }
 ]

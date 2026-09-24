@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-09-24",
+    "label": "awesome-jev directory import",
+    "labelEn": "awesome-jev directory import",
+    "labelZh": "导入 awesome-jev 目录",
+    "summary": "Imported 320 project records and 91 public-material records discovered through yibie/awesome-jev; all imported records remain probable until their linked primary pages are independently checked.",
+    "summaryEn": "Imported 320 project records and 91 public-material records discovered through yibie/awesome-jev; all imported records remain probable until their linked primary pages are independently checked.",
+    "summaryZh": "通过 yibie/awesome-jev 发现并整理 320 个项目记录与 91 条公开材料记录；所有新增记录在逐项回到一手页面核验前均保留为 probable。"
+  },
+  {
+    "date": "2026-09-24",
     "label": "Bilingual catalogue snapshot",
     "labelEn": "Bilingual catalogue snapshot",
     "labelZh": "双语目录快照",

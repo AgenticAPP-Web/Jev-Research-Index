@@ -1,5 +1,31 @@
 [
   {
+    "id": "social:x-yibie-status-2102797612474638410",
+    "title": "awesome-jev periodic review: 22 new entries",
+    "titleZh": "awesome-jev 周期巡检：新增 22 条",
+    "contentType": "social_post",
+    "platform": "X",
+    "creator": "yibie / @yibie",
+    "published": "2026-09-23",
+    "relation": "mentions_only",
+    "confidence": "verified",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "A periodic review post announcing 22 new entries in the author's awesome-jev directory, including OpenViking, Dub, jev-chat, SemIf, jev-trader, hermes-jev-skills, simple-jev, cu-Jev, jev-foundation-models, jevcache, jev-browser-use, mobile-jev, Jev-cu, jev-screen-mcp, and jev-resume-disqualifier.",
+    "summaryZh": "作者发布的 awesome-jev 周期巡检，宣布新增 22 条，并列出 OpenViking、Dub、jev-chat、SemIf、jev-trader、hermes-jev-skills、simple-jev、cu-Jev、jev-foundation-models、jevcache、jev-browser-use、mobile-jev、Jev-cu、jev-screen-mcp 与 jev-resume-disqualifier 等条目。",
+    "evidenceNote": "The public X status was fetched directly on 2026-09-24. The post is evidence of the author's directory update, not independent verification of every listed project.",
+    "canonicalUrl": "https://x.com/yibie/status/2102797612474638410",
+    "sourceIds": [
+      "source:x-yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "awesome-jev",
+      "project discovery",
+      "periodic review"
+    ]
+  },
+  {
     "id": "blog:typesafe:system-one-jev",
     "title": "Introducing System One Models & Jev",
     "titleZh": "发布 System One 模型与 Jev",
@@ -15,9 +41,15 @@
     "summaryZh": "官方发布文章将 Jev 定义为 TypeSafe AI 首个公开的 System One 模型，介绍类型化概率决策、校准及软件使用场景。性能与价格数字按发布方主张记录。",
     "evidenceNote": "Primary TypeSafe AI publication. Product claims are not treated as independent benchmark evidence.",
     "canonicalUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-    "sourceIds": ["source:typesafe-blog"],
+    "sourceIds": [
+      "source:typesafe-blog"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["official announcement", "System One", "calibration"]
+    "topics": [
+      "official announcement",
+      "System One",
+      "calibration"
+    ]
   },
   {
     "id": "interview:latent-space:jev",
@@ -35,9 +67,15 @@
     "summaryZh": "Latent Space 对 TypeSafe AI 联合创始人 Diogo Almeida 的长篇访谈，讨论 Jev 的产品动机、可靠性、校准、System One 与 System Two 任务边界及早期应用。",
     "evidenceNote": "The episode page provides the publication date, named guest, audio, and a full transcript. Statements in the interview remain attributed to the speakers.",
     "canonicalUrl": "https://www.latent.space/p/jev",
-    "sourceIds": ["source:latent-space-jev"],
+    "sourceIds": [
+      "source:latent-space-jev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["interview", "reliability", "calibration"]
+    "topics": [
+      "interview",
+      "reliability",
+      "calibration"
+    ]
   },
   {
     "id": "blog:baader:jev-first-three-days",
@@ -55,9 +93,16 @@
     "summaryZh": "一份独立的三天实践报告，记录 Jev 在实时应用和内部文档集上的测试，并将测得的延迟、成本、可靠性与尚未解决的决策准确性分开。",
     "evidenceNote": "The author reports procedures and measurements from their own workload and explicitly labels accuracy as unresolved. These results are not generalized beyond the reported setup.",
     "canonicalUrl": "https://baaderagency.com/blog/jev-typesafe-ai-first-three-days",
-    "sourceIds": ["source:baader-jev-report"],
+    "sourceIds": [
+      "source:baader-jev-report"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["independent report", "latency", "cost", "evaluation"]
+    "topics": [
+      "independent report",
+      "latency",
+      "cost",
+      "evaluation"
+    ]
   },
   {
     "id": "directory:traeai:jev-topic",
@@ -75,9 +120,15 @@
     "summaryZh": "中文第三方追踪页面，汇总官方发布、文档、项目、评测与公开讨论；本目录将其作为发现与对照来源，而非所列事实的一手记录。",
     "evidenceNote": "Useful for discovery and cross-checking. Individual items require their own primary URL before being promoted to verified evidence.",
     "canonicalUrl": "https://www.traeai.com/topics/jev",
-    "sourceIds": ["source:traeai"],
+    "sourceIds": [
+      "source:traeai"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["Chinese coverage", "discovery", "ecosystem"]
+    "topics": [
+      "Chinese coverage",
+      "discovery",
+      "ecosystem"
+    ]
   },
   {
     "id": "social:x:typesafe-launch",
@@ -95,9 +146,16 @@
     "summaryZh": "独立时间线链接的 Jev 发布日 X 帖子。此处保留其作为公开传播背景；技术主张仍应回到官方文章与文档核验。",
     "evidenceNote": "The X endpoint was not directly machine-readable during review; the stable post URL and date were corroborated by the cited third-party timeline.",
     "canonicalUrl": "https://x.com/CompleteSkeptic/status/2099925682726002904",
-    "sourceIds": ["source:typesafe-x", "source:traeai"],
+    "sourceIds": [
+      "source:typesafe-x",
+      "source:traeai"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["launch", "social media", "public statement"]
+    "topics": [
+      "launch",
+      "social media",
+      "public statement"
+    ]
   },
   {
     "id": "social:x:vercel-jev-report",
@@ -115,9 +173,16 @@
     "summaryZh": "独立时间线引用的一条公开帖子，报告 Jev 在某项 Vercel 负载上的表现。本条作为作者报告的观察保留，不视为通用基准。",
     "evidenceNote": "The X endpoint returned an access error during review; the URL and date were retained with probable rather than verified evidence.",
     "canonicalUrl": "https://x.com/rauchg/status/2100307962262872105",
-    "sourceIds": ["source:typesafe-x", "source:traeai"],
+    "sourceIds": [
+      "source:typesafe-x",
+      "source:traeai"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["production report", "social media", "latency"]
+    "topics": [
+      "production report",
+      "social media",
+      "latency"
+    ]
   },
   {
     "id": "social:madewithjev:competitor-ad-teardown",
@@ -136,9 +201,15 @@
     "evidenceNote": "The canonical record is a Made with Jev page that preserves the post text, author, date, and source link. It is a secondary record until the original post is independently fetched.",
     "canonicalUrl": "https://madewithjev.com/builds/competitor-ad-teardown",
     "originalUrl": "https://x.com/TheMattBerman/status/2100654891756589230",
-    "sourceIds": ["source:madewithjev"],
+    "sourceIds": [
+      "source:madewithjev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["social media", "content analysis", "author-reported metric"]
+    "topics": [
+      "social media",
+      "content analysis",
+      "author-reported metric"
+    ]
   },
   {
     "id": "social:madewithjev:superx-post-scoring",
@@ -157,9 +228,15 @@
     "evidenceNote": "The canonical record is a Made with Jev page that preserves the post text, author, date, and a source link. It remains probable evidence because the original X post was not independently fetched.",
     "canonicalUrl": "https://madewithjev.com/builds/superx-post-scoring",
     "originalUrl": "https://x.com/robj3d3/status/2100722975645598191",
-    "sourceIds": ["source:madewithjev"],
+    "sourceIds": [
+      "source:madewithjev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["social media", "scoring", "parallel questions"]
+    "topics": [
+      "social media",
+      "scoring",
+      "parallel questions"
+    ]
   },
   {
     "id": "social:typesafe:official-channel",
@@ -177,9 +254,15 @@
     "summaryZh": "TypeSafe AI 官方 X 账号，作为后续发现帖文的频道级来源保存。具体帖子将在日期与 canonical URL 完成核验后单独收录。",
     "evidenceNote": "Channel URL is the official social link associated with TypeSafe AI. This record does not assert the content of any particular post.",
     "canonicalUrl": "https://x.com/typesafeai",
-    "sourceIds": ["source:typesafe-x"],
+    "sourceIds": [
+      "source:typesafe-x"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["official channel", "social media", "discovery"]
+    "topics": [
+      "official channel",
+      "social media",
+      "discovery"
+    ]
   },
   {
     "id": "video:x:matija-jev-explainer",
@@ -197,9 +280,15 @@
     "summaryZh": "Matija Šošić 在 X 发布的短视频，用面向大众的方式解释 Jev 的核心思路；本条不是可复现实验报告。",
     "evidenceNote": "The original X status was not directly machine-readable during review. An independent archive preserves the author, timestamp, post text, media reference, and original URL; engagement figures are not used as evidence.",
     "canonicalUrl": "https://x.com/MatijaSosic/status/2100190746389135772",
-    "sourceIds": ["source:x-matija-jev"],
+    "sourceIds": [
+      "source:x-matija-jev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["video", "explanation", "public communication"]
+    "topics": [
+      "video",
+      "explanation",
+      "public communication"
+    ]
   },
   {
     "id": "video:madewithjev:full-tutorial",
@@ -218,9 +307,16 @@
     "evidenceNote": "The canonical record is an independent directory page that preserves the author, timestamps, topic outline, and a link to the original X post. The tutorial is catalogued as a public report, not as an independently reproduced benchmark.",
     "canonicalUrl": "https://madewithjev.com/resources/full-jev-tutorial",
     "originalUrl": "https://x.com/moritzkremb/status/2100715237267660873",
-    "sourceIds": ["source:madewithjev"],
+    "sourceIds": [
+      "source:madewithjev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["tutorial", "browser", "agent memory", "video demo"]
+    "topics": [
+      "tutorial",
+      "browser",
+      "agent memory",
+      "video demo"
+    ]
   },
   {
     "id": "article:parallel:testing-jev",
@@ -238,9 +334,16 @@
     "summaryZh": "Parallel 的独立开发者报告，测试 Jev 在搜索重排、主题分类和查询时效分类中的表现，并明确与专用内部模型的比较及成本限制。",
     "evidenceNote": "The publisher provides the test tasks, comparison framing, and limitations. Reported measurements remain specific to Parallel’s infrastructure and are not generalized here.",
     "canonicalUrl": "https://parallel.ai/blog/testing-jev",
-    "sourceIds": ["source:parallel-jev"],
+    "sourceIds": [
+      "source:parallel-jev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["independent report", "search", "reranking", "classification"]
+    "topics": [
+      "independent report",
+      "search",
+      "reranking",
+      "classification"
+    ]
   },
   {
     "id": "video:youtube:jev-is-here",
@@ -258,9 +361,15 @@
     "summaryZh": "Greg Isenberg 发布的公开视频，介绍 Jev 及其早期应用思路，包括邮件分类与类型化决策工作流。",
     "evidenceNote": "The canonical URL is the public YouTube video. Title and publication date were cross-checked against an independent transcript index; the speaker’s examples remain attributed claims.",
     "canonicalUrl": "https://www.youtube.com/watch?v=4mTLpuQpB80",
-    "sourceIds": ["source:youtube-jev"],
+    "sourceIds": [
+      "source:youtube-jev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["video", "classification", "use cases"]
+    "topics": [
+      "video",
+      "classification",
+      "use cases"
+    ]
   },
   {
     "id": "directory:thevibeworks:awesome-typesafe-jev",
@@ -278,9 +387,15 @@
     "summaryZh": "社区维护的 TypeSafe Jev 项目、媒体、提供商集成与开放复现目录。本条仅作为发现入口；其中条目与测量结果不会直接视为本目录的独立核验记录。",
     "evidenceNote": "The repository page is publicly accessible and clearly identifies itself as an unaffiliated curated list. Directory membership is not treated as certification.",
     "canonicalUrl": "https://github.com/thevibeworks/awesome-typesafe-jev",
-    "sourceIds": ["source:thevibeworks-awesome-jev"],
+    "sourceIds": [
+      "source:thevibeworks-awesome-jev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["community directory", "discovery", "open reproductions"]
+    "topics": [
+      "community directory",
+      "discovery",
+      "open reproductions"
+    ]
   },
   {
     "id": "directory:hellogumbo:awesome-jev",
@@ -298,9 +413,16 @@
     "summaryZh": "社区维护的大型目录，收录使用或围绕 TypeSafe Jev 构建的 SDK、集成、智能体工具、应用及相关资源。项目数量与刷新日期会变化，不用于本目录的总数统计。",
     "evidenceNote": "The repository README states its community-maintained, unaffiliated status and provides a contribution path. Each promoted record still requires a canonical primary repository or paper.",
     "canonicalUrl": "https://github.com/hellogumbo/awesome-jev",
-    "sourceIds": ["source:hellogumbo-awesome-jev"],
+    "sourceIds": [
+      "source:hellogumbo-awesome-jev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["community directory", "SDKs", "integrations", "discovery"]
+    "topics": [
+      "community directory",
+      "SDKs",
+      "integrations",
+      "discovery"
+    ]
   },
   {
     "id": "directory:fatwang2:awesome-jev",
@@ -318,8 +440,2222 @@
     "summaryZh": "带来源说明的社区目录，收录使用 TypeSafe Jev 构建的项目，并公开提交审查流程。收录不等同于认证，因此本条仅作为发现与对照来源。",
     "evidenceNote": "The repository exposes its project list, contribution instructions, review policy, and unaffiliated status. Individual project claims are not promoted without their own primary source.",
     "canonicalUrl": "https://github.com/fatwang2/awesome-jev",
-    "sourceIds": ["source:fatwang2-awesome-jev"],
+    "sourceIds": [
+      "source:fatwang2-awesome-jev"
+    ],
     "lastVerifiedAt": "2026-09-24",
-    "topics": ["community directory", "review workflow", "discovery"]
+    "topics": [
+      "community directory",
+      "review workflow",
+      "discovery"
+    ]
+  },
+  {
+    "id": "material:blink-review",
+    "title": "Blink",
+    "titleZh": "Blink",
+    "contentType": "directory",
+    "platform": "blink.review",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Code review: CLI that coding agents run after every change, with Jev checking the diff near-instantly in place of an LLM reviewer.",
+    "summaryZh": "Code review: CLI that coding agents run after every change, with Jev checking the diff near-instantly in place of an LLM reviewer.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://blink.review",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Verification & Guardrails"
+    ]
+  },
+  {
+    "id": "material:tryjevai-com",
+    "title": "TryJevAI",
+    "titleZh": "TryJevAI",
+    "contentType": "directory",
+    "platform": "tryjevai.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Scheduling: public Jev playground uses a typed `Choice` with an explicit `Unresolved` option to distinguish a mentioned arrival time from an agreed meeting time, showing the returned probabilities and prompting for missing agreement before treating a time as settled.",
+    "summaryZh": "Scheduling: public Jev playground uses a typed `Choice` with an explicit `Unresolved` option to distinguish a mentioned arrival time from an agreed meeting time, showing the returned probabilities and prompting for missing agreement before treating a time as settled.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://tryjevai.com",
+    "originalUrl": "https://tryjevai.com/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Verification & Guardrails"
+    ]
+  },
+  {
+    "id": "material:refix-ai",
+    "title": "Refix",
+    "titleZh": "Refix",
+    "contentType": "directory",
+    "platform": "refix.ai",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Growth: asks Jev a `Score` over each experiment result to decide whether it clears the promotion bar, and a `Choice` over candidate plays to decide what to run next in SEO, content, and ads.",
+    "summaryZh": "Growth: asks Jev a `Score` over each experiment result to decide whether it clears the promotion bar, and a `Choice` over candidate plays to decide what to run next in SEO, content, and ads.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://refix.ai",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Scoring & Ranking"
+    ]
+  },
+  {
+    "id": "material:nearhere-events-blog-typesafe-jev-mistral-gemini-event-validation",
+    "title": "Jev vs Mistral and Gemini for event validation",
+    "titleZh": "Jev vs Mistral and Gemini for event validation",
+    "contentType": "directory",
+    "platform": "nearhere.events",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Event discovery: head-to-head test of Jev against Mistral Small and Gemini Flash-Lite at validating local event listings.",
+    "summaryZh": "Event discovery: head-to-head test of Jev against Mistral Small and Gemini Flash-Lite at validating local event listings.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:agentjournal-dev-blog-llm-judge-vs-feature-extraction",
+    "title": "Jev judge call vs dimension scores",
+    "titleZh": "Jev judge call vs dimension scores",
+    "contentType": "directory",
+    "platform": "agentjournal.dev",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Model evaluation: tests one direct Jev question per row against 12–14 Jev-scored dimensions with locally fitted weights on three classification tasks, reaching 0.9076 against 0.8373 on Japanese NLI but flagging about 25× more hard benign rows as attacks.",
+    "summaryZh": "Model evaluation: tests one direct Jev question per row against 12–14 Jev-scored dimensions with locally fitted weights on three classification tasks, reaching 0.9076 against 0.8373 on Japanese NLI but flagging about 25× more hard benign rows as attacks.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://agentjournal.dev/blog/llm-judge-vs-feature-extraction",
+    "originalUrl": "https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:x-com-gosailglobal-status-2100877682972258619",
+    "title": "Jev reranking is not a free win",
+    "titleZh": "Jev reranking is not a free win",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Search reranking: a measured run over 33,047 catalog entries, 164 real queries, and 9,831 graded pairs reports that Jev reranking alone did not beat vector retrieval.",
+    "summaryZh": "Search reranking: a measured run over 33,047 catalog entries, 164 real queries, and 9,831 graded pairs reports that Jev reranking alone did not beat vector retrieval.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/GoSailGlobal/status/2100877682972258619",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:lindfors-no-blog-a-first-look-at-typesafes-jev",
+    "title": "An early-access test of TypeSafe's Jev",
+    "titleZh": "An early-access test of TypeSafe's Jev",
+    "contentType": "article",
+    "platform": "lindfors.no",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Independent trial: measures calibrated judgments on early-access Jev and reports the resulting cost per decision.",
+    "summaryZh": "Independent trial: measures calibrated judgments on early-access Jev and reports the resulting cost per decision.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://lindfors.no/blog/a-first-look-at-typesafes-jev",
+    "originalUrl": "https://lindfors.no/blog/a-first-look-at-typesafes-jev/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:boringtoolskit-com-blog-seo-audit-cost-2026",
+    "title": "BTK audit studies",
+    "titleZh": "BTK audit studies",
+    "contentType": "article",
+    "platform": "boringtoolskit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Content & growth: Jev striking-distance triage ranks SEO fixes and drives study pages; 1,204 pages judged per run, 4,816 judgments in under 3 minutes, $0.0048 per 12-query batch.",
+    "summaryZh": "Content & growth: Jev striking-distance triage ranks SEO fixes and drives study pages; 1,204 pages judged per run, 4,816 judgments in under 3 minutes, $0.0048 per 12-query batch.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://boringtoolskit.com/blog/seo-audit-cost-2026",
+    "originalUrl": "https://boringtoolskit.com/blog/seo-audit-cost-2026/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:www-langchain-com-blog-jev-agent-evals-langsmith",
+    "title": "Can Jev Be a Better Agent Evaluator?",
+    "titleZh": "Can Jev Be a Better Agent Evaluator?",
+    "contentType": "directory",
+    "platform": "www.langchain.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Agent evaluation: LangChain compares Jev against LLM judges on accuracy, repeatability, latency and cost, concluding Jev is the cheaper and more consistent judge for online evals.",
+    "summaryZh": "Agent evaluation: LangChain compares Jev against LLM judges on accuracy, repeatability, latency and cost, concluding Jev is the cheaper and more consistent judge for online evals.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:jevals-com",
+    "title": "Jevals.com",
+    "titleZh": "Jevals.com",
+    "contentType": "directory",
+    "platform": "jevals.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Model evaluation: independent leaderboard that asks Jev and six LLMs the same Noul, Choice and Score questions and grades every answer against human labels (PubMedQA, Banking77, HelpSteer2; 300 items × 5 runs each), finding Jev tied for first on PubMedQA yes/no at 1/28 of the top LLM's price, tied for second on Banking77 and no model beating the label base rates on HelpSteer2, with every per-decision probability published as CC BY 4.0 data.",
+    "summaryZh": "Model evaluation: independent leaderboard that asks Jev and six LLMs the same Noul, Choice and Score questions and grades every answer against human labels (PubMedQA, Banking77, HelpSteer2; 300 items × 5 runs each), finding Jev tied for first on PubMedQA yes/no at 1/28 of the top LLM's price, tied for second on Banking77 and no model beating the label base rates on HelpSteer2, with every per-decision probability published as CC BY 4.0 data.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://jevals.com",
+    "originalUrl": "https://jevals.com/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:seenpaid-com-blog-jev-review-tested-against-fable",
+    "title": "Jev vs Fable on 520 real social posts",
+    "titleZh": "Jev vs Fable on 520 real social posts",
+    "contentType": "directory",
+    "platform": "seenpaid.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Social media: a scheduler's pre-publish check asks Jev four Noul questions per caption (spam, clear opening, stands alone, promotional) as advisory signals, never a gate; on 100 posts labelled blind by Fable the two agreed 94/100 on promotion and 85/100 at a 0.65 spam threshold (Jev the stricter one 12 times to 3), and scoring all 520 posts cost $0.011 at a 341 ms median.",
+    "summaryZh": "Social media: a scheduler's pre-publish check asks Jev four Noul questions per caption (spam, clear opening, stands alone, promotional) as advisory signals, never a gate; on 100 posts labelled blind by Fable the two agreed 94/100 on promotion and 85/100 at a 0.65 spam threshold (Jev the stricter one 12 times to 3), and scoring all 520 posts cost $0.011 at a 341 ms median.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://seenpaid.com/blog/jev-review-tested-against-fable",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:kantahayashiai-github-io-posts-jev-does-not-play-dice",
+    "title": "Jev Does Not Play Dice",
+    "titleZh": "Jev Does Not Play Dice",
+    "contentType": "article",
+    "platform": "kantahayashiai.github.io",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Model evaluation: asks Jev a `Choice` over the six faces of a hidden fair die 400 times; Jev selects face 1 on all 400 trials with 82.9% mean reported probability and 19.0% accuracy, then tests whether stated probabilities survive in synthetic forecast documents, where a 30% shortage risk comes back as 5.3% via Choice and 26.7% via Noul; raw responses and analysis code on [GitHub](https://github.com/KantaHayashiAI/jev-does-not-play-dice).",
+    "summaryZh": "Model evaluation: asks Jev a `Choice` over the six faces of a hidden fair die 400 times; Jev selects face 1 on all 400 trials with 82.9% mean reported probability and 19.0% accuracy, then tests whether stated probabilities survive in synthetic forecast documents, where a 30% shortage risk comes back as 5.3% via Choice and 26.7% via Noul; raw responses and analysis code on [GitHub](https://github.com/KantaHayashiAI/jev-does-not-play-dice).",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://kantahayashiai.github.io/posts/jev-does-not-play-dice",
+    "originalUrl": "https://kantahayashiai.github.io/posts/jev-does-not-play-dice/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Evaluation & Benchmarking"
+    ]
+  },
+  {
+    "id": "material:huggingface-co-spaces-drinkmoonshine-parallel-constrained-decoding",
+    "title": "Parallel Constrained Decoding (Qwen2.5-1B-RLCD)",
+    "titleZh": "Parallel Constrained Decoding (Qwen2.5-1B-RLCD)",
+    "contentType": "article",
+    "platform": "huggingface.co",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Open research: RLCD-trained Qwen2.5-1B demo exploring open-source parallel constrained decoding as an alternative to Jev.",
+    "summaryZh": "Open research: RLCD-trained Qwen2.5-1B demo exploring open-source parallel constrained decoding as an alternative to Jev.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Calibration & Research"
+    ]
+  },
+  {
+    "id": "material:x-com-ekzhang1-status-2100651678110515383",
+    "title": "Jev-compatible public API",
+    "titleZh": "Jev-compatible public API",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Open research: a public Jev-shaped API backed by an open Qwen3.6-35B-A3B model so anyone can try the typed-decision interface.",
+    "summaryZh": "Open research: a public Jev-shaped API backed by an open Qwen3.6-35B-A3B model so anyone can try the typed-decision interface.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/ekzhang1/status/2100651678110515383",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Calibration & Research"
+    ]
+  },
+  {
+    "id": "material:huggingface-co-cua-ai-cua-s1-forms",
+    "title": "CUA-S1-FORMS",
+    "titleZh": "CUA-S1-FORMS",
+    "contentType": "article",
+    "platform": "huggingface.co",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "jev_inspired",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Specialist decision model: a 706,048-parameter, 2.8 MB jev-like option scorer that rates FILL / CHECK / CLICK / SKIP for each form field in one parallel pass, reporting 99.7% on its own form-filling eval against Jev's 83.6% - a specialist on home turf rather than a general win.",
+    "summaryZh": "Specialist decision model: a 706,048-parameter, 2.8 MB jev-like option scorer that rates FILL / CHECK / CLICK / SKIP for each form field in one parallel pass, reporting 99.7% on its own form-filling eval against Jev's 83.6% - a specialist on home turf rather than a general win.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://huggingface.co/cua-ai/cua-s1-forms",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Calibration & Research"
+    ]
+  },
+  {
+    "id": "material:doi-org-10-5281-zenodo-22901853",
+    "title": "When a Judgment Layer’s Self-Reported Fields Lie",
+    "titleZh": "When a Judgment Layer’s Self-Reported Fields Lie",
+    "contentType": "article",
+    "platform": "doi.org",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Independent measurement: tests Jev’s self-reported access-layer fields against ground truth rather than trusting them, reporting a verdict vocabulary reaching three values where the description lists six and a sufficient field that does not separate thin evidence from contradictory evidence; the contradiction reading has no JSON artifact behind it and the write-up says so in its own errata.",
+    "summaryZh": "Independent measurement: tests Jev’s self-reported access-layer fields against ground truth rather than trusting them, reporting a verdict vocabulary reaching three values where the description lists six and a sufficient field that does not separate thin evidence from contradictory evidence; the contradiction reading has no JSON artifact behind it and the write-up says so in its own errata.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://doi.org/10.5281/zenodo.22901853",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Calibration & Research"
+    ]
+  },
+  {
+    "id": "material:www-elvex-com-blog-early-experimentation-using-jev-to-rethink-harness-ux",
+    "title": "Early experimentation using Jev to rethink harness UX",
+    "titleZh": "Early experimentation using Jev to rethink harness UX",
+    "contentType": "social_post",
+    "platform": "www.elvex.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Harness integration: an agent platform wires Jev into its LLM harness as a callable tool for search, approvals and context, reporting 2,000 expense reports categorized in 20 seconds for five cents.",
+    "summaryZh": "Harness integration: an agent platform wires Jev into its LLM harness as a callable tool for search, approvals and context, reporting 2,000 expense reports categorized in 20 seconds for five cents.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://www.elvex.com/blog/early-experimentation-using-jev-to-rethink-harness-ux",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Infra / SDKs / Integrations"
+    ]
+  },
+  {
+    "id": "material:www-langchain-com-blog-building-a-harness-with-jev",
+    "title": "Building a Harness with Jev",
+    "titleZh": "Building a Harness with Jev",
+    "contentType": "article",
+    "platform": "www.langchain.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Framework guide: LangChain's walkthrough of wiring Jev into an agent harness as the decision layer, from a team that then published its own evaluation of Jev as a judge.",
+    "summaryZh": "Framework guide: LangChain's walkthrough of wiring Jev into an agent harness as the decision layer, from a team that then published its own evaluation of Jev as a judge.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://www.langchain.com/blog/building-a-harness-with-jev",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Infra / SDKs / Integrations"
+    ]
+  },
+  {
+    "id": "material:jevai-tools",
+    "title": "Jev AI Tools",
+    "titleZh": "Jev AI Tools",
+    "contentType": "directory",
+    "platform": "jevai.tools",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Developer education: hosts six bounded recipes plus a custom builder for AI SDK `Choice`, `Score`, and `Boolean` evaluations; recipes display answer probabilities separately from provider confidence and use deterministic local thresholds to pause uncertain routes for review, while every configuration exports as TypeScript.",
+    "summaryZh": "Developer education: hosts six bounded recipes plus a custom builder for AI SDK `Choice`, `Score`, and `Boolean` evaluations; recipes display answer probabilities separately from provider confidence and use deterministic local thresholds to pause uncertain routes for review, while every configuration exports as TypeScript.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://jevai.tools",
+    "originalUrl": "https://jevai.tools/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Infra / SDKs / Integrations",
+      "hosted](https://img.shields.io/badge/type-hosted-4B5563?style=flat-square"
+    ]
+  },
+  {
+    "id": "material:jevchess-com",
+    "title": "Jev Chess",
+    "titleZh": "Jev Chess",
+    "contentType": "directory",
+    "platform": "jevchess.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Gaming: one shared board where the internet collectively plays against Jev; every legal move is an option of a single `Choice` question so an illegal move is impossible, returned probabilities shade the pieces on the board, and a live calibration panel scores each claimed confidence against a one-ply material check.",
+    "summaryZh": "Gaming: one shared board where the internet collectively plays against Jev; every legal move is an option of a single `Choice` question so an illegal move is impossible, returned probabilities shade the pieces on the board, and a live calibration panel scores each claimed confidence against a one-ply material check.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://jevchess.com",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Game & Simulation"
+    ]
+  },
+  {
+    "id": "material:news-ycombinator-com-item",
+    "title": "Introducing System One Models and Jev (Hacker News)",
+    "titleZh": "Introducing System One Models and Jev (Hacker News)",
+    "contentType": "social_post",
+    "platform": "news.ycombinator.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Hacker News: 1,800-point launch thread whose ~480 comments debate whether typed decisions replace LLM calls for classification, routing, and verification.",
+    "summaryZh": "Hacker News: 1,800-point launch thread whose ~480 comments debate whether typed decisions replace LLM calls for classification, routing, and verification.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://news.ycombinator.com/item?id=49717558",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-ephraimduncan-status-2100454070536351824",
+    "title": "Model router built with Jev",
+    "titleZh": "Model router built with Jev",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: 948-like demo where Jev decides which model should serve a request before it is forwarded.",
+    "summaryZh": "X: 948-like demo where Jev decides which model should serve a request before it is forwarded.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/ephraimduncan/status/2100454070536351824",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-justalexwortega-status-2100341039986798930",
+    "title": "MLP on Qwen 4B mimicking Jev",
+    "titleZh": "MLP on Qwen 4B mimicking Jev",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "jev_inspired",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: builder reports that a small MLP trained on top of Qwen 4B already reproduces Jev-like decision behaviour.",
+    "summaryZh": "X: builder reports that a small MLP trained on top of Qwen 4B already reproduces Jev-like decision behaviour.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/justALEXWORTEGA/status/2100341039986798930",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-wmoto-ai-status-2100454049359577516",
+    "title": "Running a local Typesafe Jev",
+    "titleZh": "Running a local Typesafe Jev",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "jev_inspired",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Japanese): attempt at running a Jev-style decision model locally, with speed noted as still improvable.",
+    "summaryZh": "X (Japanese): attempt at running a Jev-style decision model locally, with speed noted as still improvable.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/wmoto_ai/status/2100454049359577516",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-isnickma-status-2100566407524344225",
+    "title": "Jev as an AI agent safety monitor",
+    "titleZh": "Jev as an AI agent safety monitor",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: test report using Jev to check each agent action first, reportedly catching most attacks with almost no false blocks and much lower latency.",
+    "summaryZh": "X: test report using Jev to check each agent action first, reportedly catching most attacks with almost no false blocks and much lower latency.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/isNickMa/status/2100566407524344225",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-kostastsale-status-2100362415187833048",
+    "title": "Rethinking security engineering with Jev",
+    "titleZh": "Rethinking security engineering with Jev",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: argues that purely engineering decisions in security work belong to Jev rather than a chat model.",
+    "summaryZh": "X: argues that purely engineering decisions in security work belong to Jev rather than a chat model.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/Kostastsale/status/2100362415187833048",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-waynesutton-status-2100487878992388279",
+    "title": "Ask Jev anything, it will judge",
+    "titleZh": "Ask Jev anything, it will judge",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: public Convex-backed demo inviting one million judged questions instead of generated answers.",
+    "summaryZh": "X: public Convex-backed demo inviting one million judged questions instead of generated answers.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/waynesutton/status/2100487878992388279",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-malekoo-status-2100439840575684910",
+    "title": "First Jev use case in a Mac app",
+    "titleZh": "First Jev use case in a Mac app",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: a shipped Mac app routes setup and troubleshooting questions to Jev when no language model is loaded.",
+    "summaryZh": "X: a shipped Mac app routes setup and troubleshooting questions to Jev when no language model is loaded.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/malekoo/status/2100439840575684910",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-dotey-status-2100109937237987823",
+    "title": "Jev 中文解读",
+    "titleZh": "Jev 中文解读",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Chinese): explains the System One category to Chinese readers as a calibrated, typed decision layer for code.",
+    "summaryZh": "X (Chinese): explains the System One category to Chinese readers as a calibrated, typed decision layer for code.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/dotey/status/2100109937237987823",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:reddit-com-r-singularity-comments-1whop6b-typesafe-ai-releases-ai-model-called-jev-rather",
+    "title": "TypeSafe AI releases Jev (r/singularity)",
+    "titleZh": "TypeSafe AI releases Jev (r/singularity)",
+    "contentType": "social_post",
+    "platform": "reddit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Reddit: launch thread framing Jev as a low-hallucination, low-cost decision model for software rather than chat.",
+    "summaryZh": "Reddit: launch thread framing Jev as a low-hallucination, low-cost decision model for software rather than chat.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://reddit.com/r/singularity/comments/1whop6b/typesafe_ai_releases_ai_model_called_jev_rather",
+    "originalUrl": "https://reddit.com/r/singularity/comments/1whop6b/typesafe_ai_releases_ai_model_called_jev_rather/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:reddit-com-r-picodingagent-comments-1whsav6-anyone-else-testing-out-typesafe-ais-new-system",
+    "title": "Testing Jev for Pi extensions (r/PiCodingAgent)",
+    "titleZh": "Testing Jev for Pi extensions (r/PiCodingAgent)",
+    "contentType": "social_post",
+    "platform": "reddit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Reddit: builders describe using Jev as an agent tool-use safety layer and planning a prompt-complexity model router.",
+    "summaryZh": "Reddit: builders describe using Jev as an agent tool-use safety layer and planning a prompt-complexity model router.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://reddit.com/r/PiCodingAgent/comments/1whsav6/anyone_else_testing_out_typesafe_ais_new_system",
+    "originalUrl": "https://reddit.com/r/PiCodingAgent/comments/1whsav6/anyone_else_testing_out_typesafe_ais_new_system/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions",
+      "Pi](https://img.shields.io/badge/agent-Pi-8250DF?style=flat-square"
+    ]
+  },
+  {
+    "id": "material:reddit-com-r-accelerate-comments-1whk9oy-new-typesafe-ai-jev-model-playing-minecraft-wip",
+    "title": "Jev \"playing\" Minecraft (r/accelerate)",
+    "titleZh": "Jev \"playing\" Minecraft (r/accelerate)",
+    "contentType": "social_post",
+    "platform": "reddit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Reddit: work-in-progress demo of Jev driving Minecraft, including fleeing zombies at night, as a test of fast structured decisions.",
+    "summaryZh": "Reddit: work-in-progress demo of Jev driving Minecraft, including fleeing zombies at night, as a test of fast structured decisions.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://reddit.com/r/accelerate/comments/1whk9oy/new_typesafe_ai_jev_model_playing_minecraft_wip",
+    "originalUrl": "https://reddit.com/r/accelerate/comments/1whk9oy/new_typesafe_ai_jev_model_playing_minecraft_wip/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-openrouter-status-2100744709589316009",
+    "title": "Jev on OpenRouter",
+    "titleZh": "Jev on OpenRouter",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: OpenRouter ships Jev in beta, exposing the System One model through its routing layer.",
+    "summaryZh": "X: OpenRouter ships Jev in beta, exposing the System One model through its routing layer.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/OpenRouter/status/2100744709589316009",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-cloudflaredev-status-2100688880798159254",
+    "title": "Jev on Cloudflare AI Gateway",
+    "titleZh": "Jev on Cloudflare AI Gateway",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: Jev goes live on Cloudflare's AI Gateway, callable from Workers.",
+    "summaryZh": "X: Jev goes live on Cloudflare's AI Gateway, callable from Workers.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/CloudflareDev/status/2100688880798159254",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-tamarajtran-status-2100694549362553153",
+    "title": "Jev for instant compaction",
+    "titleZh": "Jev for instant compaction",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: argues agent context compaction should be a Jev decision rather than a summarization prompt.",
+    "summaryZh": "X: argues agent context compaction should be a Jev decision rather than a summarization prompt.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/tamarajtran/status/2100694549362553153",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-altryne-status-2100739055923425589",
+    "title": "Reviewing unnecessary tool calls with Jev",
+    "titleZh": "Reviewing unnecessary tool calls with Jev",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: a Claude plugin asks Jev to review redundant tool calls, running in about a second.",
+    "summaryZh": "X: a Claude plugin asks Jev to review redundant tool calls, running in about a second.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/altryne/status/2100739055923425589",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-gosailglobal-status-2100859307671855113",
+    "title": "19 open-source Jev projects",
+    "titleZh": "19 open-source Jev projects",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Chinese): tallies 19 open-source Jev projects totalling more than 6,800 stars.",
+    "summaryZh": "X (Chinese): tallies 19 open-source Jev projects totalling more than 6,800 stars.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/GoSailGlobal/status/2100859307671855113",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:backnotprop-com-blog-jev-poker",
+    "title": "Jev is the fish at the poker table",
+    "titleZh": "Jev is the fish at the poker table",
+    "contentType": "article",
+    "platform": "backnotprop.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Blog: plays poker with Jev and uses the table to probe where a fast decision model helps and where it does not.",
+    "summaryZh": "Blog: plays poker with Jev and uses the table to probe where a fast decision model helps and where it does not.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://backnotprop.com/blog/jev-poker",
+    "originalUrl": "https://backnotprop.com/blog/jev-poker/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:thefinancialengineer-substack-com-p-typesafes-jev-is-about-to-change",
+    "title": "Jev is about to change the AI economy",
+    "titleZh": "Jev is about to change the AI economy",
+    "contentType": "directory",
+    "platform": "thefinancialengineer.substack.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Substack: argues that cheap calibrated decisions move where inference spend goes.",
+    "summaryZh": "Substack: argues that cheap calibrated decisions move where inference spend goes.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://thefinancialengineer.substack.com/p/typesafes-jev-is-about-to-change",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-0xlogicrw-status-2100478725393686556",
+    "title": "Awesome Jev by 0xLogicrw",
+    "titleZh": "Awesome Jev by 0xLogicrw",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Chinese): a hand-checked list of Jev projects that has since grown into a navigation site indexing 287 of them, published one day after launch.",
+    "summaryZh": "X (Chinese): a hand-checked list of Jev projects that has since grown into a navigation site indexing 287 of them, published one day after launch.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/0xLogicrw/status/2100478725393686556",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-studio-yebisu-status-2100686990090047569",
+    "title": "Jev repository roundup (Japanese)",
+    "titleZh": "Jev repository roundup (Japanese)",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Japanese): rounds up the Jev repositories with the most practical promise, observing that computer use and automated trading dominate the early use cases.",
+    "summaryZh": "X (Japanese): rounds up the Jev repositories with the most practical promise, observing that computer use and automated trading dominate the early use cases.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/studio_yebisu/status/2100686990090047569",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-isaac-flath-status-2100623016644223175",
+    "title": "Six things I'll still use Jev for",
+    "titleZh": "Six things I'll still use Jev for",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: a practitioner lists the six Jev uses he still expects to rely on after 60 days, an early usefulness review rather than a launch reaction.",
+    "summaryZh": "X: a practitioner lists the six Jev uses he still expects to rely on after 60 days, an early usefulness review rather than a launch reaction.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/isaac_flath/status/2100623016644223175",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-mvanhorn-status-2100761338918363550",
+    "title": "WTF is Jev, ELI5",
+    "titleZh": "WTF is Jev, ELI5",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: frames Jev as \"AI multiple choice, not AI essay writing\", one of the clearer plain-language explanations of the System One shape.",
+    "summaryZh": "X: frames Jev as \"AI multiple choice, not AI essay writing\", one of the clearer plain-language explanations of the System One shape.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/mvanhorn/status/2100761338918363550",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:reddit-com-r-ai-agents-comments-1wjpgbx-has-anyone-tried-jev-as-a-relevance",
+    "title": "Has anyone tried Jev as a relevance filter for RAG?",
+    "titleZh": "Has anyone tried Jev as a relevance filter for RAG?",
+    "contentType": "social_post",
+    "platform": "reddit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Reddit: builders ask whether Jev works as a retrieval relevance filter and reranker, probing the boundary the reported negative reranking result already hinted at.",
+    "summaryZh": "Reddit: builders ask whether Jev works as a retrieval relevance filter and reranker, probing the boundary the reported negative reranking result already hinted at.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://reddit.com/r/AI_Agents/comments/1wjpgbx/has_anyone_tried_jev_as_a_relevance",
+    "originalUrl": "https://reddit.com/r/AI_Agents/comments/1wjpgbx/has_anyone_tried_jev_as_a_relevance/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:reddit-com-r-devinai-comments-1wjtmwi-can-we-have-jev-in-devin",
+    "title": "Can we have Jev in Devin?",
+    "titleZh": "Can we have Jev in Devin?",
+    "contentType": "social_post",
+    "platform": "reddit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Reddit: users of another coding agent ask for a Jev decision layer inside their tool, a signal that typed decisions are becoming an expected feature.",
+    "summaryZh": "Reddit: users of another coding agent ask for a Jev decision layer inside their tool, a signal that typed decisions are becoming an expected feature.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://reddit.com/r/DevinAI/comments/1wjtmwi/can_we_have_jev_in_devin",
+    "originalUrl": "https://reddit.com/r/DevinAI/comments/1wjtmwi/can_we_have_jev_in_devin/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-moritzkremb-status-2100895894287839255",
+    "title": "All the coolest Jev projects on X",
+    "titleZh": "All the coolest Jev projects on X",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: a curated thread of the strongest Jev projects posted within 72 hours of launch, by a builder who also produced the most-watched Jev tutorial.",
+    "summaryZh": "X: a curated thread of the strongest Jev projects posted within 72 hours of launch, by a builder who also produced the most-watched Jev tutorial.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/moritzkremb/status/2100895894287839255",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-moritzkremb-status-2100715237267660873",
+    "title": "Full Jev tutorial",
+    "titleZh": "Full Jev tutorial",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: a walkthrough covering the API, then three demos — voice-controlled browsing, AI memory, and YouTube preprocessing.",
+    "summaryZh": "X: a walkthrough covering the API, then three demos — voice-controlled browsing, AI memory, and YouTube preprocessing.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/moritzkremb/status/2100715237267660873",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-mvanhorn-status-2100788572316139655",
+    "title": "WTF is Jev, and the 9 things people are building with it",
+    "titleZh": "WTF is Jev, and the 9 things people are building with it",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: the most widely shared explainer of the launch window, framing Jev as \"AI multiple choice, not AI essay writing\" and cataloguing nine use patterns.",
+    "summaryZh": "X: the most widely shared explainer of the launch window, framing Jev as \"AI multiple choice, not AI essay writing\" and cataloguing nine use patterns.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/mvanhorn/status/2100788572316139655",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-nathanflurry-status-2100036101809619314",
+    "title": "Jev is a really smart switch statement",
+    "titleZh": "Jev is a really smart switch statement",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: the hype-free framing from an infrastructure founder — Jev does not replace GPT or Claude, it is a very good switch statement with 2026 intelligence.",
+    "summaryZh": "X: the hype-free framing from an infrastructure founder — Jev does not replace GPT or Claude, it is a very good switch statement with 2026 intelligence.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/NathanFlurry/status/2100036101809619314",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-cocktailpeanut-status-2100277062309179521",
+    "title": "Arbitrary classification as a type-safe primitive",
+    "titleZh": "Arbitrary classification as a type-safe primitive",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: argues the real novelty is not classification but that Jev makes arbitrary classification a runtime-defined, type-safe programmable primitive.",
+    "summaryZh": "X: argues the real novelty is not classification but that Jev makes arbitrary classification a runtime-defined, type-safe programmable primitive.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/cocktailpeanut/status/2100277062309179521",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-theo-status-2100762304862384257",
+    "title": "This is a terrible compaction strategy",
+    "titleZh": "This is a terrible compaction strategy",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: the strongest public pushback on the popular compaction idea, arguing compaction is reconstruction rather than filtering and that the plugin misunderstands context management.",
+    "summaryZh": "X: the strongest public pushback on the popular compaction idea, arguing compaction is reconstruction rather than filtering and that the plugin misunderstands context management.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/theo/status/2100762304862384257",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-anderslie-status-2100388704644919662",
+    "title": "It is the inference technique, not the training",
+    "titleZh": "It is the inference technique, not the training",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "jev_inspired",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: argues Jev's speed comes from parallel decoding rather than model training, and that an inference engine can expose a Jev-like API over any open-weight model.",
+    "summaryZh": "X: argues Jev's speed comes from parallel decoding rather than model training, and that an inference engine can expose a Jev-like API over any open-weight model.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/anderslie/status/2100388704644919662",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-iwashi86-status-2100713337436930288",
+    "title": "Jev's Architecture Unmasked",
+    "titleZh": "Jev's Architecture Unmasked",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Japanese): notes from a technical analysis that inferred Jev's internals from roughly 10,000 API calls, concluding it keeps LLM knowledge but removes token generation entirely.",
+    "summaryZh": "X (Japanese): notes from a technical analysis that inferred Jev's internals from roughly 10,000 API calls, concluding it keeps LLM knowledge but removes token generation entirely.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/iwashi86/status/2100713337436930288",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-layerx-tech-status-2100887864594895154",
+    "title": "An internal Jev study session with 50+ engineers",
+    "titleZh": "An internal Jev study session with 50+ engineers",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Japanese): a company ran an emergency internal study session on Jev and published the material — an early example of organisational adoption rather than individual experimentation.",
+    "summaryZh": "X (Japanese): a company ran an emergency internal study session on Jev and published the material — an early example of organisational adoption rather than individual experimentation.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/LayerX_tech/status/2100887864594895154",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-0xboyd-status-2100619702003208701",
+    "title": "X is all over it, Reddit is not",
+    "titleZh": "X is all over it, Reddit is not",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: observes a sharp platform divide, finding only three Jev posts on Reddit while X filled with working prototypes — a useful reminder that channel coverage changes the picture.",
+    "summaryZh": "X: observes a sharp platform divide, finding only three Jev posts on Reddit while X filled with working prototypes — a useful reminder that channel coverage changes the picture.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/0xBOYD/status/2100619702003208701",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-xiaomovps-status-2100923960493818177",
+    "title": "Five open Jev replicas worth trying",
+    "titleZh": "Five open Jev replicas worth trying",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Chinese): rounds up Laya 421M, Decider-2B, NanoJev 0.6B, Reflex, and System-One 4B as the most promising open decision models, two of which are Mac-friendly.",
+    "summaryZh": "X (Chinese): rounds up Laya 421M, Decider-2B, NanoJev 0.6B, Reflex, and System-One 4B as the most promising open decision models, two of which are Mac-friendly.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/xiaomovps/status/2100923960493818177",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-iam-zachi-status-2100679300756435135",
+    "title": "jev(): a PostgreSQL extension for natural-language queries",
+    "titleZh": "jev(): a PostgreSQL extension for natural-language queries",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: a single SQL function that searches a whole database in natural language with no index and no embeddings, e.g. `WHERE jev(people, 'could work from home')`.",
+    "summaryZh": "X: a single SQL function that searches a whole database in natural language with no index and no embeddings, e.g. `WHERE jev(people, 'could work from home')`.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/iam_zachi/status/2100679300756435135",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-hamiltonulmer-status-2100370557405667768",
+    "title": "A DuckDB extension for row classification",
+    "titleZh": "A DuckDB extension for row classification",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: classifies rows in any CSV, Parquet, or DuckDB table with Jev, reporting about ten seconds for a thousand rows and better ergonomics than a bespoke classifier.",
+    "summaryZh": "X: classifies rows in any CSV, Parquet, or DuckDB table with Jev, reporting about ten seconds for a thousand rows and better ergonomics than a bespoke classifier.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/hamiltonulmer/status/2100370557405667768",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-jarrodwatts-status-2100356151468585346",
+    "title": "An on-chain trading bot where Jev decides",
+    "titleZh": "An on-chain trading bot where Jev decides",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: Jev decides buy or sell from a live price feed and the bot places real orders on Monad every 300 ms block — the clearest sign that the finance experiments are not all paper.",
+    "summaryZh": "X: Jev decides buy or sell from a live price feed and the bot places real orders on Monad every 300 ms block — the clearest sign that the finance experiments are not all paper.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/jarrodwatts/status/2100356151468585346",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-0xidanlevin-status-2100937437325205568",
+    "title": "Jev broke our WebMCP benchmark",
+    "titleZh": "Jev broke our WebMCP benchmark",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: the benchmark's own author reports that Jev plus a fast small LLM solved 100% of WebMCP tasks at roughly 112x lower model cost than a frontier model with computer use.",
+    "summaryZh": "X: the benchmark's own author reports that Jev plus a fast small LLM solved 100% of WebMCP tasks at roughly 112x lower model cost than a frontier model with computer use.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/0xidanlevin/status/2100937437325205568",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-jiayuan-jy-status-2100876273061102006",
+    "title": "Chinese notes after a day with Jev",
+    "titleZh": "Chinese notes after a day with Jev",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Chinese): a sceptical read — Jev looks like a faster general classifier an LLM could already do, and on complex scenarios its world knowledge is the open question.",
+    "summaryZh": "X (Chinese): a sceptical read — Jev looks like a faster general classifier an LLM could already do, and on complex scenarios its world knowledge is the open question.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/jiayuan_jy/status/2100876273061102006",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-kylejeong-status-2100622054945095934",
+    "title": "Stagehand plus Jev browser control",
+    "titleZh": "Stagehand plus Jev browser control",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: sends the accessibility tree as state and candidate actions as questions so Jev decides each step, reporting about $0.001 and near-instant execution for one task.",
+    "summaryZh": "X: sends the accessibility tree as state and candidate actions as questions so Jev decides each step, reporting about $0.001 and near-instant execution for one task.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/kylejeong/status/2100622054945095934",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-trycua-status-2101014004927729737",
+    "title": "Introducing CUA-S1",
+    "titleZh": "Introducing CUA-S1",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: Cua open-sources a family of small, specialised System One models for computer use, starting with form filling and asking what the next specialist should learn.",
+    "summaryZh": "X: Cua open-sources a family of small, specialised System One models for computer use, starting with form filling and asking what the next specialist should learn.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/trycua/status/2101014004927729737",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-be-arsh-status-2101026864341164110",
+    "title": "One 50 ms pass versus 23 turns",
+    "titleZh": "One 50 ms pass versus 23 turns",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: the sharpest framing of the specialist case - a 706K-parameter model fills a whole form in one 50 ms pass, while an LLM agent needs 23 turns and 39.6 seconds for the same form.",
+    "summaryZh": "X: the sharpest framing of the specialist case - a 706K-parameter model fills a whole form in one 50 ms pass, while an LLM agent needs 23 turns and 39.6 seconds for the same form.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/be_arsh/status/2101026864341164110",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:reddit-com-r-llmdevs-comments-1wko2e5-i-reviewed-287-opensource-jev-projects-here-are",
+    "title": "I reviewed 287 open-source Jev projects",
+    "titleZh": "I reviewed 287 open-source Jev projects",
+    "contentType": "social_post",
+    "platform": "reddit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Reddit: a reviewer works through 287 Jev repositories and narrows them to 20 that actually explain the model, a useful counterweight to star-count browsing.",
+    "summaryZh": "Reddit: a reviewer works through 287 Jev repositories and narrows them to 20 that actually explain the model, a useful counterweight to star-count browsing.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://reddit.com/r/LLMDevs/comments/1wko2e5/i_reviewed_287_opensource_jev_projects_here_are",
+    "originalUrl": "https://reddit.com/r/LLMDevs/comments/1wko2e5/i_reviewed_287_opensource_jev_projects_here_are/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:forkast-news-typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point",
+    "title": "TypeSafe AI's Jev Is Not an LLM - and That May Be the Point",
+    "titleZh": "TypeSafe AI's Jev Is Not an LLM - and That May Be the Point",
+    "contentType": "directory",
+    "platform": "forkast.news",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "News analysis: treats the model's refusal to generate text as the feature rather than a limitation, and follows through on what that implies for inference spend.",
+    "summaryZh": "News analysis: treats the model's refusal to generate text as the feature rather than a limitation, and follows through on what that implies for inference spend.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point",
+    "originalUrl": "https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:news-ycombinator-com-item-49760225",
+    "title": "Ask HN: What do you think of Noul, a new decision primitive",
+    "titleZh": "Ask HN: What do you think of Noul, a new decision primitive",
+    "contentType": "social_post",
+    "platform": "news.ycombinator.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Hacker News: a proposal to treat `Noul` - the probability-of-true answer type - as a general software primitive rather than a Jev-specific one.",
+    "summaryZh": "Hacker News: a proposal to treat `Noul` - the probability-of-true answer type - as a general software primitive rather than a Jev-specific one.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://news.ycombinator.com/item?id=49760225",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-heystefan-status-2101369117496521042",
+    "title": "When a designer gets access to Jev",
+    "titleZh": "When a designer gets access to Jev",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: a product designer's 33-second demo in which a natural-language phrase narrows a large icon set to the matching ones with Jev deciding which - 4.8k likes and a reply thread where the author discusses the icons Jev gets wrong.",
+    "summaryZh": "X: a product designer's 33-second demo in which a natural-language phrase narrows a large icon set to the matching ones with Jev deciding which - 4.8k likes and a reply thread where the author discusses the icons Jev gets wrong.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/heystefan_/status/2101369117496521042",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:madewithjev-com",
+    "title": "Made with Jev",
+    "titleZh": "Made with Jev",
+    "contentType": "article",
+    "platform": "madewithjev.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Site: a directory of Jev builds, guides, and posts with reported cost and speed, plus free Jev-powered tools such as an AI slop detector.",
+    "summaryZh": "Site: a directory of Jev builds, guides, and posts with reported cost and speed, plus free Jev-powered tools such as an AI slop detector.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://madewithjev.com",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-dongxi-nlp-status-2100813094951748074",
+    "title": "LangChain is already using Jev inside its harness",
+    "titleZh": "LangChain is already using Jev inside its harness",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Chinese): reads LangChain's adoption as confirmation that Jev fits the fixed-harness roles - agent routing, model routing - rather than open-ended generation.",
+    "summaryZh": "X (Chinese): reads LangChain's adoption as confirmation that Jev fits the fixed-harness roles - agent routing, model routing - rather than open-ended generation.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/dongxi_nlp/status/2100813094951748074",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-typesafeai-status-2101786156572823624",
+    "title": "Jev is now available to everyone, no waitlist",
+    "titleZh": "Jev is now available to everyone, no waitlist",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: TypeSafe drops the waitlist and moves Jev from early access to general availability, the change that makes every other entry in this list reproducible by a reader.",
+    "summaryZh": "X: TypeSafe drops the waitlist and moves Jev from early access to general availability, the change that makes every other entry in this list reproducible by a reader.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/typesafeai/status/2101786156572823624",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-kenonews-status-2101656436136661163",
+    "title": "JEV captcha arbitrage",
+    "titleZh": "JEV captcha arbitrage",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: works through the economics of solving CAPTCHAs with Jev at $0.0068 per hundred against a marketplace paying a cent each, a pointed illustration of what per-decision pricing does to an existing market.",
+    "summaryZh": "X: works through the economics of solving CAPTCHAs with Jev at $0.0068 per hundred against a marketplace paying a cent each, a pointed illustration of what per-decision pricing does to an existing market.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/kenonews/status/2101656436136661163",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:flaviocopes-com-jev",
+    "title": "A deep dive into Jev",
+    "titleZh": "A deep dive into Jev",
+    "contentType": "article",
+    "platform": "flaviocopes.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Blog: a veteran technical writer's walkthrough of the System One idea, useful as the explanation to hand someone who has only seen LLM marketing.",
+    "summaryZh": "Blog: a veteran technical writer's walkthrough of the System One idea, useful as the explanation to hand someone who has only seen LLM marketing.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://flaviocopes.com/jev",
+    "originalUrl": "https://flaviocopes.com/jev/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:blog-r6i-it-typesafe-jev-vs-agentic-loop-html",
+    "title": "Replacing an agentic classification loop with Jev",
+    "titleZh": "Replacing an agentic classification loop with Jev",
+    "contentType": "article",
+    "platform": "blog.r6i.it",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Blog: swaps an agent's classification loop for a single Jev call and reports the loop running 7x faster.",
+    "summaryZh": "Blog: swaps an agent's classification loop for a single Jev call and reports the loop running 7x faster.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-yaojingang-status-2101867443820113982",
+    "title": "60 Jev use cases in Chinese",
+    "titleZh": "60 Jev use cases in Chinese",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Chinese): rounds up sixty cases with twelve called out as most worth studying, organised around the same division of labour - the generative model writes, Jev classifies, scores, and chooses.",
+    "summaryZh": "X (Chinese): rounds up sixty cases with twelve called out as most worth studying, organised around the same division of labour - the generative model writes, Jev classifies, scores, and chooses.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/yaojingang/status/2101867443820113982",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:www-jev-tutorial-org",
+    "title": "Jev Tutorial",
+    "titleZh": "Jev Tutorial",
+    "contentType": "article",
+    "platform": "www.jev-tutorial.org",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Site: an independent multilingual implementation guide to Choice, Score, Noul, Python SDK requests, confidence thresholds, deterministic fallbacks, and human escalation.",
+    "summaryZh": "Site: an independent multilingual implementation guide to Choice, Score, Noul, Python SDK requests, confidence thresholds, deterministic fallbacks, and human escalation.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://www.jev-tutorial.org",
+    "originalUrl": "https://www.jev-tutorial.org/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-typesafeai-status-2102281508950307159",
+    "title": "TypeSafe pauses Jev signups",
+    "titleZh": "TypeSafe pauses Jev signups",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X: days after dropping the waitlist the vendor pauses signups again to protect quality of service, an unusually direct admission that demand outran capacity.",
+    "summaryZh": "X: days after dropping the waitlist the vendor pauses signups again to protect quality of service, an unusually direct admission that demand outran capacity.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/typesafeai/status/2102281508950307159",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:vercel-com-i-jev-vs-gpt-6-astra",
+    "title": "Jev vs GPT-6 Astra: when to use each",
+    "titleZh": "Jev vs GPT-6 Astra: when to use each",
+    "contentType": "article",
+    "platform": "vercel.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Guide: Vercel's own decision guide for choosing between a System One model and a frontier model, published alongside a companion page of seven Jev use cases.",
+    "summaryZh": "Guide: Vercel's own decision guide for choosing between a System One model and a frontier model, published alongside a companion page of seven Jev use cases.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://vercel.com/i/jev-vs-gpt-6-astra",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:x-com-linearuncle-status-2102423502414618729",
+    "title": "A Jev index rebuilt every four hours",
+    "titleZh": "A Jev index rebuilt every four hours",
+    "contentType": "social_post",
+    "platform": "x.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "X (Chinese): describes a multilingual Jev site that scrapes X every four hours and has accumulated more than 5,380 posts, an index maintained by machine rather than by a curator.",
+    "summaryZh": "X (Chinese): describes a multilingual Jev site that scrapes X every four hours and has accumulated more than 5,380 posts, an index maintained by machine rather than by a curator.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://x.com/LinearUncle/status/2102423502414618729",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:docs-typesafe-ai-model-jaggedness-jev-1-13",
+    "title": "Jev 1.13 jaggedness",
+    "titleZh": "Jev 1.13 jaggedness",
+    "contentType": "directory",
+    "platform": "docs.typesafe.ai",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Documentation: TypeSafe's own page on model jaggedness for the 1.13 release.",
+    "summaryZh": "Documentation: TypeSafe's own page on model jaggedness for the 1.13 release.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:www-reddit-com-r-artificialinteligence-comments-1wm873q-typesafes-jev-cannot-emit-an-invalid-output-but",
+    "title": "Jev cannot emit an invalid output, but where is the reliability curve?",
+    "titleZh": "Jev cannot emit an invalid output, but where is the reliability curve?",
+    "contentType": "social_post",
+    "platform": "www.reddit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Reddit: argues the type-safety guarantee is real and the calibration claim is not yet backed by a published ECE or reliability curve, the sharpest form of the question this list keeps running into.",
+    "summaryZh": "Reddit: argues the type-safety guarantee is real and the calibration claim is not yet backed by a published ECE or reliability curve, the sharpest form of the question this list keeps running into.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://www.reddit.com/r/ArtificialInteligence/comments/1wm873q/typesafes_jev_cannot_emit_an_invalid_output_but",
+    "originalUrl": "https://www.reddit.com/r/ArtificialInteligence/comments/1wm873q/typesafes_jev_cannot_emit_an_invalid_output_but/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:www-reddit-com-r-cloudflare-comments-1wmjsj2-typesafes-jev-the-decisiononly-model-is-on",
+    "title": "Jev is on Workers AI as typesafe/jev",
+    "titleZh": "Jev is on Workers AI as typesafe/jev",
+    "contentType": "social_post",
+    "platform": "www.reddit.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Reddit: reports the model appearing on Cloudflare's Workers AI surface as `typesafe/jev`, a second Cloudflare integration alongside the AI Gateway listing.",
+    "summaryZh": "Reddit: reports the model appearing on Cloudflare's Workers AI surface as `typesafe/jev`, a second Cloudflare integration alongside the AI Gateway listing.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://www.reddit.com/r/CloudFlare/comments/1wmjsj2/typesafes_jev_the_decisiononly_model_is_on",
+    "originalUrl": "https://www.reddit.com/r/CloudFlare/comments/1wmjsj2/typesafes_jev_the_decisiononly_model_is_on/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:www-youtube-com-watch",
+    "title": "Why I couldn't build Jev at OpenAI",
+    "titleZh": "Why I couldn't build Jev at OpenAI",
+    "contentType": "video",
+    "platform": "www.youtube.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Video: Diogo Almeida's talk on why this had to be a separate company, the closest thing to a design rationale for System One models.",
+    "summaryZh": "Video: Diogo Almeida's talk on why this had to be a separate company, the closest thing to a design rationale for System One models.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://www.youtube.com/watch?v=cFx9Z3ZXca0",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:mikulskibartosz-name-typesafe-jev-guess-what-i-drew",
+    "title": "TypeSafe's Jev Can't See. I Made It Guess What I Drew Anyway",
+    "titleZh": "TypeSafe's Jev Can't See. I Made It Guess What I Drew Anyway",
+    "contentType": "article",
+    "platform": "mikulskibartosz.name",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Blog: a drawing-guessing experiment that probes what a model with no image input can still recover from a text description of a sketch.",
+    "summaryZh": "Blog: a drawing-guessing experiment that probes what a model with no image input can still recover from a text description of a sketch.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:jevbooks-com-en-patterns",
+    "title": "jevbooks: 16 Jev design patterns",
+    "titleZh": "jevbooks: 16 Jev design patterns",
+    "contentType": "directory",
+    "platform": "jevbooks.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Site: a bilingual gallery of 500+ open-source Jev projects in which Jev itself gates and tags every listing from its README, plus sixteen design patterns read out of ten codebases (Thermostat, Blind review, Flight recorder), each page a problem, a solution, and the recognition question the pipeline sends.",
+    "summaryZh": "Site: a bilingual gallery of 500+ open-source Jev projects in which Jev itself gates and tags every listing from its README, plus sixteen design patterns read out of ten codebases (Thermostat, Blind review, Flight recorder), each page a problem, a solution, and the recognition question the pipeline sends.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://jevbooks.com/en/patterns",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:www-nobodywho-ai-posts-jev-in-25-lines",
+    "title": "Jev in 25 Lines of Python",
+    "titleZh": "Jev in 25 Lines of Python",
+    "contentType": "article",
+    "platform": "www.nobodywho.ai",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Blog + HN thread (464 points, 139 comments): builds the smallest working Jev loop in Python, and the thread argues over whether the decision step needs a dedicated model at all.",
+    "summaryZh": "Blog + HN thread (464 points, 139 comments): builds the smallest working Jev loop in Python, and the thread argues over whether the decision step needs a dedicated model at all.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://www.nobodywho.ai/posts/jev-in-25-lines",
+    "originalUrl": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:arcturus-labs-com-blog-2026-09-21-will-openai-eat-jevs-lunch",
+    "title": "Will OpenAI eat Jev's lunch?",
+    "titleZh": "Will OpenAI eat Jev's lunch?",
+    "contentType": "directory",
+    "platform": "arcturus-labs.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Analysis + HN thread (306 points, 215 comments): argues OpenAI is best positioned to fast-follow the typed-decision shape, and the thread debates whether the interface or the model is the moat.",
+    "summaryZh": "Analysis + HN thread (306 points, 215 comments): argues OpenAI is best positioned to fast-follow the typed-decision shape, and the thread debates whether the interface or the model is the moat.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch",
+    "originalUrl": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:simonwillison-net-2026-sep-21-jev",
+    "title": "Jev introduces a new shape of LLM",
+    "titleZh": "Jev introduces a new shape of LLM",
+    "contentType": "article",
+    "platform": "simonwillison.net",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Blog: Simon Willison's read on what changes when a model's output is a typed decision instead of prose.",
+    "summaryZh": "Blog: Simon Willison's read on what changes when a model's output is a typed decision instead of prose.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://simonwillison.net/2026/Sep/21/jev",
+    "originalUrl": "https://simonwillison.net/2026/Sep/21/jev/",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:benchmarkheaven-com-jev-models",
+    "title": "JevBench",
+    "titleZh": "JevBench",
+    "contentType": "directory",
+    "platform": "benchmarkheaven.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Benchmark + HN thread (126 points, 34 comments): a reproducible harness for comparing typed-decision models on the same questions.",
+    "summaryZh": "Benchmark + HN thread (126 points, 34 comments): a reproducible harness for comparing typed-decision models on the same questions.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://benchmarkheaven.com/jev-models",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:tenuo-ai-blog-jev-scoped-authority",
+    "title": "Jev in practice: typed decisions, scoped authority",
+    "titleZh": "Jev in practice: typed decisions, scoped authority",
+    "contentType": "article",
+    "platform": "tenuo.ai",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "uses_jev",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "Blog: pairs the typed-decision loop with scoped authority, so a confidence value only authorises the action its scope already allows.",
+    "summaryZh": "Blog: pairs the typed-decision loop with scoped authority, so a confidence value only authorises the action its scope already allows.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://tenuo.ai/blog/jev-scoped-authority",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
+  },
+  {
+    "id": "material:news-ycombinator-com-item-49736660",
+    "title": "Open-sourced jev architecture last year",
+    "titleZh": "Open-sourced jev architecture last year",
+    "contentType": "social_post",
+    "platform": "news.ycombinator.com",
+    "creator": "Linked source (author not extracted)",
+    "published": null,
+    "relation": "mentions_only",
+    "confidence": "probable",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "HN thread (96 points, 11 comments): a prior-work claim for the same architecture, where the discussion turns on recognition and marketing rather than on the technical overlap.",
+    "summaryZh": "HN thread (96 points, 11 comments): a prior-work claim for the same architecture, where the discussion turns on recognition and marketing rather than on the technical overlap.",
+    "evidenceNote": "Discovered in yibie/awesome-jev; this record preserves the linked public page and does not treat the directory entry as independent confirmation.",
+    "canonicalUrl": "https://news.ycombinator.com/item?id=49736660",
+    "sourceIds": [
+      "source:yibie-awesome-jev"
+    ],
+    "lastVerifiedAt": "2026-09-24",
+    "topics": [
+      "Related Practices / Discussions"
+    ]
   }
 ]

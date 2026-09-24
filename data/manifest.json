@@ -2,6 +2,6 @@
   "snapshotLabel": "bilingual catalogue snapshot",
   "lastUpdated": "2026-09-24",
   "timezone": "Asia/Hong_Kong",
-  "scopeVersion": "0.2.0",
-  "notes": "双语目录快照；论文、项目与互联网材料分层保存，不宣称覆盖全部公开资料。"
+  "scopeVersion": "0.3.0",
+  "notes": "双语目录快照；论文、项目与互联网材料分层保存。awesome-jev 批量条目保留为 probable，具体事实仍需回到一手页面核验。"
 }
