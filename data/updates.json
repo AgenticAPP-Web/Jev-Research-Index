@@ -1,6 +1,15 @@
 [
   {
     "date": "2026-09-25",
+    "label": "Late-day web review",
+    "labelEn": "Late-day web review",
+    "labelZh": "当日补充网络核查",
+    "summary": "Added nine high-signal GitHub repositories created on 2026-09-25 and one dated independent article discussing Jev's calibration and public reception.",
+    "summaryEn": "Added nine high-signal GitHub repositories created on 2026-09-25 and one dated independent article discussing Jev's calibration and public reception.",
+    "summaryZh": "新增 9 个于 2026-09-25 创建且描述明确涉及 Jev 的 GitHub 仓库，以及 1 篇讨论 Jev 校准与公开反馈的带日期独立文章。"
+  },
+  {
+    "date": "2026-09-25",
     "label": "Daily web review",
     "labelEn": "Daily web review",
     "labelZh": "每日网络核查",

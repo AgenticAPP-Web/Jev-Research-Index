@@ -448,5 +448,14 @@
     "url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
     "retrievedAt": "2026-09-25",
     "note": "Cloudflare 官方模型文档；用于核验 Workers AI 中 typesafe/jev 的接口、Choice/Score/Noul 结构和示例。页面未给出独立发布日期。"
+  },
+  {
+    "id": "source:traictory-jev",
+    "name": "Traictory Jev launch analysis",
+    "type": "independent_article",
+    "tier": "B",
+    "url": "https://traictory.com/news/2026-09-25-jev-typesafe-marketing-backlash",
+    "retrievedAt": "2026-09-25",
+    "note": "Vlad Makarov 的带日期分析文章；用于记录 Jev 发布后的 calibration、novelty 与社区反馈讨论。文章中的批评、引用和产品数字均保留为作者或被引用来源的主张，不升级为独立结论。"
   }
 ]

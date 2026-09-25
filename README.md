@@ -12,7 +12,7 @@
 <p align="center"><strong>Live website:</strong> <a href="https://agenticapp-web.github.io/Jev-Research-Index/">https://agenticapp-web.github.io/Jev-Research-Index/</a></p>
 
 <!-- CATALOGUE_STATS_START -->
-**Catalogue size:** 13 papers · 349 projects · 122 public materials · 50 sources
+**Catalogue size:** 13 papers · 358 projects · 123 public materials · 51 sources
 <!-- CATALOGUE_STATS_END -->
 
 # Jev Research Index
@@ -56,7 +56,7 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-21 | [Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash Variables with a System One Model (Jev)](https://arxiv.org/abs/2609.24052)<br><sub>规模化校准决策：使用 System One 模型（Jev）将警察事故叙述转换为概率事故变量</sub> | Amir Rafe, Subasish Das | arXiv · cs.CL<br><sub>应用实证 / 概率标注</sub> | Uses Jev | A — verified | 2026-09-24 |
 | 2026-09-23 | [JEV-Star: Fast, Low-Cost StarCraft II Control with Language-Model Planning](https://arxiv.org/abs/2609.27331)<br><sub>JEV-Star：结合语言模型规划的快速低成本星际争霸 II 控制</sub> | Weiyu Ma, Liangbing Zhao, Yongcheng Zeng, Jian Zhao | arXiv · cs.GT<br><sub>系统 / 游戏控制评测</sub> | Uses Jev | A — verified | 2026-09-25 |
 
-### Projects and implementations (349)
+### Projects and implementations (358)
 
 | Published / created | Project | Owner | Category | Language | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -409,8 +409,17 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-24 | [SystemOneSharp](https://github.com/pinkroosterai/SystemOneSharp) | pinkroosterai | SDKs & Integrations<br><sub>SDK 与集成</sub> | C# | Uses Jev | B — probable | 2026-09-25 |
 | 2026-09-24 | [jev-router](https://github.com/Ex8-ca/jev-router) | Ex8-ca | Agent Infrastructure<br><sub>智能体基础设施</sub> | Python | Uses Jev | B — probable | 2026-09-25 |
 | 2026-09-23 | [jev-skills](https://github.com/eran-broder/jev-skills) | eran-broder | Agent Infrastructure<br><sub>智能体基础设施</sub> | TypeScript | Uses Jev | A — verified | 2026-09-25 |
+| 2026-09-25 | [jev-client](https://github.com/jumboly/jev-client) | jumboly | SDKs & Integrations<br><sub>SDK 与集成</sub> | TypeScript | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-25 | [agent-model-router](https://github.com/starhn87/agent-model-router) | starhn87 | Classification & Routing<br><sub>分类与路由</sub> | TypeScript | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-25 | [semantic-validator](https://github.com/eduardoArequipa/semantic-validator) | eduardoArequipa | SDKs & Integrations<br><sub>SDK 与集成</sub> | Go | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-25 | [dsh-jev-router](https://github.com/CSlawyer1985/dsh-jev-router) | CSlawyer1985 | Agent Infrastructure<br><sub>智能体基础设施</sub> | JavaScript | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-25 | [MCP-Tool-Result-Injection-Screen](https://github.com/P4A-Policies-for-Agents/MCP-Tool-Result-Injection-Screen) | P4A-Policies-for-Agents | Compliance & Legal<br><sub>合规与安全</sub> | Rust | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-25 | [sooth](https://github.com/naufalhilmiaji/sooth) | naufalhilmiaji | Content Moderation<br><sub>内容审核</sub> | Python | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-25 | [needle-jev](https://github.com/ayyazzafar/needle-jev) | ayyazzafar | Applications<br><sub>应用</sub> | JavaScript | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-25 | [jev-calibration-probe](https://github.com/heyimMarc/jev-calibration-probe) | heyimMarc | Evaluation & Research<br><sub>评测与研究</sub> | Java | Uses Jev | B — probable | 2026-09-25 |
+| 2026-09-25 | [web-crawl](https://agenticapp-web.github.io/Jev-Research-Index/) | dakotac1994 | Related Practices / Discussions<br><sub>相关实践 / 讨论</sub> | — | Mentions only | B — probable | 2026-09-25 |
 
-### Public materials (122)
+### Public materials (123)
 
 | Published | Material | Platform / type | Creator | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -536,6 +545,7 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-24 | [Thinking, Fast... and Typed: Java & Jev](https://www.jvm-weekly.com/p/thinking-fast-and-typed-java-and)<br><sub>快速而类型化的思考：Java 与 Jev</sub> | JVM Weekly<br><sub>article</sub> | Artur Skowronski | Mentions only | A — verified | 2026-09-25 |
 | 2026-09-24 | [How to Get Access to Jev and an API Key](https://flaviocopes.com/jev-api-key/)<br><sub>如何获得 Jev 访问权限和 API 密钥</sub> | flaviocopes.com<br><sub>article</sub> | Flavio Copes | Uses Jev | A — verified | 2026-09-25 |
 | — | [Jev — Cloudflare Workers AI model documentation](https://developers.cloudflare.com/ai/models/typesafe/jev/)<br><sub>Jev——Cloudflare Workers AI 模型文档</sub> | Cloudflare AI Docs<br><sub>article</sub> | Cloudflare | Uses Jev | A — verified | 2026-09-25 |
+| 2026-09-25 | [Jev's launch turned into an argument about calibration, not capability](https://traictory.com/news/2026-09-25-jev-typesafe-marketing-backlash)<br><sub>Jev 的发布引发了关于校准而非能力的争论</sub> | Traictory<br><sub>article</sub> | Vlad Makarov | Mentions only | A — verified | 2026-09-25 |
 
 The tables intentionally preserve the distinction between **uses Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
 
@@ -563,7 +573,7 @@ The confidence level describes the state of the evidence, not the quality of Jev
 
 Vendor statements, author-reported measurements, and social-media claims remain attributed to their authors. They are not rewritten as independent benchmarks. A failed fetch is recorded as a limitation; it is never converted into a claim that no material exists.
 
-At scope 0.3.1, 320 project records and 95 online-material records are linked to community-directory discovery sources (including 91 materials from the Yibie directory). They are retained for recall and auditability. Directory-only records remain `probable`; a small number also carry direct first-party or corroborating sources and may therefore be `verified`. In either case, a directory entry is not a substitute for checking the linked primary page.
+At scope 0.3.2, 320 project records and 95 online-material records are linked to community-directory discovery sources (including 91 materials from the Yibie directory). They are retained for recall and auditability. Directory-only records remain `probable`; a small number also carry direct first-party or corroborating sources and may therefore be `verified`. In either case, a directory entry is not a substitute for checking the linked primary page.
 
 ## Repository layout
 
@@ -594,7 +604,7 @@ The public interface defaults to English for an international audience and provi
 The repository has two coordinated surfaces:
 
 - `README.md` is the versioned, reference-friendly catalogue description that GitHub renders on the repository home page. It documents scope, source notes, data fields, update protocol, and release instructions.
-- `index.html`, `app.js`, `styles.css`, and the generated JSON snapshots form the static website. The Pages workflow validates the repository, builds a sanitized `public/` artifact, and publishes that artifact. The current scope 0.3.1 snapshot includes web-crawled discovery records in the public tables; their `probable` evidence level and source notes remain visible so inclusion is not mistaken for independent verification.
+- `index.html`, `app.js`, `styles.css`, and the generated JSON snapshots form the static website. The Pages workflow validates the repository, builds a sanitized `public/` artifact, and publishes that artifact. The current scope 0.3.2 snapshot includes web-crawled discovery records in the public tables; their `probable` evidence level and source notes remain visible so inclusion is not mistaken for independent verification.
 
 For a root GitHub Pages address, name the repository **`<account>.github.io`** exactly; the site will then be available at `https://<account>.github.io/`. If you keep the repository name `jev-research-index`, the site will instead use the project URL `https://<account>.github.io/jev-research-index/`. After pushing the `main` branch, select **GitHub Actions** under **Settings → Pages → Build and deployment**. No database, build service, or runtime secrets are required for the static site.
 
@@ -647,8 +657,8 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 ## Update information
 
 - **Last update:** 2026-09-25 (Asia/Hong_Kong)
-- **Current snapshot:** 13 papers, 349 projects, 122 public materials, and 50 sources
-- **Project dates:** 341 public GitHub repository creation dates confirmed; 8 remain unconfirmed.
+- **Current snapshot:** 13 papers, 358 projects, 123 public materials, and 51 sources
+- **Project dates:** 350 public GitHub repository creation dates confirmed; 8 remain unconfirmed.
 - **Change log:** [updates/2026-09-25.md](updates/2026-09-25.md)
 - **Validation:** `npm run validate` checks JSON structure, source references, duplicate records, and README synchronization.
 - **Deployment:** GitHub Pages is published from the `main` branch through [Deploy Jev Research Index to GitHub Pages](https://github.com/AgenticAPP-Web/Jev-Research-Index/blob/main/.github/workflows/deploy-pages.yml).

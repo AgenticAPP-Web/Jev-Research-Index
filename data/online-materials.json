@@ -2985,5 +2985,25 @@
     "sourceIds": ["source:cloudflare-jev-docs"],
     "lastVerifiedAt": "2026-09-25",
     "topics": ["Cloudflare", "Workers AI", "integration"]
+  },
+  {
+    "id": "article:traictory:jev-calibration-backlash",
+    "title": "Jev's launch turned into an argument about calibration, not capability",
+    "titleZh": "Jev 的发布引发了关于校准而非能力的争论",
+    "contentType": "article",
+    "platform": "Traictory",
+    "creator": "Vlad Makarov",
+    "published": "2026-09-25",
+    "relation": "mentions_only",
+    "confidence": "verified",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "A dated analysis of the public discussion after Jev's launch, covering the calibration debate, novelty comparisons, vendor-reported numbers, and community criticism. The article's interpretations and cited claims remain attributed to their authors.",
+    "summaryZh": "一篇带日期的发布后分析，讨论 Jev 的校准争议、技术新颖性比较、供应商自报数字及社区批评。文章解释与引用的主张仍归属于各自作者。",
+    "evidenceNote": "Traictory page names Vlad Makarov and dates the article September 25, 2026. The page itself is verifiable public commentary; its calibration, novelty, performance, and community claims are not treated as independent findings.",
+    "canonicalUrl": "https://traictory.com/news/2026-09-25-jev-typesafe-marketing-backlash",
+    "sourceIds": ["source:traictory-jev"],
+    "lastVerifiedAt": "2026-09-25",
+    "topics": ["calibration", "novelty", "community discussion", "independent analysis"]
   }
 ]
