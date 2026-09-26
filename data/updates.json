@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-27",
+    "label": "Daily web review",
+    "labelEn": "Daily web review",
+    "labelZh": "每日网络核查",
+    "summary": "Added five arXiv preprints, three new high-signal open-source projects, one independently verified project update, and two dated public materials identified after the 2026-09-25 snapshot.",
+    "summaryEn": "Added five arXiv preprints, three new high-signal open-source projects, one independently verified project update, and two dated public materials identified after the 2026-09-25 snapshot.",
+    "summaryZh": "在 2026-09-25 快照之后新增 5 篇 arXiv 预印本、3 个高信号开源项目、更新 1 个已存在项目的直接核验信息，以及 2 条带日期的公开材料。"
+  },
+  {
     "date": "2026-09-25",
     "label": "Late-day web review",
     "labelEn": "Late-day web review",

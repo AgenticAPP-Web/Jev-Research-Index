@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "completedAt": "2026-09-25T15:13:53+08:00",
+  "completedAt": "2026-09-27T04:24:08+08:00",
   "windowStart": "2026-09-15",
-  "windowEnd": "2026-09-25",
+  "windowEnd": "2026-09-27",
   "queries": [
     "Jev TypeSafe AI",
     "System One Jev arXiv",
@@ -16,7 +16,11 @@
     "Jev TypeSafe September 24 2026 Zapier Postman",
     "site:github.com Jev created:2026-09-25",
     "Traictory Jev calibration September 25 2026",
-    "Jev TypeSafe AI public reception September 25 2026"
+    "Jev TypeSafe AI public reception September 25 2026",
+    "Jev arXiv September 26 2026",
+    "site:github.com Jev AnyJev jev4j jev-rs",
+    "Jev Mobile ecosystem analysis legal rubric judge",
+    "Jev LangGraph September 26 2026"
   ],
   "sourcesChecked": [
     "source:typesafe-github",
@@ -69,12 +73,19 @@
     "source:jvm-weekly-jev",
     "source:flaviocopes-jev-api-key",
     "source:cloudflare-jev-docs",
-    "source:traictory-jev"
+    "source:traictory-jev",
+    "source:github-search-2026-09-27",
+    "source:anyjev-repo",
+    "source:jev4j-repo",
+    "source:jev-rs-repo",
+    "source:jev-chat-jarvis-repo",
+    "source:threadnavigator-jev-langgraph",
+    "source:thejevai-jev-guide"
   ],
   "failedSources": [],
   "newRecords": 10,
-  "updatedRecords": 0,
+  "updatedRecords": 1,
   "pendingRecords": 2,
-  "onlineMaterials": 123,
+  "onlineMaterials": 125,
   "importedFromAwesomeJev": 422
 }
