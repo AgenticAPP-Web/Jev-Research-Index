@@ -257,5 +257,36 @@
     "codeUrl": "https://github.com/sc2musa/Jev_Star",
     "sourceIds": ["source:arxiv"],
     "lastVerifiedAt": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30216",
+    "title": "Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem",
+    "titleZh": "Jev in the Wild：Jev 模型功能、应用与生态的数据驱动分析",
+    "authors": [
+      "Guoming Ling",
+      "Muen Xue",
+      "Zijian Ye"
+    ],
+    "published": "2026-09-24",
+    "venue": "arXiv · cs.SE",
+    "paperType": "应用生态 / 数据驱动综述与分析",
+    "relation": "studies_jev",
+    "topics": [
+      "application ecosystem",
+      "GitHub projects",
+      "decision use",
+      "survey"
+    ],
+    "summaryEn": "A data-driven survey and analysis of 2,170 public GitHub Jev projects collected through September 22, 2026. It documents rapid early growth, application domains, and decision-use patterns; these repository-level observations do not establish production adoption.",
+    "summaryZh": "基于截至 2026 年 9 月 22 日收集的 2,170 个公开 GitHub Jev 项目，分析生态的早期快速增长、应用领域与决策用途分布；仓库数量不等于生产部署数量。",
+    "evidenceNote": "arXiv 一手记录核对了标题、作者、提交日期、摘要与版本；2,170 个项目和生态分布结论由论文作者报告，本目录未独立复现。",
+    "confidence": "verified",
+    "status": "preprint",
+    "canonicalUrl": "https://arxiv.org/abs/2609.30216",
+    "codeUrl": null,
+    "sourceIds": [
+      "source:arxiv"
+    ],
+    "lastVerifiedAt": "2026-09-26"
   }
 ]
