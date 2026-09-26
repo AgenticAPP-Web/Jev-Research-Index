@@ -457,5 +457,68 @@
     "url": "https://traictory.com/news/2026-09-25-jev-typesafe-marketing-backlash",
     "retrievedAt": "2026-09-25",
     "note": "Vlad Makarov 的带日期分析文章；用于记录 Jev 发布后的 calibration、novelty 与社区反馈讨论。文章中的批评、引用和产品数字均保留为作者或被引用来源的主张，不升级为独立结论。"
+  },
+  {
+    "id": "source:github-search-2026-09-27",
+    "name": "GitHub Jev repository search (2026-09-27)",
+    "type": "repository_search",
+    "tier": "B",
+    "url": "https://github.com/search?q=Jev&type=repositories",
+    "retrievedAt": "2026-09-27",
+    "note": "GitHub 公开仓库搜索与项目页面用于发现和核验新增 Jev 项目；仓库描述和创建日期支持目录元数据，但不独立证明性能、校准或安全主张。"
+  },
+  {
+    "id": "source:anyjev-repo",
+    "name": "nokia-applied-research AnyJev repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/nokia-applied-research/AnyJev",
+    "retrievedAt": "2026-09-27",
+    "note": "项目 README、文档和代码目录；用于核验 AnyJev 的开源决策读出、校准层与作者归属。项目自报 benchmark 仍按作者结果记录。"
+  },
+  {
+    "id": "source:jev4j-repo",
+    "name": "maxsumrall jev4j repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/maxsumrall/jev4j",
+    "retrievedAt": "2026-09-27",
+    "note": "项目 README 与 Maven 模块；用于核验 Java 17+ 的 Choice、Score、Noul 客户端、OpenRouter/TypeSafe 路径和 Spring Boot starter。"
+  },
+  {
+    "id": "source:jev-rs-repo",
+    "name": "yijunyu jev-rs repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/yijunyu/jev-rs",
+    "retrievedAt": "2026-09-27",
+    "note": "项目 README 与安装说明；用于核验 Rust Jev-compatible /v1/systemone engine、MCP 接口和本地或 OpenAI-compatible 后端支持。"
+  },
+  {
+    "id": "source:jev-chat-jarvis-repo",
+    "name": "jev-chat jev-chat-jarvis repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/jev-chat/jev-chat-jarvis",
+    "retrievedAt": "2026-09-27",
+    "note": "项目 README 与公开仓库页面；用于核验 Android 对话副驾的屏幕读取、意图/风险判断、候选回复和人工发送边界。"
+  },
+  {
+    "id": "source:threadnavigator-jev-langgraph",
+    "name": "Thread Navigator archive of Sydney Runkle's Jev/LangGraph article",
+    "type": "social_archive",
+    "tier": "B",
+    "url": "https://threadnavigator.com/thread/2103560531235795129/",
+    "retrievedAt": "2026-09-27",
+    "note": "公开 X 长文的独立文字索引；用于记录作者、日期和文章主题，不把 TypeSafe 或作者的性能数字升级为独立 benchmark。"
+  },
+  {
+    "id": "source:thejevai-jev-guide",
+    "name": "The Jev AI production integration guide",
+    "type": "independent_article",
+    "tier": "B",
+    "url": "https://thejevai.com/blog/typesafe-ai-model-jev-api-guide",
+    "retrievedAt": "2026-09-27",
+    "note": "独立站点发布的工程指南；用于记录 API 设计、验证和上线建议。页面自称独立运营，内容中的产品说明与示例保留作者归属。"
   }
 ]
