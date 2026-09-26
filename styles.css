@@ -125,7 +125,7 @@ button { cursor: pointer; }
   padding: 5.4rem 0 4.6rem;
 }
 .eyebrow, .label, .stat-index { margin: 0; color: var(--accent); font-family: var(--mono); font-size: 0.64rem; font-weight: 650; letter-spacing: 0.13em; text-transform: uppercase; }
-.hero h1 { max-width: 700px; margin: 1.15rem 0 1.35rem; font-family: var(--serif); font-size: clamp(2.7rem, 5vw, 4.9rem); font-weight: 400; letter-spacing: -0.065em; line-height: 0.96; }
+.hero h1 { max-width: 700px; margin: 1.15rem 0 1.35rem; font-family: var(--serif); font-size: clamp(2.35rem, 5.8vw, 4.45rem); font-weight: 400; letter-spacing: -0.06em; line-height: 0.99; text-wrap: balance; }
 h1 em, h2 em { color: var(--accent); font-style: italic; }
 .hero-lede { max-width: 590px; margin: 0; color: var(--muted); font-size: 1.03rem; line-height: 1.78; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 2.1rem; }
@@ -299,7 +299,7 @@ kbd { padding: 0.15rem 0.4rem; border: 1px solid var(--line); color: var(--faint
   .topnav a { font-size: 0.67rem; }
   .theme-button { font-size: 0; }
   .theme-icon { width: 1.35rem; height: 1.35rem; font-size: 1.3rem; }
-  .hero h1 { font-size: clamp(2.5rem, 12vw, 3.85rem); }
+  .hero h1 { max-width: 100%; font-size: clamp(2.15rem, 10.5vw, 3.35rem); line-height: 1.03; }
   .hero-observatory { min-height: 315px; }
   .orbit { min-height: 230px; }
   .orbit-ring-a { width: 180px; height: 108px; }

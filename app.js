@@ -553,7 +553,7 @@ function renderUpdates(updates) {
 function linkMarkup(url, label) {
   if (!url || !label) return "";
   const href = escapeHtml(safeUrl(url));
-  return `<a class="entry-link" href="${href}" target="_blank" rel="noreferrer noopener">${escapeHtml(label)} ↗</a>`;
+  return `<a class="entry-link" href="${href}" target="_blank" rel="noreferrer noopener">${escapeHtml(label)}</a>`;
 }
 
 function citationFor(entry) {
@@ -601,7 +601,7 @@ function renderEntry(entry) {
         <div class="entry-meta">${escapeHtml(meta)}</div>
       </div>
       <div class="entry-main">
-        <h3><a href="${escapeHtml(safeUrl(entry.canonicalUrl))}" target="_blank" rel="noreferrer noopener">${escapeHtml(title)} ↗</a></h3>
+        <h3><a href="${escapeHtml(safeUrl(entry.canonicalUrl))}" target="_blank" rel="noreferrer noopener">${escapeHtml(title)}</a></h3>
         <p class="entry-summary">${escapeHtml(summary)}</p>
       </div>
       <div class="entry-side">
@@ -617,7 +617,7 @@ function renderEntry(entry) {
           ${topics ? `<div class="detail-topics"><strong>${escapeHtml(state.language === "zh" ? "主题" : "Topics")}</strong><div class="tag-row">${topics}</div></div>` : ""}
           <div class="relation-line">${escapeHtml(t("entry.sourceIds"))}: ${escapeHtml((entry.sourceIds || []).join(", "))}</div>
           <p>${escapeHtml(entry.evidenceNote || t("status.noSummary"))}</p>
-          <div class="details-actions">${citationButton}<a class="detail-button" href="${escapeHtml(safeUrl(entry.canonicalUrl))}" target="_blank" rel="noreferrer noopener">${escapeHtml(t("status.openCanonical"))} ↗</a></div>
+          <div class="details-actions">${citationButton}<a class="detail-button" href="${escapeHtml(safeUrl(entry.canonicalUrl))}" target="_blank" rel="noreferrer noopener">${escapeHtml(t("status.openCanonical"))}</a></div>
         </div>
       </details>
     </article>`;
