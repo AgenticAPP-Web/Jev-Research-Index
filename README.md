@@ -679,8 +679,8 @@ Any subsequent automation must preserve `source_url`, `retrieved_at`, `evidence_
 
 | Contributor | Affiliation and official mark |
 | --- | --- |
-| Weibo Gao | <a href="https://www.polyu.edu.hk/about-polyu/university-identity/"><img src="assets/logos/polyu.png" alt="The Hong Kong Polytechnic University logo" width="56" height="56" /></a><br />The Hong Kong Polytechnic University |
-| Linan Yue | <a href="https://www.seu.edu.cn/english/22457/list.htm"><img src="assets/logos/seu.png" alt="Southeast University emblem" width="56" height="56" /></a><br />Southeast University |
-| Zheng Zhang | <a href="https://www.ntu.edu.sg/about-us/history/coat-of-arms"><img src="assets/logos/ntu.png" alt="Nanyang Technological University logo" width="52" height="56" /></a><br />Nanyang Technological University |
+| Weibo Gao | <a href="https://webgao.github.io/"><img src="assets/logos/polyu.png" alt="The Hong Kong Polytechnic University logo" width="56" height="56" /></a><br />The Hong Kong Polytechnic University |
+| Linan Yue | <a href="https://yuelinan.github.io/"><img src="assets/logos/seu.png" alt="Southeast University emblem" width="56" height="56" /></a><br />Southeast University |
+| Zheng Zhang | <a href="https://zhengz99.github.io/"><img src="assets/logos/ntu-shield.png" alt="Nanyang Technological University crest" width="56" height="56" /></a><br />Nanyang Technological University |
 | Yichao Du | <a href="https://www.whu.edu.cn/xxgk/wdbs.htm"><img src="assets/logos/whu.png" alt="Wuhan University emblem" width="56" height="56" /></a><br />Wuhan University |
 | Codex (OpenAI) | Implementation and maintenance assistance |
