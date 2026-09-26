@@ -18,6 +18,7 @@
   ],
   "relations": {
     "uses_jev": "明确调用或评测 Jev",
+    "studies_jev": "直接研究 Jev 的模型、应用或生态，但不以调用接口为必要条件",
     "jev_inspired": "采用相近的 typed-decision / System One 思路，但不证明调用官方 Jev",
     "replica": "复现、替代或本地实现",
     "mentions_only": "只在背景或参考文献中提到"

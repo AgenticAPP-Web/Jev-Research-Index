@@ -93,7 +93,7 @@ const errors = [];
 const sourceIds = new Set();
 const recordIds = new Set();
 const allowedConfidence = new Set(["verified", "probable", "candidate"]);
-const allowedRelations = new Set(["uses_jev", "jev_inspired", "replica", "mentions_only"]);
+const allowedRelations = new Set(["uses_jev", "studies_jev", "jev_inspired", "replica", "mentions_only"]);
 const isoDate = /^\d{4}-\d{2}-\d{2}(?:T[^\s]+)?$/;
 
 function requireField(object, field, label) {

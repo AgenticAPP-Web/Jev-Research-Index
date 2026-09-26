@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-26",
+    "label": "Jev ecosystem preprint",
+    "labelEn": "Jev ecosystem preprint",
+    "labelZh": "Jev 应用生态预印本",
+    "summary": "Added a data-driven arXiv survey of 2,170 public Jev projects, documenting early growth, application domains, and decision-use patterns.",
+    "summaryEn": "Added a data-driven arXiv survey of 2,170 public Jev projects, documenting early growth, application domains, and decision-use patterns.",
+    "summaryZh": "新增一篇分析 2,170 个公开 Jev 项目的 arXiv 预印本，记录早期增长、应用领域和决策用途分布。"
+  },
+  {
     "date": "2026-09-25",
     "label": "Late-day web review",
     "labelEn": "Late-day web review",

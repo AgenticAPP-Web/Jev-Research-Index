@@ -38,6 +38,7 @@ const STATS_END = "<!-- CATALOGUE_STATS_END -->";
 
 const relationLabels = {
   uses_jev: "Uses Jev",
+  studies_jev: "Studies Jev",
   jev_inspired: "Jev-inspired",
   replica: "Open replica",
   mentions_only: "Mentions only"
@@ -143,7 +144,7 @@ ${projectRows()}
 | --- | --- | --- | --- | --- | --- | --- |
 ${materialRows()}
 
-The tables intentionally preserve the distinction between **uses Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
+The tables intentionally preserve the distinction between **uses Jev**, **studies Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
 
 Some records were discovered through web crawling and community-maintained indexes. They remain explicitly marked by their evidence level; inclusion does not replace verification against the linked primary page.
 

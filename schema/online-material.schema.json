@@ -35,7 +35,7 @@
       "type": ["string", "null"],
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
     },
-    "relation": { "enum": ["uses_jev", "jev_inspired", "replica", "mentions_only"] },
+    "relation": { "enum": ["uses_jev", "studies_jev", "jev_inspired", "replica", "mentions_only"] },
     "confidence": { "enum": ["verified", "probable", "candidate"] },
     "status": { "type": "string", "minLength": 1 },
     "isOriginal": { "type": ["boolean", "null"] },
