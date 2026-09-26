@@ -102,6 +102,7 @@ const translations = {
     "evidence.probableNote": "Credible source; independent confirmation pending",
     "evidence.candidateNote": "Discovery item not yet in the main register",
     "relation.uses_jev": "Directly uses or evaluates Jev",
+    "relation.studies_jev": "Directly studies Jev or its ecosystem",
     "relation.jev_inspired": "Related to Jev or System One",
     "relation.replica": "Replication or alternative implementation",
     "relation.mentions_only": "Background mention only",
@@ -219,6 +220,7 @@ const translations = {
     "evidence.probableNote": "来源可信，仍待独立确认",
     "evidence.candidateNote": "发现线索，尚未进入主目录",
     "relation.uses_jev": "直接使用或评测 Jev",
+    "relation.studies_jev": "直接研究 Jev 或其生态",
     "relation.jev_inspired": "与 Jev 或 System One 相关",
     "relation.replica": "复现或替代实现",
     "relation.mentions_only": "仅作背景提及",
@@ -245,7 +247,7 @@ const translations = {
   }
 };
 
-const relationKeys = ["uses_jev", "jev_inspired", "replica", "mentions_only"];
+const relationKeys = ["uses_jev", "studies_jev", "jev_inspired", "replica", "mentions_only"];
 const contentTypeKeys = ["interview", "podcast", "blog", "article", "essay", "social_post", "social_channel", "video", "directory"];
 
 const state = {

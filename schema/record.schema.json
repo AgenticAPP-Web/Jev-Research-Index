@@ -5,7 +5,7 @@
   "required": ["id", "relation", "confidence", "status", "canonicalUrl", "sourceIds", "lastVerifiedAt"],
   "properties": {
     "id": { "type": "string", "minLength": 3 },
-    "relation": { "enum": ["uses_jev", "jev_inspired", "replica", "mentions_only"] },
+    "relation": { "enum": ["uses_jev", "studies_jev", "jev_inspired", "replica", "mentions_only"] },
     "confidence": { "enum": ["verified", "probable", "candidate"] },
     "status": { "type": "string" },
     "canonicalUrl": { "type": "string", "format": "uri" },

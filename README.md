@@ -12,7 +12,7 @@
 <p align="center"><strong>Live website:</strong> <a href="https://agenticapp-web.github.io/Jev-Research-Index/">https://agenticapp-web.github.io/Jev-Research-Index/</a></p>
 
 <!-- CATALOGUE_STATS_START -->
-**Catalogue size:** 13 papers · 358 projects · 123 public materials · 51 sources
+**Catalogue size:** 14 papers · 358 projects · 123 public materials · 51 sources
 <!-- CATALOGUE_STATS_END -->
 
 # Jev Research Index
@@ -36,9 +36,9 @@ An online material is not treated as a paper or a software project. Interviews, 
 <!-- CATALOGUE_TABLES_START -->
 ## Catalogue snapshot
 
-The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-25** (Asia/Hong_Kong).
+The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-26** (Asia/Hong_Kong).
 
-### Papers and preprints (13)
+### Papers and preprints (14)
 
 | Published | Work | Authors | Venue / type | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -55,6 +55,7 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-19 | [Fast Intent-Driven Service Orchestration with Jev for 6G Edge Networks](https://arxiv.org/abs/2609.23136)<br><sub>面向 6G 边缘网络的 Jev 快速意图驱动服务编排</sub> | Delong Li, Xu Wang, Haochen Gong, Rui Lang, Guangsheng Yu | arXiv · cs.NI<br><sub>系统实证 / 边缘服务编排</sub> | Uses Jev | A — verified | 2026-09-24 |
 | 2026-09-21 | [Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash Variables with a System One Model (Jev)](https://arxiv.org/abs/2609.24052)<br><sub>规模化校准决策：使用 System One 模型（Jev）将警察事故叙述转换为概率事故变量</sub> | Amir Rafe, Subasish Das | arXiv · cs.CL<br><sub>应用实证 / 概率标注</sub> | Uses Jev | A — verified | 2026-09-24 |
 | 2026-09-23 | [JEV-Star: Fast, Low-Cost StarCraft II Control with Language-Model Planning](https://arxiv.org/abs/2609.27331)<br><sub>JEV-Star：结合语言模型规划的快速低成本星际争霸 II 控制</sub> | Weiyu Ma, Liangbing Zhao, Yongcheng Zeng, Jian Zhao | arXiv · cs.GT<br><sub>系统 / 游戏控制评测</sub> | Uses Jev | A — verified | 2026-09-25 |
+| 2026-09-24 | [Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem](https://arxiv.org/abs/2609.30216)<br><sub>Jev in the Wild：Jev 模型功能、应用与生态的数据驱动分析</sub> | Guoming Ling, Muen Xue, Zijian Ye | arXiv · cs.SE<br><sub>应用生态 / 数据驱动综述与分析</sub> | Studies Jev | A — verified | 2026-09-26 |
 
 ### Projects and implementations (358)
 
@@ -547,7 +548,7 @@ The following tables are generated from the JSON snapshots in this repository. T
 | — | [Jev — Cloudflare Workers AI model documentation](https://developers.cloudflare.com/ai/models/typesafe/jev/)<br><sub>Jev——Cloudflare Workers AI 模型文档</sub> | Cloudflare AI Docs<br><sub>article</sub> | Cloudflare | Uses Jev | A — verified | 2026-09-25 |
 | 2026-09-25 | [Jev's launch turned into an argument about calibration, not capability](https://traictory.com/news/2026-09-25-jev-typesafe-marketing-backlash)<br><sub>Jev 的发布引发了关于校准而非能力的争论</sub> | Traictory<br><sub>article</sub> | Vlad Makarov | Mentions only | A — verified | 2026-09-25 |
 
-The tables intentionally preserve the distinction between **uses Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
+The tables intentionally preserve the distinction between **uses Jev**, **studies Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
 
 Some records were discovered through web crawling and community-maintained indexes. They remain explicitly marked by their evidence level; inclusion does not replace verification against the linked primary page.
 
@@ -656,8 +657,8 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 
 ## Update information
 
-- **Last update:** 2026-09-25 (Asia/Hong_Kong)
-- **Current snapshot:** 13 papers, 358 projects, 123 public materials, and 51 sources
+- **Last update:** 2026-09-26 (Asia/Hong_Kong)
+- **Current snapshot:** 14 papers, 358 projects, 123 public materials, and 51 sources
 - **Project dates:** 350 public GitHub repository creation dates confirmed; 8 remain unconfirmed.
 - **Change log:** [updates/2026-09-25.md](updates/2026-09-25.md)
 - **Validation:** `npm run validate` checks JSON structure, source references, duplicate records, and README synchronization.
