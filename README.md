@@ -12,7 +12,7 @@
 <p align="center"><strong>Live website:</strong> <a href="https://agenticapp-web.github.io/Jev-Research-Index/">https://agenticapp-web.github.io/Jev-Research-Index/</a></p>
 
 <!-- CATALOGUE_STATS_START -->
-**Catalogue size:** 18 papers · 361 projects · 125 public materials · 58 sources
+**Catalogue size:** 20 papers · 364 projects · 126 public materials · 63 sources
 <!-- CATALOGUE_STATS_END -->
 
 # Jev Research Index
@@ -36,9 +36,9 @@ An online material is not treated as a paper or a software project. Interviews, 
 <!-- CATALOGUE_TABLES_START -->
 ## Catalogue snapshot
 
-The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-27** (Asia/Hong_Kong).
+The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-28** (Asia/Hong_Kong).
 
-### Papers and preprints (18)
+### Papers and preprints (20)
 
 | Published | Work | Authors | Venue / type | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -60,8 +60,10 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-24 | [JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places](https://arxiv.org/abs/2609.29769)<br><sub>JEV 与大语言模型作为 rubric judge：更便宜、更快速，却在相同位置出错</sub> | Delip Rao, Chris Callison-Burch | arXiv<br><sub>自动评测 / rubric judge 比较</sub> | Uses Jev | A — verified | 2026-09-27 |
 | 2026-09-24 | [Jev-Mobile: Jev as an Executor for Mobile GUI Agents](https://arxiv.org/abs/2609.30186)<br><sub>Jev-Mobile：作为移动 GUI 智能体执行器的 Jev</sub> | Linghua Zhang | arXiv · cs.AI / cs.SE<br><sub>移动 GUI 智能体 / 系统评测</sub> | Uses Jev | A — verified | 2026-09-27 |
 | 2026-09-24 | [Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem](https://arxiv.org/abs/2609.30216)<br><sub>Jev 实地研究：Jev 模型功能、应用与生态的数据驱动分析</sub> | Guoming Ling, Muen Xue, Zijian Ye | arXiv · cs.SE<br><sub>生态分析 / 项目挖掘</sub> | Mentions only | A — verified | 2026-09-27 |
+| 2026-09-23 | [NumericJev: Jev-like LLM Numerical Decoding with Multiway Decision Trees](https://arxiv.org/abs/2609.28587)<br><sub>NumericJev：使用多路决策树进行 Jev-like 大语言模型数值解码</sub> | Weiwei Ye, Hangchen Liu, Renhe Jiang | arXiv · stat.ML / cs.AI / cs.LG<br><sub>方法 / 数值解码</sub> | Jev-inspired | A — verified | 2026-09-28 |
+| 2026-09-24 | [Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures](https://arxiv.org/abs/2609.29429)<br><sub>直接询问 Jev：将校准决策强化学习用于 AI 对齐失败的零样本检测</sub> | Ruoqi Guo, Yi Liu, Gelei Deng, Yuekang Li, Lida Zhao, Yutao Wu, Simin Chen, Ying Zhang, Leo Yu Zhang | arXiv · cs.AI / cs.CL / cs.CR<br><sub>安全评测 / 对齐失败检测</sub> | Uses Jev | A — verified | 2026-09-28 |
 
-### Projects and implementations (361)
+### Projects and implementations (364)
 
 | Published / created | Project | Owner | Category | Language | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -345,7 +347,7 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-19 | [jeff (logan-markewich)](https://github.com/logan-markewich/jeff) | logan-markewich | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
 | 2026-09-20 | [CloJev](https://github.com/antlobach/clojev) | antlobach | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
 | 2026-09-20 | [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch) | steven-shoemaker | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
-| 2026-09-17 | [typesafe-mcp](https://github.com/itsmostafa/typesafe-mcp) | itsmostafa | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
+| 2026-09-17 | [system-one-connector](https://github.com/itsmostafa/system-one-connector) | itsmostafa | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | A — verified | 2026-09-28 |
 | 2026-09-20 | [spring-ai-typesafe](https://github.com/spring-ai-community/spring-ai-typesafe) | spring-ai-community | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
 | 2026-09-20 | [JevFlow](https://github.com/Mawfyy/jevflow) | Mawfyy | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
 | 2026-09-23 | [stuntd](https://github.com/bladedevoff/stuntd) | bladedevoff | Infra / SDKs / Integrations<br><sub>Infra / SDKs / Integrations</sub> | — | Uses Jev | B — probable | 2026-09-24 |
@@ -426,8 +428,11 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-21 | [AnyJev](https://github.com/nokia-applied-research/AnyJev) | nokia-applied-research | Open Models & Runtimes<br><sub>开放模型与运行时</sub> | Python | Jev-inspired | A — verified | 2026-09-27 |
 | 2026-09-26 | [jev4j](https://github.com/maxsumrall/jev4j) | maxsumrall | SDKs & Integrations<br><sub>SDK 与集成</sub> | Java | Uses Jev | A — verified | 2026-09-27 |
 | 2026-09-23 | [jev-rs](https://github.com/yijunyu/jev-rs) | yijunyu | Open Models & Runtimes<br><sub>开放模型与运行时</sub> | Rust | Open replica | A — verified | 2026-09-27 |
+| — | [RLCDAlignBench](https://github.com/sumleo/RLCDAlignBench) | sumleo | Evaluation & Benchmarks<br><sub>评测与基准</sub> | Python | Uses Jev | A — verified | 2026-09-28 |
+| — | [JevNext](https://github.com/Bring-AI/JevNext) | Bring-AI | Open Models & Runtimes<br><sub>开放模型与运行时</sub> | Python | Jev-inspired | A — verified | 2026-09-28 |
+| — | [tinydecisionmodels](https://github.com/tinyhumansai/tinydecisionmodels) | tinyhumansai | SDKs & Integrations<br><sub>SDK 与集成</sub> | Rust | Uses Jev | A — verified | 2026-09-28 |
 
-### Public materials (125)
+### Public materials (126)
 
 | Published | Material | Platform / type | Creator | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -556,6 +561,7 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-25 | [Jev's launch turned into an argument about calibration, not capability](https://traictory.com/news/2026-09-25-jev-typesafe-marketing-backlash)<br><sub>Jev 的发布引发了关于校准而非能力的争论</sub> | Traictory<br><sub>article</sub> | Vlad Makarov | Mentions only | A — verified | 2026-09-25 |
 | 2026-09-26 | [Building Prod with Jev and LangGraph](https://threadnavigator.com/thread/2103560531235795129/)<br><sub>使用 Jev 与 LangGraph 构建生产系统</sub> | X · Thread Navigator<br><sub>social_post</sub> | Sydney Runkle / @sydneyrunkle | Uses Jev | B — probable | 2026-09-27 |
 | 2026-09-26 | [TypeSafe AI Model and Jev AI API: A Production Integration Guide](https://thejevai.com/blog/typesafe-ai-model-jev-api-guide)<br><sub>TypeSafe AI 模型与 Jev AI API：生产集成指南</sub> | The Jev AI<br><sub>article</sub> | Jev AI | Mentions only | B — probable | 2026-09-27 |
+| 2026-09-27 | [Jev Buildathon](https://befailproof.ai/events/jev-buildathon/) | Failproof AI × Lossfunk<br><sub>article</sub> | Failproof AI | Uses Jev | A — verified | 2026-09-28 |
 
 The tables intentionally preserve the distinction between **uses Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
 
@@ -667,8 +673,8 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 ## Update information
 
 - **Last update:** 2026-09-27 (Asia/Hong_Kong)
-- **Current snapshot:** 18 papers, 361 projects, 125 public materials, and 58 sources
-- **Project dates:** 353 public GitHub repository creation dates confirmed; 8 remain unconfirmed.
+- **Current snapshot:** 20 papers, 364 projects, 126 public materials, and 63 sources
+- **Project dates:** 353 public GitHub repository creation dates confirmed; 11 remain unconfirmed.
 - **Change log:** [updates/2026-09-25.md](updates/2026-09-25.md)
 - **Validation:** `npm run validate` checks JSON structure, source references, duplicate records, and README synchronization.
 - **Deployment:** GitHub Pages is published from the `main` branch through [Deploy Jev Research Index to GitHub Pages](https://github.com/AgenticAPP-Web/Jev-Research-Index/blob/main/.github/workflows/deploy-pages.yml).

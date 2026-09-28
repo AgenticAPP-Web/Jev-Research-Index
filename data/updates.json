@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-28",
+    "label": "Daily web review",
+    "labelEn": "Daily web review",
+    "labelZh": "每日网络核查",
+    "summary": "Added two arXiv preprints, three directly verified GitHub projects, refreshed the system-one-connector repository record, and added one dated Jev Buildathon event page.",
+    "summaryEn": "Added two arXiv preprints, three directly verified GitHub projects, refreshed the system-one-connector repository record, and added one dated Jev Buildathon event page.",
+    "summaryZh": "新增 2 篇 arXiv 预印本、3 个直接核验的 GitHub 项目，更新 system-one-connector 仓库记录，并加入 1 条带日期的 Jev Buildathon 活动页面。"
+  },
+  {
     "date": "2026-09-27",
     "label": "Daily web review",
     "labelEn": "Daily web review",

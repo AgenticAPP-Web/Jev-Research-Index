@@ -520,5 +520,50 @@
     "url": "https://thejevai.com/blog/typesafe-ai-model-jev-api-guide",
     "retrievedAt": "2026-09-27",
     "note": "独立站点发布的工程指南；用于记录 API 设计、验证和上线建议。页面自称独立运营，内容中的产品说明与示例保留作者归属。"
+  },
+  {
+    "id": "source:rlcdalignbench-repo",
+    "name": "RLCDAlignBench repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/sumleo/RLCDAlignBench",
+    "retrievedAt": "2026-09-28",
+    "note": "论文 Just Ask Jev 的公开代码、数据说明与复现实验入口；仓库中的结果仍按作者报告记录，不视为本目录独立复测。"
+  },
+  {
+    "id": "source:jevnext-repo",
+    "name": "Bring-AI JevNext repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/Bring-AI/JevNext",
+    "retrievedAt": "2026-09-28",
+    "note": "JevNext 项目 README 与代码目录；用于核验基于 Jev Choice 的数值多路决策树与实验说明。项目性能结果仍为作者报告。"
+  },
+  {
+    "id": "source:tinydecisionmodels-repo",
+    "name": "Tiny Humans tinydecisionmodels repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/tinyhumansai/tinydecisionmodels",
+    "retrievedAt": "2026-09-28",
+    "note": "Rust tinyjevclient 项目 README 与仓库结构；用于核验其对 Jev、OpenJev 与 Sage 的客户端支持及 GPL-3.0-only 许可。"
+  },
+  {
+    "id": "source:system-one-connector-repo",
+    "name": "System One Connector repository",
+    "type": "project_repository",
+    "tier": "A",
+    "url": "https://github.com/itsmostafa/system-one-connector",
+    "retrievedAt": "2026-09-28",
+    "note": "公开仓库页面已从 typesafe-mcp 重定向至 system-one-connector；README 说明 evaluate CLI、MCP 接入及 Jev/CLM/Laya 后端。"
+  },
+  {
+    "id": "source:jev-buildathon",
+    "name": "Failproof AI Jev Buildathon page",
+    "type": "event_page",
+    "tier": "B",
+    "url": "https://befailproof.ai/events/jev-buildathon/",
+    "retrievedAt": "2026-09-28",
+    "note": "活动主办方页面记录 2026-09-27 在 Bengaluru 举办的 Jev Buildathon；用于记录公开活动，不作为项目效果或参赛结果证据。"
   }
 ]

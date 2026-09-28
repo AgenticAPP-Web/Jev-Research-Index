@@ -3046,5 +3046,25 @@
     "sourceIds": ["source:thejevai-jev-guide"],
     "lastVerifiedAt": "2026-09-27",
     "topics": ["API integration", "TypeScript", "confidence gates", "production rollout"]
+  },
+  {
+    "id": "event:failproof:jev-buildathon",
+    "title": "Jev Buildathon",
+    "titleZh": "Jev Buildathon",
+    "contentType": "article",
+    "platform": "Failproof AI × Lossfunk",
+    "creator": "Failproof AI",
+    "published": "2026-09-27",
+    "relation": "uses_jev",
+    "confidence": "verified",
+    "status": "published",
+    "isOriginal": true,
+    "summaryEn": "A completed in-person Bengaluru buildathon inviting participants to build agents whose actions are judged by Jev policies and evaluations. The event page records the format, date, venue and judging goal; it does not provide a complete results archive.",
+    "summaryZh": "一场已结束的班加罗尔线下 Buildathon，邀请参与者构建由 Jev policy 和 evals 判断行动的智能体。活动页面记录形式、日期、地点与评审目标，但未提供完整的结果档案。",
+    "evidenceNote": "The organizer's event page states that the event took place on 2026-09-27 and identifies Failproof AI × Lossfunk as hosts. This is an event record, not evidence that a submitted system achieved a particular performance.",
+    "canonicalUrl": "https://befailproof.ai/events/jev-buildathon/",
+    "sourceIds": ["source:jev-buildathon"],
+    "lastVerifiedAt": "2026-09-28",
+    "topics": ["buildathon", "agent evaluation", "policy", "event"]
   }
 ]
