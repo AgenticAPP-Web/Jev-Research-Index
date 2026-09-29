@@ -12,7 +12,7 @@
 <p align="center"><strong>Live website:</strong> <a href="https://agenticapp-web.github.io/Jev-Research-Index/">https://agenticapp-web.github.io/Jev-Research-Index/</a></p>
 
 <!-- CATALOGUE_STATS_START -->
-**Catalogue size:** 20 papers · 364 projects · 126 public materials · 63 sources
+**Catalogue size:** 20 papers · 366 projects · 128 public materials · 67 sources
 <!-- CATALOGUE_STATS_END -->
 
 # Jev Research Index
@@ -36,7 +36,7 @@ An online material is not treated as a paper or a software project. Interviews, 
 <!-- CATALOGUE_TABLES_START -->
 ## Catalogue snapshot
 
-The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-28** (Asia/Hong_Kong).
+The following tables are generated from the JSON snapshots in this repository. They provide a compact Markdown index for reference and review; the website adds full summaries, filters, source notes, and bilingual display. Counts and dates refer to the snapshot labelled **2026-09-29** (Asia/Hong_Kong).
 
 ### Papers and preprints (20)
 
@@ -63,7 +63,7 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-23 | [NumericJev: Jev-like LLM Numerical Decoding with Multiway Decision Trees](https://arxiv.org/abs/2609.28587)<br><sub>NumericJev：使用多路决策树进行 Jev-like 大语言模型数值解码</sub> | Weiwei Ye, Hangchen Liu, Renhe Jiang | arXiv · stat.ML / cs.AI / cs.LG<br><sub>方法 / 数值解码</sub> | Jev-inspired | A — verified | 2026-09-28 |
 | 2026-09-24 | [Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures](https://arxiv.org/abs/2609.29429)<br><sub>直接询问 Jev：将校准决策强化学习用于 AI 对齐失败的零样本检测</sub> | Ruoqi Guo, Yi Liu, Gelei Deng, Yuekang Li, Lida Zhao, Yutao Wu, Simin Chen, Ying Zhang, Leo Yu Zhang | arXiv · cs.AI / cs.CL / cs.CR<br><sub>安全评测 / 对齐失败检测</sub> | Uses Jev | A — verified | 2026-09-28 |
 
-### Projects and implementations (364)
+### Projects and implementations (366)
 
 | Published / created | Project | Owner | Category | Language | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -431,8 +431,10 @@ The following tables are generated from the JSON snapshots in this repository. T
 | — | [RLCDAlignBench](https://github.com/sumleo/RLCDAlignBench) | sumleo | Evaluation & Benchmarks<br><sub>评测与基准</sub> | Python | Uses Jev | A — verified | 2026-09-28 |
 | — | [JevNext](https://github.com/Bring-AI/JevNext) | Bring-AI | Open Models & Runtimes<br><sub>开放模型与运行时</sub> | Python | Jev-inspired | A — verified | 2026-09-28 |
 | — | [tinydecisionmodels](https://github.com/tinyhumansai/tinydecisionmodels) | tinyhumansai | SDKs & Integrations<br><sub>SDK 与集成</sub> | Rust | Uses Jev | A — verified | 2026-09-28 |
+| — | [jev-pokemon](https://github.com/christianmat/jev-pokemon) | christianmat | Game & Simulation<br><sub>游戏与仿真</sub> | TypeScript | Uses Jev | A — verified | 2026-09-29 |
+| — | [jev-plays-pokemon](https://github.com/2389-research/jev-plays-pokemon) | 2389-research | Game & Simulation<br><sub>游戏与仿真</sub> | Python | Uses Jev | B — probable | 2026-09-29 |
 
-### Public materials (126)
+### Public materials (128)
 
 | Published | Material | Platform / type | Creator | Relationship | Evidence | Verified |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -562,6 +564,8 @@ The following tables are generated from the JSON snapshots in this repository. T
 | 2026-09-26 | [Building Prod with Jev and LangGraph](https://threadnavigator.com/thread/2103560531235795129/)<br><sub>使用 Jev 与 LangGraph 构建生产系统</sub> | X · Thread Navigator<br><sub>social_post</sub> | Sydney Runkle / @sydneyrunkle | Uses Jev | B — probable | 2026-09-27 |
 | 2026-09-26 | [TypeSafe AI Model and Jev AI API: A Production Integration Guide](https://thejevai.com/blog/typesafe-ai-model-jev-api-guide)<br><sub>TypeSafe AI 模型与 Jev AI API：生产集成指南</sub> | The Jev AI<br><sub>article</sub> | Jev AI | Mentions only | B — probable | 2026-09-27 |
 | 2026-09-27 | [Jev Buildathon](https://befailproof.ai/events/jev-buildathon/) | Failproof AI × Lossfunk<br><sub>article</sub> | Failproof AI | Uses Jev | A — verified | 2026-09-28 |
+| 2026-09-23 | [Jev plays Pokémon Red](https://jev-plays-pokemon.standardagents.ai/)<br><sub>Jev 游玩 Pokémon Red</sub> | Standard Agents<br><sub>video</sub> | Andrew Boyd / 0xBoyd | Uses Jev | A — verified | 2026-09-29 |
+| 2026-09-27 | [Developer says AI decision model Jev beat Pokémon Red in under a week](https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-says-jev-decision-model-beat-pokemon-red-in-under-a-week-non-llm-engine-succeeds-where-traditional-chatbots-stalled-for-months-but-claude-opus-5-coached-the-model-through-its-dead-ends)<br><sub>开发者称 AI 决策模型 Jev 在一周内通关 Pokémon Red</sub> | Tom's Hardware<br><sub>article</sub> | Shane Downing | Mentions only | A — verified | 2026-09-29 |
 
 The tables intentionally preserve the distinction between **uses Jev**, **Jev-inspired**, **open replica**, and **mentions only**. A confidence label describes the evidence state, not the quality or importance of a record.
 
@@ -673,8 +677,8 @@ The first snapshot is dated **2026-09-24** and is explicitly not a claim of comp
 ## Update information
 
 - **Last update:** 2026-09-27 (Asia/Hong_Kong)
-- **Current snapshot:** 20 papers, 364 projects, 126 public materials, and 63 sources
-- **Project dates:** 353 public GitHub repository creation dates confirmed; 11 remain unconfirmed.
+- **Current snapshot:** 20 papers, 366 projects, 128 public materials, and 67 sources
+- **Project dates:** 353 public GitHub repository creation dates confirmed; 13 remain unconfirmed.
 - **Change log:** [updates/2026-09-25.md](updates/2026-09-25.md)
 - **Validation:** `npm run validate` checks JSON structure, source references, duplicate records, and README synchronization.
 - **Deployment:** GitHub Pages is published from the `main` branch through [Deploy Jev Research Index to GitHub Pages](https://github.com/AgenticAPP-Web/Jev-Research-Index/blob/main/.github/workflows/deploy-pages.yml).
